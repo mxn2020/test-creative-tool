@@ -1,7 +1,6 @@
 import React from 'react';
-import { Container, Div, H2, Stat } from '@/lib/dev-container';
-import { TrendingUp, Users, ChartBar, Pulse } from 'lucide-react';
-
+import { Container, Div, H2 } from '@/lib/dev-container';
+import { TrendingUp, Users, ChartBar, Heart } from 'lucide-react';
 const stats = [
   {
     icon: <TrendingUp className="h-8 w-8 text-indigo-600" />,
@@ -14,7 +13,7 @@ const stats = [
     value: '34,567',
   },
   {
-    icon: <Pulse className="h-8 w-8 text-indigo-600" />,
+    icon: <Heart className="h-8 w-8 text-indigo-600" />,
     label: 'Uptime',
     value: '99.99%',
   },
@@ -24,7 +23,6 @@ const stats = [
     value: '1,234',
   },
 ];
-
 export const Stats: React.FC = () => {
   return (
     <Container componentId="landing-stats">
@@ -36,6 +34,7 @@ export const Stats: React.FC = () => {
           {stats.map((item, idx) => (
             <Div
               key={idx}
+              devId={`stat-item-${idx}`}
               className="flex flex-col items-center bg-white rounded-lg shadow p-6"
             >
               <Div className="mb-3">{item.icon}</Div>
@@ -48,5 +47,4 @@ export const Stats: React.FC = () => {
     </Container>
   );
 };
-
 export default Stats;
