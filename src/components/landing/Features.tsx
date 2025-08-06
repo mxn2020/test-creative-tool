@@ -1,51 +1,60 @@
 import React from 'react';
 import { Container, Div, H2, P } from '@/lib/dev-container';
-import { CheckCircle, LightningBolt, ChartBar } from 'lucide-react';
+import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/card';
+import { CheckCircle, Clock, Users, Graph } from 'lucide-react';
 
-type Feature = {
+interface FeatureItem {
+  icon: React.ElementType;
   title: string;
   description: string;
-  icon: React.ElementType;
-};
+}
 
-const features: Feature[] = [
+const features: FeatureItem[] = [
   {
-    title: 'Collaboration',
-    description: 'Real‑time chat, file sharing, and task management for teams of any size.',
     icon: CheckCircle,
+    title: 'All‑In‑One Management',
+    description: 'Handle clients, appointments, and analytics from a single dashboard.',
   },
   {
-    title: 'Automation',
-    description: 'Smart workflows that automate repetitive tasks and boost productivity.',
-    icon: LightningBolt,
+    icon: Clock,
+    title: 'Smart Scheduling',
+    description: 'Automated reminders, conflict detection, and time‑zone aware bookings.',
   },
   {
-    title: 'Analytics',
-    description: 'Deep insights and dashboards to track performance and make data‑driven decisions.',
-    icon: ChartBar,
+    icon: Users,
+    title: 'Team Collaboration',
+    description: 'Roles, permissions, and activity logs for seamless teamwork.',
+  },
+  {
+    icon: Graph,
+    title: 'Data‑Driven Insights',
+    description: 'Real‑time stats and reports to fuel growth decisions.',
   },
 ];
 
-const Features: React.FC = () => {
+export const LandingFeatures: React.FC = () => {
   return (
-    <Container componentId="landing-features" className="py-16 bg-white">
-      <Div className="max-w-5xl mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-8">
-        {features.map((feat) => {
-          const Icon = feat.icon;
-          return (
-            <Div
-              key={feat.title}
-              className="flex flex-col items-center text-center p-6 border rounded-lg hover:shadow-lg transition-shadow"
-            >
-              <Icon className="h-12 w-12 text-purple-600 mb-4" />
-              <H2 className="text-xl font-semibold mb-2">{feat.title}</H2>
-              <P className="text-gray-600">{feat.description}</P>
-            </Div>
-          );
-        })}
+    <Container componentId="landing-features">
+      <Div devId="features-section" className="py-16 px-4 bg-white">
+        <H2 devId="features-heading" className="text-3xl font-bold text-center mb-8">
+          Features
+        </H2>
+        <Div devId="features-grid" className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4 gap-6">
+          {features.map((feat, idx) => (
+            <Card key={idx} className="flex flex-col items-start p-6">
+              <CardHeader className="flex items-center gap-2">
+                <feat.icon className="h-6 w-6 text-purple-600" />
+                <CardTitle className="text-lg font-medium">{feat.title}</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <P className="text-gray-600">{feat.description}</P>
+              </CardContent>
+            </Card>
+          ))}
+        </Div>
       </Div>
     </Container>
   );
 };
 
-export default Features;
+export default LandingFeatures;
