@@ -1,0 +1,532 @@
+[
+  {
+    "id": "admin-dashboard-page",
+    "definitionId": "dev-container",
+    "name": "Admin Dashboard Page",
+    "description": "Admin dashboard overview page",
+    "filePath": "src/pages/AdminDashboard.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/pages/AdminDashboard.tsx",
+    "category": "page",
+    "semanticTags": ["admin", "dashboard", "page", "overview"]
+  },
+  {
+    "id": "admin-dashboard-wrapper",
+    "definitionId": "dev-div",
+    "name": "Admin Dashboard Wrapper",
+    "description": "Main wrapper for admin dashboard content",
+    "filePath": "src/pages/AdminDashboard.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/pages/AdminDashboard.tsx",
+    "category": "layout",
+    "semanticTags": ["wrapper", "admin", "dashboard", "layout"]
+  },
+  {
+    "id": "admin-dashboard-header",
+    "definitionId": "dev-div",
+    "name": "Admin Dashboard Header",
+    "description": "Dashboard title and description",
+    "filePath": "src/pages/AdminDashboard.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/pages/AdminDashboard.tsx",
+    "category": "layout",
+    "semanticTags": ["header", "admin", "dashboard"]
+  },
+  {
+    "id": "admin-dashboard-title",
+    "definitionId": "dev-h1",
+    "name": "Admin Dashboard Title",
+    "description": "Main admin dashboard title",
+    "filePath": "src/pages/AdminDashboard.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/pages/AdminDashboard.tsx",
+    "category": "ui",
+    "semanticTags": ["title", "heading", "h1", "admin"]
+  },
+  {
+    "id": "admin-dashboard-description",
+    "definitionId": "dev-p",
+    "name": "Admin Dashboard Description",
+    "description": "Dashboard overview description",
+    "filePath": "src/pages/AdminDashboard.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/pages/AdminDashboard.tsx",
+    "category": "ui",
+    "semanticTags": ["description", "subtitle", "admin"]
+  },
+  {
+    "id": "admin-stats-cards-container",
+    "definitionId": "dev-div",
+    "name": "Admin Stats Cards Container",
+    "description": "Container for statistics cards grid",
+    "filePath": "src/components/admin/stats/AdminStatsCards.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/admin/stats/AdminStatsCards.tsx",
+    "category": "layout",
+    "semanticTags": ["container", "stats", "cards", "grid"]
+  },
+  {
+    "id": "admin-stat-card-dynamic",
+    "definitionId": "dev-card",
+    "name": "Admin Stat Card Dynamic",
+    "description": "Individual statistics card",
+    "filePath": "src/components/admin/stats/AdminStatsCards.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/admin/stats/AdminStatsCards.tsx",
+    "category": "ui",
+    "semanticTags": ["card", "stat", "metric", "dynamic"]
+  },
+  {
+    "id": "admin-stat-card-header-dynamic",
+    "definitionId": "dev-card-header",
+    "name": "Admin Stat Card Header Dynamic",
+    "description": "Statistics card header section",
+    "filePath": "src/components/admin/stats/AdminStatsCards.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/admin/stats/AdminStatsCards.tsx",
+    "category": "ui",
+    "semanticTags": ["header", "card", "stat", "dynamic"]
+  },
+  {
+    "id": "admin-stat-card-title-dynamic",
+    "definitionId": "dev-card-title",
+    "name": "Admin Stat Card Title Dynamic",
+    "description": "Statistics card title",
+    "filePath": "src/components/admin/stats/AdminStatsCards.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/admin/stats/AdminStatsCards.tsx",
+    "category": "ui",
+    "semanticTags": ["title", "card", "stat", "dynamic"]
+  },
+  {
+    "id": "admin-stat-card-icon-dynamic",
+    "definitionId": "dev-div",
+    "name": "Admin Stat Card Icon Dynamic",
+    "description": "Statistics card icon container",
+    "filePath": "src/components/admin/stats/AdminStatsCards.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/admin/stats/AdminStatsCards.tsx",
+    "category": "ui",
+    "semanticTags": ["icon", "card", "stat", "dynamic"]
+  },
+  {
+    "id": "admin-stat-card-content-dynamic",
+    "definitionId": "dev-card-content",
+    "name": "Admin Stat Card Content Dynamic",
+    "description": "Statistics card content area",
+    "filePath": "src/components/admin/stats/AdminStatsCards.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/admin/stats/AdminStatsCards.tsx",
+    "category": "ui",
+    "semanticTags": ["content", "card", "stat", "dynamic"]
+  },
+  {
+    "id": "admin-stat-card-value-dynamic",
+    "definitionId": "dev-div",
+    "name": "Admin Stat Card Value Dynamic",
+    "description": "Statistics value display",
+    "filePath": "src/components/admin/stats/AdminStatsCards.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/admin/stats/AdminStatsCards.tsx",
+    "category": "ui",
+    "semanticTags": ["value", "number", "stat", "dynamic"]
+  },
+  {
+    "id": "admin-stat-card-subtitle-dynamic",
+    "definitionId": "dev-div",
+    "name": "Admin Stat Card Subtitle Dynamic",
+    "description": "Statistics card subtitle",
+    "filePath": "src/components/admin/stats/AdminStatsCards.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/admin/stats/AdminStatsCards.tsx",
+    "category": "ui",
+    "semanticTags": ["subtitle", "card", "stat", "dynamic"]
+  },
+  {
+    "id": "admin-quick-actions-card",
+    "definitionId": "dev-card",
+    "name": "Admin Quick Actions Card",
+    "description": "Quick actions container card",
+    "filePath": "src/components/admin/stats/AdminQuickActions.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/admin/stats/AdminQuickActions.tsx",
+    "category": "ui",
+    "semanticTags": ["card", "actions", "quick", "admin"]
+  },
+  {
+    "id": "admin-quick-actions-header",
+    "definitionId": "dev-card-header",
+    "name": "Admin Quick Actions Header",
+    "description": "Quick actions card header",
+    "filePath": "src/components/admin/stats/AdminQuickActions.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/admin/stats/AdminQuickActions.tsx",
+    "category": "ui",
+    "semanticTags": ["header", "actions", "card"]
+  },
+  {
+    "id": "admin-quick-actions-title",
+    "definitionId": "dev-card-title",
+    "name": "Admin Quick Actions Title",
+    "description": "Quick actions section title",
+    "filePath": "src/components/admin/stats/AdminQuickActions.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/admin/stats/AdminQuickActions.tsx",
+    "category": "ui",
+    "semanticTags": ["title", "actions", "heading"]
+  },
+  {
+    "id": "admin-quick-actions-content",
+    "definitionId": "dev-card-content",
+    "name": "Admin Quick Actions Content",
+    "description": "Quick actions card content",
+    "filePath": "src/components/admin/stats/AdminQuickActions.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/admin/stats/AdminQuickActions.tsx",
+    "category": "ui",
+    "semanticTags": ["content", "actions", "card"]
+  },
+  {
+    "id": "admin-quick-actions-grid",
+    "definitionId": "dev-div",
+    "name": "Admin Quick Actions Grid",
+    "description": "Grid layout for quick actions",
+    "filePath": "src/components/admin/stats/AdminQuickActions.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/admin/stats/AdminQuickActions.tsx",
+    "category": "layout",
+    "semanticTags": ["grid", "actions", "layout"]
+  },
+  {
+    "id": "admin-quick-action-dynamic",
+    "definitionId": "dev-div",
+    "name": "Admin Quick Action Dynamic",
+    "description": "Individual quick action item",
+    "filePath": "src/components/admin/stats/AdminQuickActions.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/admin/stats/AdminQuickActions.tsx",
+    "category": "ui",
+    "semanticTags": ["action", "item", "dynamic"]
+  },
+  {
+    "id": "admin-quick-action-content-dynamic",
+    "definitionId": "dev-div",
+    "name": "Admin Quick Action Content Dynamic",
+    "description": "Quick action content wrapper",
+    "filePath": "src/components/admin/stats/AdminQuickActions.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/admin/stats/AdminQuickActions.tsx",
+    "category": "layout",
+    "semanticTags": ["content", "action", "dynamic"]
+  },
+  {
+    "id": "admin-quick-action-title-dynamic",
+    "definitionId": "dev-h3",
+    "name": "Admin Quick Action Title Dynamic",
+    "description": "Quick action item title",
+    "filePath": "src/components/admin/stats/AdminQuickActions.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/admin/stats/AdminQuickActions.tsx",
+    "category": "ui",
+    "semanticTags": ["title", "action", "h3", "dynamic"]
+  },
+  {
+    "id": "admin-quick-action-description-dynamic",
+    "definitionId": "dev-p",
+    "name": "Admin Quick Action Description Dynamic",
+    "description": "Quick action item description",
+    "filePath": "src/components/admin/stats/AdminQuickActions.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/admin/stats/AdminQuickActions.tsx",
+    "category": "ui",
+    "semanticTags": ["description", "action", "text", "dynamic"]
+  },
+  {
+    "id": "admin-recent-activity-card",
+    "definitionId": "dev-card",
+    "name": "Admin Recent Activity Card",
+    "description": "Recent activity container card",
+    "filePath": "src/components/admin/stats/AdminRecentActivity.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/admin/stats/AdminRecentActivity.tsx",
+    "category": "ui",
+    "semanticTags": ["card", "activity", "recent"]
+  },
+  {
+    "id": "admin-recent-activity-header",
+    "definitionId": "dev-card-header",
+    "name": "Admin Recent Activity Header",
+    "description": "Recent activity card header",
+    "filePath": "src/components/admin/stats/AdminRecentActivity.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/admin/stats/AdminRecentActivity.tsx",
+    "category": "ui",
+    "semanticTags": ["header", "activity", "card"]
+  },
+  {
+    "id": "admin-recent-activity-title",
+    "definitionId": "dev-card-title",
+    "name": "Admin Recent Activity Title",
+    "description": "Recent activity section title",
+    "filePath": "src/components/admin/stats/AdminRecentActivity.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/admin/stats/AdminRecentActivity.tsx",
+    "category": "ui",
+    "semanticTags": ["title", "activity", "heading"]
+  },
+  {
+    "id": "admin-recent-activity-content",
+    "definitionId": "dev-card-content",
+    "name": "Admin Recent Activity Content",
+    "description": "Recent activity card content",
+    "filePath": "src/components/admin/stats/AdminRecentActivity.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/admin/stats/AdminRecentActivity.tsx",
+    "category": "ui",
+    "semanticTags": ["content", "activity", "card"]
+  },
+  {
+    "id": "admin-recent-activity-list",
+    "definitionId": "dev-div",
+    "name": "Admin Recent Activity List",
+    "description": "List of recent activities",
+    "filePath": "src/components/admin/stats/AdminRecentActivity.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/admin/stats/AdminRecentActivity.tsx",
+    "category": "layout",
+    "semanticTags": ["list", "activity", "container"]
+  },
+  {
+    "id": "admin-no-recent-activity",
+    "definitionId": "dev-p",
+    "name": "Admin No Recent Activity Message",
+    "description": "No activities message",
+    "filePath": "src/components/admin/stats/AdminRecentActivity.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/admin/stats/AdminRecentActivity.tsx",
+    "category": "ui",
+    "semanticTags": ["message", "empty", "activity"]
+  },
+  {
+    "id": "admin-activity-item-dynamic",
+    "definitionId": "dev-div",
+    "name": "Admin Activity Item Dynamic",
+    "description": "Individual activity item",
+    "filePath": "src/components/admin/stats/AdminRecentActivity.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/admin/stats/AdminRecentActivity.tsx",
+    "category": "ui",
+    "semanticTags": ["item", "activity", "dynamic"]
+  },
+  {
+    "id": "admin-activity-content-dynamic",
+    "definitionId": "dev-div",
+    "name": "Admin Activity Content Dynamic",
+    "description": "Activity item content wrapper",
+    "filePath": "src/components/admin/stats/AdminRecentActivity.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/admin/stats/AdminRecentActivity.tsx",
+    "category": "layout",
+    "semanticTags": ["content", "activity", "dynamic"]
+  },
+  {
+    "id": "admin-activity-icon-dynamic",
+    "definitionId": "dev-div",
+    "name": "Admin Activity Icon Dynamic",
+    "description": "Activity type icon",
+    "filePath": "src/components/admin/stats/AdminRecentActivity.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/admin/stats/AdminRecentActivity.tsx",
+    "category": "ui",
+    "semanticTags": ["icon", "activity", "dynamic"]
+  },
+  {
+    "id": "admin-activity-description-dynamic",
+    "definitionId": "dev-span",
+    "name": "Admin Activity Description Dynamic",
+    "description": "Activity description text",
+    "filePath": "src/components/admin/stats/AdminRecentActivity.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/admin/stats/AdminRecentActivity.tsx",
+    "category": "ui",
+    "semanticTags": ["description", "activity", "text", "dynamic"]
+  },
+  {
+    "id": "admin-activity-timestamp-dynamic",
+    "definitionId": "dev-span",
+    "name": "Admin Activity Timestamp Dynamic",
+    "description": "Activity timestamp display",
+    "filePath": "src/components/admin/stats/AdminRecentActivity.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/admin/stats/AdminRecentActivity.tsx",
+    "category": "ui",
+    "semanticTags": ["timestamp", "activity", "time", "dynamic"]
+  },
+  {
+    "id": "admin-system-health-card",
+    "definitionId": "dev-card",
+    "name": "Admin System Health Card",
+    "description": "System health monitoring card",
+    "filePath": "src/components/admin/stats/AdminSystemHealth.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/admin/stats/AdminSystemHealth.tsx",
+    "category": "ui",
+    "semanticTags": ["card", "system", "health", "monitoring"]
+  },
+  {
+    "id": "admin-system-health-header",
+    "definitionId": "dev-card-header",
+    "name": "Admin System Health Header",
+    "description": "System health card header",
+    "filePath": "src/components/admin/stats/AdminSystemHealth.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/admin/stats/AdminSystemHealth.tsx",
+    "category": "ui",
+    "semanticTags": ["header", "system", "health"]
+  },
+  {
+    "id": "admin-system-health-title",
+    "definitionId": "dev-card-title",
+    "name": "Admin System Health Title",
+    "description": "System health section title",
+    "filePath": "src/components/admin/stats/AdminSystemHealth.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/admin/stats/AdminSystemHealth.tsx",
+    "category": "ui",
+    "semanticTags": ["title", "system", "health"]
+  },
+  {
+    "id": "admin-system-health-content",
+    "definitionId": "dev-card-content",
+    "name": "Admin System Health Content",
+    "description": "System health card content",
+    "filePath": "src/components/admin/stats/AdminSystemHealth.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/admin/stats/AdminSystemHealth.tsx",
+    "category": "ui",
+    "semanticTags": ["content", "system", "health"]
+  },
+  {
+    "id": "admin-system-health-metrics",
+    "definitionId": "dev-div",
+    "name": "Admin System Health Metrics",
+    "description": "System health metrics container",
+    "filePath": "src/components/admin/stats/AdminSystemHealth.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/admin/stats/AdminSystemHealth.tsx",
+    "category": "layout",
+    "semanticTags": ["metrics", "system", "health", "container"]
+  },
+  {
+    "id": "admin-health-metric-dynamic",
+    "definitionId": "dev-div",
+    "name": "Admin Health Metric Dynamic",
+    "description": "Individual health metric",
+    "filePath": "src/components/admin/stats/AdminSystemHealth.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/admin/stats/AdminSystemHealth.tsx",
+    "category": "ui",
+    "semanticTags": ["metric", "health", "dynamic"]
+  },
+  {
+    "id": "admin-health-metric-header-dynamic",
+    "definitionId": "dev-div",
+    "name": "Admin Health Metric Header Dynamic",
+    "description": "Health metric header section",
+    "filePath": "src/components/admin/stats/AdminSystemHealth.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/admin/stats/AdminSystemHealth.tsx",
+    "category": "layout",
+    "semanticTags": ["header", "metric", "dynamic"]
+  },
+  {
+    "id": "admin-health-metric-label-dynamic",
+    "definitionId": "dev-span",
+    "name": "Admin Health Metric Label Dynamic",
+    "description": "Health metric label text",
+    "filePath": "src/components/admin/stats/AdminSystemHealth.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/admin/stats/AdminSystemHealth.tsx",
+    "category": "ui",
+    "semanticTags": ["label", "metric", "text", "dynamic"]
+  },
+  {
+    "id": "admin-health-metric-value-dynamic",
+    "definitionId": "dev-span",
+    "name": "Admin Health Metric Value Dynamic",
+    "description": "Health metric value display",
+    "filePath": "src/components/admin/stats/AdminSystemHealth.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/admin/stats/AdminSystemHealth.tsx",
+    "category": "ui",
+    "semanticTags": ["value", "metric", "dynamic"]
+  },
+  {
+    "id": "admin-health-metric-progress-container-dynamic",
+    "definitionId": "dev-div",
+    "name": "Admin Health Metric Progress Container Dynamic",
+    "description": "Progress bar container",
+    "filePath": "src/components/admin/stats/AdminSystemHealth.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/admin/stats/AdminSystemHealth.tsx",
+    "category": "layout",
+    "semanticTags": ["progress", "container", "dynamic"]
+  },
+  {
+    "id": "admin-health-metric-progress-bar-dynamic",
+    "definitionId": "dev-div",
+    "name": "Admin Health Metric Progress Bar Dynamic",
+    "description": "Progress bar visual indicator",
+    "filePath": "src/components/admin/stats/AdminSystemHealth.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/admin/stats/AdminSystemHealth.tsx",
+    "category": "ui",
+    "semanticTags": ["progress", "bar", "visual", "dynamic"]
+  },
+  {
+    "id": "admin-dashboard-loading",
+    "definitionId": "dev-container",
+    "name": "Admin Dashboard Loading",
+    "description": "Loading state for admin dashboard",
+    "filePath": "src/components/admin/stats/AdminLoadingState.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/admin/stats/AdminLoadingState.tsx",
+    "category": "component",
+    "semanticTags": ["loading", "admin", "state"]
+  },
+  {
+    "id": "admin-loading-container",
+    "definitionId": "dev-div",
+    "name": "Admin Loading Container",
+    "description": "Loading state container",
+    "filePath": "src/components/admin/stats/AdminLoadingState.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/admin/stats/AdminLoadingState.tsx",
+    "category": "layout",
+    "semanticTags": ["loading", "container", "centered"]
+  },
+  {
+    "id": "admin-loading-content",
+    "definitionId": "dev-div",
+    "name": "Admin Loading Content",
+    "description": "Loading content wrapper",
+    "filePath": "src/components/admin/stats/AdminLoadingState.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/admin/stats/AdminLoadingState.tsx",
+    "category": "layout",
+    "semanticTags": ["loading", "content", "wrapper"]
+  },
+  {
+    "id": "admin-loading-spinner",
+    "definitionId": "dev-div",
+    "name": "Admin Loading Spinner",
+    "description": "Animated loading spinner",
+    "filePath": "src/components/admin/stats/AdminLoadingState.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/admin/stats/AdminLoadingState.tsx",
+    "category": "ui",
+    "semanticTags": ["spinner", "loading", "animation"]
+  },
+  {
+    "id": "admin-loading-text",
+    "definitionId": "dev-p",
+    "name": "Admin Loading Text",
+    "description": "Loading dashboard message",
+    "filePath": "src/components/admin/stats/AdminLoadingState.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/admin/stats/AdminLoadingState.tsx",
+    "category": "ui",
+    "semanticTags": ["text", "loading", "message"]
+  },
+  {
+    "id": "admin-dashboard-error",
+    "definitionId": "dev-container",
+    "name": "Admin Dashboard Error",
+    "description": "Error state for admin dashboard",
+    "filePath": "src/components/admin/stats/AdminErrorState.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/admin/stats/AdminErrorState.tsx",
+    "category": "component",
+    "semanticTags": ["error", "admin", "state"]
+  },
+  {
+    "id": "admin-error-container",
+    "definitionId": "dev-div",
+    "name": "Admin Error Container",
+    "description": "Error state container",
+    "filePath": "src/components/admin/stats/AdminErrorState.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/admin/stats/AdminErrorState.tsx",
+    "category": "layout",
+    "semanticTags": ["error", "container", "centered"]
+  },
+  {
+    "id": "admin-error-content",
+    "definitionId": "dev-div",
+    "name": "Admin Error Content",
+    "description": "Error content wrapper",
+    "filePath": "src/components/admin/stats/AdminErrorState.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/admin/stats/AdminErrorState.tsx",
+    "category": "layout",
+    "semanticTags": ["error", "content", "wrapper"]
+  },
+  {
+    "id": "admin-error-message",
+    "definitionId": "dev-p",
+    "name": "Admin Error Message",
+    "description": "Error message display",
+    "filePath": "src/components/admin/stats/AdminErrorState.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/admin/stats/AdminErrorState.tsx",
+    "category": "ui",
+    "semanticTags": ["error", "message", "text"]
+  }
+]

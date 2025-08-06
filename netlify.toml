@@ -1,0 +1,36 @@
+[build]
+  publish = "dist"
+  command = "pnpm build"
+
+[functions]
+  directory = "api"
+
+[dev]
+  command = "pnpm dev"
+  framework = "#custom"
+  port = 8889
+  targetPort = 5176
+  autoLaunch = false
+
+# Handle auth routes
+[[redirects]]
+  from = "/api/auth/*"
+  to = "/.netlify/functions/auth/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/api/admin/*"
+  to = "/.netlify/functions/admin/:splat"
+  status = 200
+
+# Handle other API routes (if you have more functions)
+[[redirects]]
+  from = "/api/*"
+  to = "/.netlify/functions/:splat"
+  status = 200
+
+# Handle SPA routing - must come last
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

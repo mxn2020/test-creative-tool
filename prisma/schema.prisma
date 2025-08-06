@@ -1,0 +1,88 @@
+// prisma/schema.prisma
+
+// This is your Prisma schema file for MongoDB
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+// 
+// Note: Better Auth handles authentication-related models (users, sessions, etc.)
+// This schema is for your application's data models only
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mongodb"
+  url      = env("DATABASE_URL")
+}
+
+// Application data models (not auth-related)
+model Post {
+  id        String   @id @default(auto()) @map("_id") @db.ObjectId
+  title     String
+  content   String?
+  published Boolean  @default(false)
+  authorId  String   // References Better Auth user ID (not a Prisma relation)
+  slug      String   @unique
+  tags      String[]
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  comments  Comment[]
+}
+
+model Comment {
+  id        String   @id @default(auto()) @map("_id") @db.ObjectId
+  content   String
+  authorId  String   // References Better Auth user ID
+  postId    String   @db.ObjectId
+  post      Post     @relation(fields: [postId], references: [id], onDelete: Cascade)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model Category {
+  id          String   @id @default(auto()) @map("_id") @db.ObjectId
+  name        String   @unique
+  description String?
+  color       String?  @default("#3b82f6")
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+}
+
+// Example model for user preferences (linked to Better Auth users)
+model UserPreference {
+  id                String   @id @default(auto()) @map("_id") @db.ObjectId
+  userId            String   @unique // Better Auth user ID
+  role              String   @default("user") // "user" | "admin"
+  theme             String   @default("light") // "light" | "dark" | "system"
+  emailNotifications Boolean  @default(true)
+  language          String   @default("en")
+  timezone          String   @default("UTC")
+  createdAt         DateTime @default(now())
+  updatedAt         DateTime @updatedAt
+}
+
+// Example model for application settings
+model AppSetting {
+  id        String   @id @default(auto()) @map("_id") @db.ObjectId
+  key       String   @unique
+  value     String
+  type      String   @default("string") // "string" | "number" | "boolean" | "json"
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+// Audit log for tracking user actions
+model AuditLog {
+  id         String   @id @default(auto()) @map("_id") @db.ObjectId
+  userId     String   // Better Auth user ID
+  action     String   // "login" | "logout" | "password_change" | "profile_update" | etc.
+  details    Json?    // Additional details about the action
+  ip         String?  // IP address
+  userAgent  String?  // User agent string
+  success    Boolean  @default(true)
+  error      String?  // Error message if action failed
+  createdAt  DateTime @default(now())
+  
+  @@index([userId, createdAt])
+  @@index([action, createdAt])
+}

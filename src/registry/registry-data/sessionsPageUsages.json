@@ -1,0 +1,392 @@
+[
+  {
+    "id": "sessions-page",
+    "definitionId": "dev-container",
+    "name": "Sessions Page",
+    "description": "Active sessions management page",
+    "filePath": "src/pages/SessionsPage.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/pages/SessionsPage.tsx",
+    "category": "page",
+    "semanticTags": ["sessions", "page", "security", "management"]
+  },
+  {
+    "id": "sessions-loading",
+    "definitionId": "dev-container",
+    "name": "Sessions Loading",
+    "description": "Loading state for sessions",
+    "filePath": "src/components/sessions/SessionsLoadingState.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/sessions/SessionsLoadingState.tsx",
+    "category": "component",
+    "semanticTags": ["loading", "sessions", "state"]
+  },
+  {
+    "id": "loading-wrapper",
+    "definitionId": "dev-div",
+    "name": "Loading Wrapper",
+    "description": "Centered loading state wrapper",
+    "filePath": "src/components/sessions/SessionsLoadingState.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/sessions/SessionsLoadingState.tsx",
+    "category": "layout",
+    "semanticTags": ["wrapper", "loading", "centered"]
+  },
+  {
+    "id": "loading-spinner",
+    "definitionId": "dev-div",
+    "name": "Loading Spinner",
+    "description": "Animated loading spinner",
+    "filePath": "src/components/sessions/SessionsLoadingState.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/sessions/SessionsLoadingState.tsx",
+    "category": "ui",
+    "semanticTags": ["spinner", "loading", "animation"]
+  },
+  {
+    "id": "loading-text",
+    "definitionId": "dev-p",
+    "name": "Loading Text",
+    "description": "Loading sessions message",
+    "filePath": "src/components/sessions/SessionsLoadingState.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/sessions/SessionsLoadingState.tsx",
+    "category": "ui",
+    "semanticTags": ["text", "loading", "message"]
+  },
+  {
+    "id": "sessions-header",
+    "definitionId": "dev-container",
+    "name": "Sessions Header",
+    "description": "Sessions page header",
+    "filePath": "src/components/sessions/SessionsHeader.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/sessions/SessionsHeader.tsx",
+    "category": "component",
+    "semanticTags": ["header", "sessions", "title"]
+  },
+  {
+    "id": "header-content",
+    "definitionId": "dev-div",
+    "name": "Header Content",
+    "description": "Header content wrapper",
+    "filePath": "src/components/sessions/SessionsHeader.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/sessions/SessionsHeader.tsx",
+    "category": "layout",
+    "semanticTags": ["content", "header", "wrapper"]
+  },
+  {
+    "id": "header-title",
+    "definitionId": "dev-h1",
+    "name": "Header Title",
+    "description": "Active Sessions title",
+    "filePath": "src/components/sessions/SessionsHeader.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/sessions/SessionsHeader.tsx",
+    "category": "ui",
+    "semanticTags": ["title", "heading", "h1"]
+  },
+  {
+    "id": "header-description",
+    "definitionId": "dev-p",
+    "name": "Header Description",
+    "description": "Manage your active sessions",
+    "filePath": "src/components/sessions/SessionsHeader.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/sessions/SessionsHeader.tsx",
+    "category": "ui",
+    "semanticTags": ["description", "subtitle", "text"]
+  },
+  {
+    "id": "sessions-error-alert",
+    "definitionId": "dev-container",
+    "name": "Sessions Error Alert",
+    "description": "Error state component",
+    "filePath": "src/components/sessions/SessionsErrorAlert.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/sessions/SessionsErrorAlert.tsx",
+    "category": "component",
+    "semanticTags": ["error", "alert", "sessions"]
+  },
+  {
+    "id": "error-alert",
+    "definitionId": "dev-alert",
+    "name": "Error Alert",
+    "description": "Error alert container",
+    "filePath": "src/components/sessions/SessionsErrorAlert.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/sessions/SessionsErrorAlert.tsx",
+    "category": "ui",
+    "semanticTags": ["alert", "error", "message"]
+  },
+  {
+    "id": "error-text",
+    "definitionId": "dev-span",
+    "name": "Error Text",
+    "description": "Error message display",
+    "filePath": "src/components/sessions/SessionsErrorAlert.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/sessions/SessionsErrorAlert.tsx",
+    "category": "ui",
+    "semanticTags": ["text", "error", "message"]
+  },
+  {
+    "id": "security-overview",
+    "definitionId": "dev-card",
+    "name": "Security Overview",
+    "description": "Session security status card",
+    "filePath": "src/components/sessions/SessionSecurityStatus.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/sessions/SessionSecurityStatus.tsx",
+    "category": "ui",
+    "semanticTags": ["card", "security", "overview", "status"]
+  },
+  {
+    "id": "revoke-all-button",
+    "definitionId": "dev-button",
+    "name": "Revoke All Button",
+    "description": "Revoke all other sessions button",
+    "filePath": "src/components/sessions/SessionSecurityStatus.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/sessions/SessionSecurityStatus.tsx",
+    "category": "interactive",
+    "semanticTags": ["button", "revoke", "all", "security"]
+  },
+  {
+    "id": "revoke-all-confirm-dialog",
+    "definitionId": "dev-container",
+    "name": "Revoke All Confirm Dialog",
+    "description": "Confirmation dialog for revoking all sessions",
+    "filePath": "src/components/sessions/RevokeAllConfirmDialog.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/sessions/RevokeAllConfirmDialog.tsx",
+    "category": "component",
+    "semanticTags": ["dialog", "confirm", "revoke", "sessions"]
+  },
+  {
+    "id": "revoke-all-confirm",
+    "definitionId": "dev-alert",
+    "name": "Revoke All Confirm",
+    "description": "Revoke all confirmation alert",
+    "filePath": "src/components/sessions/RevokeAllConfirmDialog.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/sessions/RevokeAllConfirmDialog.tsx",
+    "category": "ui",
+    "semanticTags": ["alert", "confirm", "revoke"]
+  },
+  {
+    "id": "confirm-content",
+    "definitionId": "dev-div",
+    "name": "Confirm Content",
+    "description": "Confirmation dialog content",
+    "filePath": "src/components/sessions/RevokeAllConfirmDialog.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/sessions/RevokeAllConfirmDialog.tsx",
+    "category": "layout",
+    "semanticTags": ["content", "confirm", "dialog"]
+  },
+  {
+    "id": "confirm-text",
+    "definitionId": "dev-div",
+    "name": "Confirm Text",
+    "description": "Confirmation text container",
+    "filePath": "src/components/sessions/RevokeAllConfirmDialog.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/sessions/RevokeAllConfirmDialog.tsx",
+    "category": "layout",
+    "semanticTags": ["text", "confirm", "container"]
+  },
+  {
+    "id": "confirm-title",
+    "definitionId": "dev-p",
+    "name": "Confirm Title",
+    "description": "Are you sure? title",
+    "filePath": "src/components/sessions/RevokeAllConfirmDialog.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/sessions/RevokeAllConfirmDialog.tsx",
+    "category": "ui",
+    "semanticTags": ["title", "confirm", "text"]
+  },
+  {
+    "id": "confirm-description",
+    "definitionId": "dev-p",
+    "name": "Confirm Description",
+    "description": "Confirmation warning description",
+    "filePath": "src/components/sessions/RevokeAllConfirmDialog.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/sessions/RevokeAllConfirmDialog.tsx",
+    "category": "ui",
+    "semanticTags": ["description", "warning", "text"]
+  },
+  {
+    "id": "confirm-actions",
+    "definitionId": "dev-div",
+    "name": "Confirm Actions",
+    "description": "Confirmation action buttons",
+    "filePath": "src/components/sessions/RevokeAllConfirmDialog.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/sessions/RevokeAllConfirmDialog.tsx",
+    "category": "layout",
+    "semanticTags": ["actions", "buttons", "confirm"]
+  },
+  {
+    "id": "cancel-revoke-all",
+    "definitionId": "dev-button",
+    "name": "Cancel Revoke All",
+    "description": "Cancel revoke all action",
+    "filePath": "src/components/sessions/RevokeAllConfirmDialog.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/sessions/RevokeAllConfirmDialog.tsx",
+    "category": "interactive",
+    "semanticTags": ["button", "cancel", "action"]
+  },
+  {
+    "id": "confirm-revoke-all",
+    "definitionId": "dev-button",
+    "name": "Confirm Revoke All",
+    "description": "Confirm revoke all sessions",
+    "filePath": "src/components/sessions/RevokeAllConfirmDialog.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/sessions/RevokeAllConfirmDialog.tsx",
+    "category": "interactive",
+    "semanticTags": ["button", "confirm", "revoke", "destructive"]
+  },
+  {
+    "id": "current-session-section",
+    "definitionId": "dev-container",
+    "name": "Current Session Section",
+    "description": "Current active session section",
+    "filePath": "src/components/sessions/CurrentSessionSection.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/sessions/CurrentSessionSection.tsx",
+    "category": "component",
+    "semanticTags": ["current", "session", "section"]
+  },
+  {
+    "id": "current-session-wrapper",
+    "definitionId": "dev-div",
+    "name": "Current Session Wrapper",
+    "description": "Current session content wrapper",
+    "filePath": "src/components/sessions/CurrentSessionSection.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/sessions/CurrentSessionSection.tsx",
+    "category": "layout",
+    "semanticTags": ["wrapper", "current", "session"]
+  },
+  {
+    "id": "current-session-title",
+    "definitionId": "dev-h2",
+    "name": "Current Session Title",
+    "description": "Current Session heading",
+    "filePath": "src/components/sessions/CurrentSessionSection.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/sessions/CurrentSessionSection.tsx",
+    "category": "ui",
+    "semanticTags": ["title", "heading", "h2", "current"]
+  },
+  {
+    "id": "other-sessions-section",
+    "definitionId": "dev-container",
+    "name": "Other Sessions Section",
+    "description": "Other active sessions section",
+    "filePath": "src/components/sessions/OtherSessionsSection.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/sessions/OtherSessionsSection.tsx",
+    "category": "component",
+    "semanticTags": ["other", "sessions", "section"]
+  },
+  {
+    "id": "other-sessions-wrapper",
+    "definitionId": "dev-div",
+    "name": "Other Sessions Wrapper",
+    "description": "Other sessions content wrapper",
+    "filePath": "src/components/sessions/OtherSessionsSection.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/sessions/OtherSessionsSection.tsx",
+    "category": "layout",
+    "semanticTags": ["wrapper", "other", "sessions"]
+  },
+  {
+    "id": "other-sessions-title",
+    "definitionId": "dev-h2",
+    "name": "Other Sessions Title",
+    "description": "Other Sessions heading",
+    "filePath": "src/components/sessions/OtherSessionsSection.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/sessions/OtherSessionsSection.tsx",
+    "category": "ui",
+    "semanticTags": ["title", "heading", "h2", "other"]
+  },
+  {
+    "id": "other-sessions-list",
+    "definitionId": "dev-div",
+    "name": "Other Sessions List",
+    "description": "List of other active sessions",
+    "filePath": "src/components/sessions/OtherSessionsSection.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/sessions/OtherSessionsSection.tsx",
+    "category": "layout",
+    "semanticTags": ["list", "sessions", "container"]
+  },
+  {
+    "id": "session-card-dynamic",
+    "definitionId": "dev-card",
+    "name": "Session Card Dynamic",
+    "description": "Individual session card",
+    "filePath": "src/components/sessions/SessionCard.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/sessions/SessionCard.tsx",
+    "category": "ui",
+    "semanticTags": ["card", "session", "dynamic"]
+  },
+  {
+    "id": "current-badge",
+    "definitionId": "dev-badge",
+    "name": "Current Badge",
+    "description": "Current session indicator badge",
+    "filePath": "src/components/sessions/SessionCard.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/sessions/SessionCard.tsx",
+    "category": "ui",
+    "semanticTags": ["badge", "current", "indicator"]
+  },
+  {
+    "id": "revoke-button-dynamic",
+    "definitionId": "dev-button",
+    "name": "Revoke Button Dynamic",
+    "description": "Revoke individual session button",
+    "filePath": "src/components/sessions/SessionCard.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/sessions/SessionCard.tsx",
+    "category": "interactive",
+    "semanticTags": ["button", "revoke", "session", "dynamic"]
+  },
+  {
+    "id": "no-sessions-empty-state",
+    "definitionId": "dev-container",
+    "name": "No Sessions Empty State",
+    "description": "Empty state when no sessions",
+    "filePath": "src/components/sessions/NoSessionsEmptyState.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/sessions/NoSessionsEmptyState.tsx",
+    "category": "component",
+    "semanticTags": ["empty", "state", "sessions"]
+  },
+  {
+    "id": "no-sessions-card",
+    "definitionId": "dev-card",
+    "name": "No Sessions Card",
+    "description": "Card for empty sessions state",
+    "filePath": "src/components/sessions/NoSessionsEmptyState.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/sessions/NoSessionsEmptyState.tsx",
+    "category": "ui",
+    "semanticTags": ["card", "empty", "sessions"]
+  },
+  {
+    "id": "empty-state-content",
+    "definitionId": "dev-div",
+    "name": "Empty State Content",
+    "description": "Empty state content wrapper",
+    "filePath": "src/components/sessions/NoSessionsEmptyState.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/sessions/NoSessionsEmptyState.tsx",
+    "category": "layout",
+    "semanticTags": ["content", "empty", "wrapper"]
+  },
+  {
+    "id": "empty-state-icon",
+    "definitionId": "dev-div",
+    "name": "Empty State Icon",
+    "description": "Icon for empty state",
+    "filePath": "src/components/sessions/NoSessionsEmptyState.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/sessions/NoSessionsEmptyState.tsx",
+    "category": "ui",
+    "semanticTags": ["icon", "empty", "visual"]
+  },
+  {
+    "id": "empty-state-title",
+    "definitionId": "dev-p",
+    "name": "Empty State Title",
+    "description": "No other sessions title",
+    "filePath": "src/components/sessions/NoSessionsEmptyState.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/sessions/NoSessionsEmptyState.tsx",
+    "category": "ui",
+    "semanticTags": ["title", "empty", "text"]
+  },
+  {
+    "id": "empty-state-description",
+    "definitionId": "dev-p",
+    "name": "Empty State Description",
+    "description": "Empty state description text",
+    "filePath": "src/components/sessions/NoSessionsEmptyState.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/sessions/NoSessionsEmptyState.tsx",
+    "category": "ui",
+    "semanticTags": ["description", "empty", "text"]
+  }
+]

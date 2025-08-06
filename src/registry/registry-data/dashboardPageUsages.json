@@ -1,0 +1,1152 @@
+[
+  {
+    "id": "dashboard-page",
+    "definitionId": "dev-container",
+    "name": "Dashboard Page",
+    "description": "Main user dashboard page",
+    "filePath": "src/pages/Dashboard.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/pages/Dashboard.tsx",
+    "category": "page",
+    "semanticTags": ["dashboard", "page", "user", "container"]
+  },
+  {
+    "id": "dashboard-page-wrapper",
+    "definitionId": "dev-div",
+    "name": "Dashboard Page Wrapper",
+    "description": "Full height dashboard wrapper with gray background",
+    "filePath": "src/pages/Dashboard.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/pages/Dashboard.tsx",
+    "category": "layout",
+    "semanticTags": ["wrapper", "layout", "dashboard", "background"]
+  },
+  {
+    "id": "dashboard-content",
+    "definitionId": "dev-container",
+    "name": "Dashboard Content",
+    "description": "Main dashboard content container",
+    "filePath": "src/pages/Dashboard.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/pages/Dashboard.tsx",
+    "category": "layout",
+    "semanticTags": ["content", "dashboard", "container", "main"]
+  },
+  {
+    "id": "dashboard-content-wrapper",
+    "definitionId": "dev-div",
+    "name": "Dashboard Content Wrapper",
+    "description": "Max width content wrapper with padding",
+    "filePath": "src/pages/Dashboard.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/pages/Dashboard.tsx",
+    "category": "layout",
+    "semanticTags": ["wrapper", "content", "padding", "layout"]
+  },
+  {
+    "id": "dashboard-grid",
+    "definitionId": "dev-div",
+    "name": "Dashboard Grid",
+    "description": "Responsive grid layout for dashboard cards",
+    "filePath": "src/pages/Dashboard.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/pages/Dashboard.tsx",
+    "category": "layout",
+    "semanticTags": ["grid", "layout", "responsive", "cards"]
+  },
+  {
+    "id": "dashboard-stats",
+    "definitionId": "dev-container",
+    "name": "Dashboard Stats",
+    "description": "Statistics and activity section container",
+    "filePath": "src/pages/Dashboard.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/pages/Dashboard.tsx",
+    "category": "component",
+    "semanticTags": ["stats", "dashboard", "activity", "container"]
+  },
+  {
+    "id": "dashboard-stats-wrapper",
+    "definitionId": "dev-div",
+    "name": "Dashboard Stats Wrapper",
+    "description": "Two column span wrapper for stats cards",
+    "filePath": "src/pages/Dashboard.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/pages/Dashboard.tsx",
+    "category": "layout",
+    "semanticTags": ["wrapper", "stats", "columns", "layout"]
+  },
+  {
+    "id": "dashboard-header",
+    "definitionId": "dev-container",
+    "name": "Dashboard Header",
+    "description": "Dashboard page header with navigation",
+    "filePath": "src/components/dashboard/DashboardHeader.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/dashboard/DashboardHeader.tsx",
+    "category": "component",
+    "semanticTags": ["header", "dashboard", "navigation"]
+  },
+  {
+    "id": "dashboard-header-container",
+    "definitionId": "dev-div",
+    "name": "Dashboard Header Container",
+    "description": "Header container with white background",
+    "filePath": "src/components/dashboard/DashboardHeader.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/dashboard/DashboardHeader.tsx",
+    "category": "layout",
+    "semanticTags": ["header", "container", "background"]
+  },
+  {
+    "id": "dashboard-header-wrapper",
+    "definitionId": "dev-div",
+    "name": "Dashboard Header Wrapper",
+    "description": "Max width header wrapper",
+    "filePath": "src/components/dashboard/DashboardHeader.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/dashboard/DashboardHeader.tsx",
+    "category": "layout",
+    "semanticTags": ["header", "wrapper", "layout"]
+  },
+  {
+    "id": "dashboard-header-content",
+    "definitionId": "dev-div",
+    "name": "Dashboard Header Content",
+    "description": "Header content with flex layout",
+    "filePath": "src/components/dashboard/DashboardHeader.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/dashboard/DashboardHeader.tsx",
+    "category": "layout",
+    "semanticTags": ["header", "content", "flex"]
+  },
+  {
+    "id": "dashboard-title-wrapper",
+    "definitionId": "dev-div",
+    "name": "Dashboard Title Wrapper",
+    "description": "Title section wrapper",
+    "filePath": "src/components/dashboard/DashboardHeader.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/dashboard/DashboardHeader.tsx",
+    "category": "layout",
+    "semanticTags": ["title", "wrapper", "header"]
+  },
+  {
+    "id": "dashboard-title",
+    "definitionId": "dev-h1",
+    "name": "Dashboard Title",
+    "description": "Main dashboard heading",
+    "filePath": "src/components/dashboard/DashboardHeader.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/dashboard/DashboardHeader.tsx",
+    "category": "ui",
+    "semanticTags": ["title", "heading", "h1"]
+  },
+  {
+    "id": "dashboard-actions",
+    "definitionId": "dev-div",
+    "name": "Dashboard Actions",
+    "description": "Action buttons container",
+    "filePath": "src/components/dashboard/DashboardHeader.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/dashboard/DashboardHeader.tsx",
+    "category": "layout",
+    "semanticTags": ["actions", "buttons", "container"]
+  },
+  {
+    "id": "home-button",
+    "definitionId": "dev-button",
+    "name": "Home Button",
+    "description": "Navigate to home page",
+    "filePath": "src/components/dashboard/DashboardHeader.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/dashboard/DashboardHeader.tsx",
+    "category": "interactive",
+    "semanticTags": ["button", "home", "navigation"]
+  },
+  {
+    "id": "admin-button",
+    "definitionId": "dev-button",
+    "name": "Admin Button",
+    "description": "Navigate to admin panel",
+    "filePath": "src/components/dashboard/DashboardHeader.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/dashboard/DashboardHeader.tsx",
+    "category": "interactive",
+    "semanticTags": ["button", "admin", "navigation"]
+  },
+  {
+    "id": "logout-button",
+    "definitionId": "dev-button",
+    "name": "Logout Button",
+    "description": "Sign out user",
+    "filePath": "src/components/dashboard/DashboardHeader.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/dashboard/DashboardHeader.tsx",
+    "category": "interactive",
+    "semanticTags": ["button", "logout", "auth"]
+  },
+  {
+    "id": "user-profile-card",
+    "definitionId": "dev-container",
+    "name": "User Profile Card",
+    "description": "User profile information card",
+    "filePath": "src/components/dashboard/ProfileCard.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/dashboard/ProfileCard.tsx",
+    "category": "component",
+    "semanticTags": ["profile", "user", "card"]
+  },
+  {
+    "id": "profile-card",
+    "definitionId": "dev-card",
+    "name": "Profile Card",
+    "description": "Card containing user profile",
+    "filePath": "src/components/dashboard/ProfileCard.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/dashboard/ProfileCard.tsx",
+    "category": "ui",
+    "semanticTags": ["card", "profile", "container"]
+  },
+  {
+    "id": "profile-card-header",
+    "definitionId": "dev-card-header",
+    "name": "Profile Card Header",
+    "description": "Profile card header section",
+    "filePath": "src/components/dashboard/ProfileCard.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/dashboard/ProfileCard.tsx",
+    "category": "ui",
+    "semanticTags": ["card", "header", "profile"]
+  },
+  {
+    "id": "profile-card-title",
+    "definitionId": "dev-card-title",
+    "name": "Profile Card Title",
+    "description": "User profile title",
+    "filePath": "src/components/dashboard/ProfileCard.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/dashboard/ProfileCard.tsx",
+    "category": "ui",
+    "semanticTags": ["title", "profile", "card"]
+  },
+  {
+    "id": "profile-card-content",
+    "definitionId": "dev-card-content",
+    "name": "Profile Card Content",
+    "description": "Profile card main content",
+    "filePath": "src/components/dashboard/ProfileCard.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/dashboard/ProfileCard.tsx",
+    "category": "ui",
+    "semanticTags": ["content", "profile", "card"]
+  },
+  {
+    "id": "profile-avatar-section",
+    "definitionId": "dev-div",
+    "name": "Profile Avatar Section",
+    "description": "Avatar and user info section",
+    "filePath": "src/components/dashboard/ProfileCard.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/dashboard/ProfileCard.tsx",
+    "category": "layout",
+    "semanticTags": ["avatar", "profile", "section"]
+  },
+  {
+    "id": "profile-avatar",
+    "definitionId": "dev-avatar",
+    "name": "Profile Avatar",
+    "description": "User avatar component",
+    "filePath": "src/components/dashboard/ProfileCard.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/dashboard/ProfileCard.tsx",
+    "category": "ui",
+    "semanticTags": ["avatar", "profile", "image"]
+  },
+  {
+    "id": "profile-avatar-image",
+    "definitionId": "dev-avatar-image",
+    "name": "Profile Avatar Image",
+    "description": "User avatar image",
+    "filePath": "src/components/dashboard/ProfileCard.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/dashboard/ProfileCard.tsx",
+    "category": "ui",
+    "semanticTags": ["avatar", "image", "profile"]
+  },
+  {
+    "id": "profile-avatar-fallback",
+    "definitionId": "dev-avatar-fallback",
+    "name": "Profile Avatar Fallback",
+    "description": "Avatar fallback initials",
+    "filePath": "src/components/dashboard/ProfileCard.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/dashboard/ProfileCard.tsx",
+    "category": "ui",
+    "semanticTags": ["avatar", "fallback", "initials"]
+  },
+  {
+    "id": "profile-info",
+    "definitionId": "dev-div",
+    "name": "Profile Info",
+    "description": "User information container",
+    "filePath": "src/components/dashboard/ProfileCard.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/dashboard/ProfileCard.tsx",
+    "category": "layout",
+    "semanticTags": ["profile", "info", "container"]
+  },
+  {
+    "id": "profile-name",
+    "definitionId": "dev-p",
+    "name": "Profile Name",
+    "description": "User display name",
+    "filePath": "src/components/dashboard/ProfileCard.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/dashboard/ProfileCard.tsx",
+    "category": "ui",
+    "semanticTags": ["name", "profile", "text"]
+  },
+  {
+    "id": "profile-email",
+    "definitionId": "dev-p",
+    "name": "Profile Email",
+    "description": "User email address",
+    "filePath": "src/components/dashboard/ProfileCard.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/dashboard/ProfileCard.tsx",
+    "category": "ui",
+    "semanticTags": ["email", "profile", "text"]
+  },
+  {
+    "id": "admin-badge",
+    "definitionId": "dev-badge",
+    "name": "Admin Badge",
+    "description": "Admin role indicator",
+    "filePath": "src/components/dashboard/ProfileCard.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/dashboard/ProfileCard.tsx",
+    "category": "ui",
+    "semanticTags": ["badge", "admin", "role"]
+  },
+  {
+    "id": "profile-separator-1",
+    "definitionId": "dev-separator",
+    "name": "Profile Separator 1",
+    "description": "First section separator",
+    "filePath": "src/components/dashboard/ProfileCard.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/dashboard/ProfileCard.tsx",
+    "category": "ui",
+    "semanticTags": ["separator", "divider", "profile"]
+  },
+  {
+    "id": "profile-details",
+    "definitionId": "dev-div",
+    "name": "Profile Details",
+    "description": "Detailed profile information",
+    "filePath": "src/components/dashboard/ProfileCard.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/dashboard/ProfileCard.tsx",
+    "category": "layout",
+    "semanticTags": ["details", "profile", "container"]
+  },
+  {
+    "id": "email-status",
+    "definitionId": "dev-div",
+    "name": "Email Status",
+    "description": "Email verification status",
+    "filePath": "src/components/dashboard/ProfileCard.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/dashboard/ProfileCard.tsx",
+    "category": "layout",
+    "semanticTags": ["email", "status", "verification"]
+  },
+  {
+    "id": "email-label",
+    "definitionId": "dev-div",
+    "name": "Email Label",
+    "description": "Email field label",
+    "filePath": "src/components/dashboard/ProfileCard.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/dashboard/ProfileCard.tsx",
+    "category": "ui",
+    "semanticTags": ["label", "email", "text"]
+  },
+  {
+    "id": "email-text",
+    "definitionId": "dev-span",
+    "name": "Email Text",
+    "description": "Email address display",
+    "filePath": "src/components/dashboard/ProfileCard.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/dashboard/ProfileCard.tsx",
+    "category": "ui",
+    "semanticTags": ["email", "text", "display"]
+  },
+  {
+    "id": "email-verification-badge",
+    "definitionId": "dev-badge",
+    "name": "Email Verification Badge",
+    "description": "Email verified status badge",
+    "filePath": "src/components/dashboard/ProfileCard.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/dashboard/ProfileCard.tsx",
+    "category": "ui",
+    "semanticTags": ["badge", "email", "verified"]
+  },
+  {
+    "id": "member-since",
+    "definitionId": "dev-div",
+    "name": "Member Since",
+    "description": "Member registration date",
+    "filePath": "src/components/dashboard/ProfileCard.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/dashboard/ProfileCard.tsx",
+    "category": "layout",
+    "semanticTags": ["member", "date", "registration"]
+  },
+  {
+    "id": "member-label",
+    "definitionId": "dev-div",
+    "name": "Member Label",
+    "description": "Member since label",
+    "filePath": "src/components/dashboard/ProfileCard.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/dashboard/ProfileCard.tsx",
+    "category": "ui",
+    "semanticTags": ["label", "member", "text"]
+  },
+  {
+    "id": "member-text",
+    "definitionId": "dev-span",
+    "name": "Member Text",
+    "description": "Member since text",
+    "filePath": "src/components/dashboard/ProfileCard.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/dashboard/ProfileCard.tsx",
+    "category": "ui",
+    "semanticTags": ["text", "member", "label"]
+  },
+  {
+    "id": "member-date",
+    "definitionId": "dev-span",
+    "name": "Member Date",
+    "description": "Member registration date display",
+    "filePath": "src/components/dashboard/ProfileCard.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/dashboard/ProfileCard.tsx",
+    "category": "ui",
+    "semanticTags": ["date", "member", "display"]
+  },
+  {
+    "id": "profile-separator-2",
+    "definitionId": "dev-separator",
+    "name": "Profile Separator 2",
+    "description": "Second section separator",
+    "filePath": "src/components/dashboard/ProfileCard.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/dashboard/ProfileCard.tsx",
+    "category": "ui",
+    "semanticTags": ["separator", "divider", "profile"]
+  },
+  {
+    "id": "profile-actions",
+    "definitionId": "dev-div",
+    "name": "Profile Actions",
+    "description": "Profile action buttons",
+    "filePath": "src/components/dashboard/ProfileCard.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/dashboard/ProfileCard.tsx",
+    "category": "layout",
+    "semanticTags": ["actions", "profile", "buttons"]
+  },
+  {
+    "id": "manage-sessions-button",
+    "definitionId": "dev-button",
+    "name": "Manage Sessions Button",
+    "description": "Navigate to sessions management",
+    "filePath": "src/components/dashboard/ProfileCard.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/dashboard/ProfileCard.tsx",
+    "category": "interactive",
+    "semanticTags": ["button", "sessions", "manage"]
+  },
+  {
+    "id": "view-activity-button",
+    "definitionId": "dev-button",
+    "name": "View Activity Button",
+    "description": "Navigate to activity logs",
+    "filePath": "src/components/dashboard/ProfileCard.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/dashboard/ProfileCard.tsx",
+    "category": "interactive",
+    "semanticTags": ["button", "activity", "logs"]
+  },
+  {
+    "id": "welcome-card",
+    "definitionId": "dev-container",
+    "name": "Welcome Card",
+    "description": "Welcome message and stats card",
+    "filePath": "src/components/dashboard/WelcomeCard.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/dashboard/WelcomeCard.tsx",
+    "category": "component",
+    "semanticTags": ["welcome", "card", "stats"]
+  },
+  {
+    "id": "welcome-card",
+    "definitionId": "dev-card",
+    "name": "Welcome Card Element",
+    "description": "Card containing welcome message",
+    "filePath": "src/components/dashboard/WelcomeCard.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/dashboard/WelcomeCard.tsx",
+    "category": "ui",
+    "semanticTags": ["card", "welcome", "container"]
+  },
+  {
+    "id": "welcome-card-header",
+    "definitionId": "dev-card-header",
+    "name": "Welcome Card Header",
+    "description": "Welcome card header section",
+    "filePath": "src/components/dashboard/WelcomeCard.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/dashboard/WelcomeCard.tsx",
+    "category": "ui",
+    "semanticTags": ["card", "header", "welcome"]
+  },
+  {
+    "id": "welcome-card-title",
+    "definitionId": "dev-card-title",
+    "name": "Welcome Card Title",
+    "description": "Welcome back greeting",
+    "filePath": "src/components/dashboard/WelcomeCard.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/dashboard/WelcomeCard.tsx",
+    "category": "ui",
+    "semanticTags": ["title", "welcome", "greeting"]
+  },
+  {
+    "id": "welcome-card-content",
+    "definitionId": "dev-card-content",
+    "name": "Welcome Card Content",
+    "description": "Welcome card main content",
+    "filePath": "src/components/dashboard/WelcomeCard.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/dashboard/WelcomeCard.tsx",
+    "category": "ui",
+    "semanticTags": ["content", "welcome", "card"]
+  },
+  {
+    "id": "welcome-message",
+    "definitionId": "dev-p",
+    "name": "Welcome Message",
+    "description": "Personalized welcome text",
+    "filePath": "src/components/dashboard/WelcomeCard.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/dashboard/WelcomeCard.tsx",
+    "category": "ui",
+    "semanticTags": ["message", "welcome", "text"]
+  },
+  {
+    "id": "welcome-stats",
+    "definitionId": "dev-div",
+    "name": "Welcome Stats",
+    "description": "Welcome statistics grid",
+    "filePath": "src/components/dashboard/WelcomeCard.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/dashboard/WelcomeCard.tsx",
+    "category": "layout",
+    "semanticTags": ["stats", "grid", "welcome"]
+  },
+  {
+    "id": "days-member-card",
+    "definitionId": "dev-card",
+    "name": "Days Member Card",
+    "description": "Days as member statistic",
+    "filePath": "src/components/dashboard/WelcomeCard.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/dashboard/WelcomeCard.tsx",
+    "category": "ui",
+    "semanticTags": ["card", "stats", "member"]
+  },
+  {
+    "id": "days-member-content",
+    "definitionId": "dev-card-content",
+    "name": "Days Member Content",
+    "description": "Days member card content",
+    "filePath": "src/components/dashboard/WelcomeCard.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/dashboard/WelcomeCard.tsx",
+    "category": "ui",
+    "semanticTags": ["content", "stats", "days"]
+  },
+  {
+    "id": "days-member-wrapper",
+    "definitionId": "dev-div",
+    "name": "Days Member Wrapper",
+    "description": "Days member stat wrapper",
+    "filePath": "src/components/dashboard/WelcomeCard.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/dashboard/WelcomeCard.tsx",
+    "category": "layout",
+    "semanticTags": ["wrapper", "stats", "days"]
+  },
+  {
+    "id": "days-member-value",
+    "definitionId": "dev-div",
+    "name": "Days Member Value",
+    "description": "Days count display",
+    "filePath": "src/components/dashboard/WelcomeCard.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/dashboard/WelcomeCard.tsx",
+    "category": "ui",
+    "semanticTags": ["value", "days", "number"]
+  },
+  {
+    "id": "days-member-label",
+    "definitionId": "dev-p",
+    "name": "Days Member Label",
+    "description": "Days member label text",
+    "filePath": "src/components/dashboard/WelcomeCard.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/dashboard/WelcomeCard.tsx",
+    "category": "ui",
+    "semanticTags": ["label", "days", "text"]
+  },
+  {
+    "id": "session-status-card",
+    "definitionId": "dev-card",
+    "name": "Session Status Card",
+    "description": "Session status indicator",
+    "filePath": "src/components/dashboard/WelcomeCard.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/dashboard/WelcomeCard.tsx",
+    "category": "ui",
+    "semanticTags": ["card", "session", "status"]
+  },
+  {
+    "id": "session-status-content",
+    "definitionId": "dev-card-content",
+    "name": "Session Status Content",
+    "description": "Session status card content",
+    "filePath": "src/components/dashboard/WelcomeCard.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/dashboard/WelcomeCard.tsx",
+    "category": "ui",
+    "semanticTags": ["content", "session", "status"]
+  },
+  {
+    "id": "session-status-wrapper",
+    "definitionId": "dev-div",
+    "name": "Session Status Wrapper",
+    "description": "Session status content wrapper",
+    "filePath": "src/components/dashboard/WelcomeCard.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/dashboard/WelcomeCard.tsx",
+    "category": "layout",
+    "semanticTags": ["wrapper", "session", "status"]
+  },
+  {
+    "id": "session-status-value",
+    "definitionId": "dev-div",
+    "name": "Session Status Value",
+    "description": "Active session indicator",
+    "filePath": "src/components/dashboard/WelcomeCard.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/dashboard/WelcomeCard.tsx",
+    "category": "ui",
+    "semanticTags": ["status", "session", "active"]
+  },
+  {
+    "id": "session-status-label",
+    "definitionId": "dev-p",
+    "name": "Session Status Label",
+    "description": "Session status label text",
+    "filePath": "src/components/dashboard/WelcomeCard.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/dashboard/WelcomeCard.tsx",
+    "category": "ui",
+    "semanticTags": ["label", "session", "text"]
+  },
+  {
+    "id": "session-warning",
+    "definitionId": "dev-container",
+    "name": "Session Warning",
+    "description": "Multiple sessions warning",
+    "filePath": "src/components/dashboard/SessionWarning.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/dashboard/SessionWarning.tsx",
+    "category": "component",
+    "semanticTags": ["warning", "session", "alert"]
+  },
+  {
+    "id": "multiple-sessions-warning",
+    "definitionId": "dev-alert",
+    "name": "Multiple Sessions Warning",
+    "description": "Alert for multiple active sessions",
+    "filePath": "src/components/dashboard/SessionWarning.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/dashboard/SessionWarning.tsx",
+    "category": "ui",
+    "semanticTags": ["alert", "warning", "sessions"]
+  },
+  {
+    "id": "warning-content",
+    "definitionId": "dev-div",
+    "name": "Warning Content",
+    "description": "Warning content container",
+    "filePath": "src/components/dashboard/SessionWarning.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/dashboard/SessionWarning.tsx",
+    "category": "layout",
+    "semanticTags": ["content", "warning", "container"]
+  },
+  {
+    "id": "warning-title",
+    "definitionId": "dev-p",
+    "name": "Warning Title",
+    "description": "Warning title text",
+    "filePath": "src/components/dashboard/SessionWarning.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/dashboard/SessionWarning.tsx",
+    "category": "ui",
+    "semanticTags": ["title", "warning", "text"]
+  },
+  {
+    "id": "warning-description",
+    "definitionId": "dev-p",
+    "name": "Warning Description",
+    "description": "Warning description text",
+    "filePath": "src/components/dashboard/SessionWarning.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/dashboard/SessionWarning.tsx",
+    "category": "ui",
+    "semanticTags": ["description", "warning", "text"]
+  },
+  {
+    "id": "review-sessions-button",
+    "definitionId": "dev-button",
+    "name": "Review Sessions Button",
+    "description": "Navigate to sessions review",
+    "filePath": "src/components/dashboard/SessionWarning.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/dashboard/SessionWarning.tsx",
+    "category": "interactive",
+    "semanticTags": ["button", "sessions", "review"]
+  },
+  {
+    "id": "current-session-card",
+    "definitionId": "dev-container",
+    "name": "Current Session Card",
+    "description": "Current session information",
+    "filePath": "src/components/dashboard/CurrentSessionCard.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/dashboard/CurrentSessionCard.tsx",
+    "category": "component",
+    "semanticTags": ["session", "current", "card"]
+  },
+  {
+    "id": "current-session-card",
+    "definitionId": "dev-card",
+    "name": "Current Session Card Element",
+    "description": "Card showing current session",
+    "filePath": "src/components/dashboard/CurrentSessionCard.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/dashboard/CurrentSessionCard.tsx",
+    "category": "ui",
+    "semanticTags": ["card", "session", "current"]
+  },
+  {
+    "id": "current-session-header",
+    "definitionId": "dev-card-header",
+    "name": "Current Session Header",
+    "description": "Current session card header",
+    "filePath": "src/components/dashboard/CurrentSessionCard.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/dashboard/CurrentSessionCard.tsx",
+    "category": "ui",
+    "semanticTags": ["header", "session", "card"]
+  },
+  {
+    "id": "current-session-title",
+    "definitionId": "dev-card-title",
+    "name": "Current Session Title",
+    "description": "Current session title",
+    "filePath": "src/components/dashboard/CurrentSessionCard.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/dashboard/CurrentSessionCard.tsx",
+    "category": "ui",
+    "semanticTags": ["title", "session", "current"]
+  },
+  {
+    "id": "current-session-content",
+    "definitionId": "dev-card-content",
+    "name": "Current Session Content",
+    "description": "Current session card content",
+    "filePath": "src/components/dashboard/CurrentSessionCard.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/dashboard/CurrentSessionCard.tsx",
+    "category": "ui",
+    "semanticTags": ["content", "session", "card"]
+  },
+  {
+    "id": "session-details",
+    "definitionId": "dev-div",
+    "name": "Session Details",
+    "description": "Session details container",
+    "filePath": "src/components/dashboard/CurrentSessionCard.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/dashboard/CurrentSessionCard.tsx",
+    "category": "layout",
+    "semanticTags": ["details", "session", "container"]
+  },
+  {
+    "id": "device-info",
+    "definitionId": "dev-div",
+    "name": "Device Info",
+    "description": "Device information row",
+    "filePath": "src/components/dashboard/CurrentSessionCard.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/dashboard/CurrentSessionCard.tsx",
+    "category": "layout",
+    "semanticTags": ["device", "info", "row"]
+  },
+  {
+    "id": "device-label",
+    "definitionId": "dev-span",
+    "name": "Device Label",
+    "description": "Device field label",
+    "filePath": "src/components/dashboard/CurrentSessionCard.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/dashboard/CurrentSessionCard.tsx",
+    "category": "ui",
+    "semanticTags": ["label", "device", "text"]
+  },
+  {
+    "id": "device-value",
+    "definitionId": "dev-span",
+    "name": "Device Value",
+    "description": "Device information value",
+    "filePath": "src/components/dashboard/CurrentSessionCard.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/dashboard/CurrentSessionCard.tsx",
+    "category": "ui",
+    "semanticTags": ["value", "device", "text"]
+  },
+  {
+    "id": "ip-info",
+    "definitionId": "dev-div",
+    "name": "IP Info",
+    "description": "IP address information row",
+    "filePath": "src/components/dashboard/CurrentSessionCard.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/dashboard/CurrentSessionCard.tsx",
+    "category": "layout",
+    "semanticTags": ["ip", "info", "row"]
+  },
+  {
+    "id": "ip-label",
+    "definitionId": "dev-span",
+    "name": "IP Label",
+    "description": "IP address field label",
+    "filePath": "src/components/dashboard/CurrentSessionCard.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/dashboard/CurrentSessionCard.tsx",
+    "category": "ui",
+    "semanticTags": ["label", "ip", "text"]
+  },
+  {
+    "id": "ip-value",
+    "definitionId": "dev-span",
+    "name": "IP Value",
+    "description": "IP address value",
+    "filePath": "src/components/dashboard/CurrentSessionCard.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/dashboard/CurrentSessionCard.tsx",
+    "category": "ui",
+    "semanticTags": ["value", "ip", "text"]
+  },
+  {
+    "id": "expiry-info",
+    "definitionId": "dev-div",
+    "name": "Expiry Info",
+    "description": "Session expiry information",
+    "filePath": "src/components/dashboard/CurrentSessionCard.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/dashboard/CurrentSessionCard.tsx",
+    "category": "layout",
+    "semanticTags": ["expiry", "info", "row"]
+  },
+  {
+    "id": "expiry-label",
+    "definitionId": "dev-span",
+    "name": "Expiry Label",
+    "description": "Expiry field label",
+    "filePath": "src/components/dashboard/CurrentSessionCard.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/dashboard/CurrentSessionCard.tsx",
+    "category": "ui",
+    "semanticTags": ["label", "expiry", "text"]
+  },
+  {
+    "id": "expiry-value",
+    "definitionId": "dev-span",
+    "name": "Expiry Value",
+    "description": "Session expiry time",
+    "filePath": "src/components/dashboard/CurrentSessionCard.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/dashboard/CurrentSessionCard.tsx",
+    "category": "ui",
+    "semanticTags": ["value", "expiry", "time"]
+  },
+  {
+    "id": "session-separator",
+    "definitionId": "dev-separator",
+    "name": "Session Separator",
+    "description": "Session section separator",
+    "filePath": "src/components/dashboard/CurrentSessionCard.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/dashboard/CurrentSessionCard.tsx",
+    "category": "ui",
+    "semanticTags": ["separator", "session", "divider"]
+  },
+  {
+    "id": "signin-time",
+    "definitionId": "dev-div",
+    "name": "Sign-in Time",
+    "description": "Session sign-in time",
+    "filePath": "src/components/dashboard/CurrentSessionCard.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/dashboard/CurrentSessionCard.tsx",
+    "category": "ui",
+    "semanticTags": ["signin", "time", "session"]
+  },
+  {
+    "id": "recent-activity-card",
+    "definitionId": "dev-container",
+    "name": "Recent Activity Card",
+    "description": "Recent activity display",
+    "filePath": "src/components/dashboard/RecentActivityCard.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/dashboard/RecentActivityCard.tsx",
+    "category": "component",
+    "semanticTags": ["activity", "recent", "card"]
+  },
+  {
+    "id": "recent-activity-card",
+    "definitionId": "dev-card",
+    "name": "Recent Activity Card Element",
+    "description": "Card showing recent activities",
+    "filePath": "src/components/dashboard/RecentActivityCard.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/dashboard/RecentActivityCard.tsx",
+    "category": "ui",
+    "semanticTags": ["card", "activity", "recent"]
+  },
+  {
+    "id": "recent-activity-header",
+    "definitionId": "dev-card-header",
+    "name": "Recent Activity Header",
+    "description": "Recent activity card header",
+    "filePath": "src/components/dashboard/RecentActivityCard.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/dashboard/RecentActivityCard.tsx",
+    "category": "ui",
+    "semanticTags": ["header", "activity", "card"]
+  },
+  {
+    "id": "recent-activity-title",
+    "definitionId": "dev-card-title",
+    "name": "Recent Activity Title",
+    "description": "Recent activity title",
+    "filePath": "src/components/dashboard/RecentActivityCard.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/dashboard/RecentActivityCard.tsx",
+    "category": "ui",
+    "semanticTags": ["title", "activity", "recent"]
+  },
+  {
+    "id": "recent-activity-content",
+    "definitionId": "dev-card-content",
+    "name": "Recent Activity Content",
+    "description": "Recent activity card content",
+    "filePath": "src/components/dashboard/RecentActivityCard.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/dashboard/RecentActivityCard.tsx",
+    "category": "ui",
+    "semanticTags": ["content", "activity", "card"]
+  },
+  {
+    "id": "activity-list",
+    "definitionId": "dev-div",
+    "name": "Activity List",
+    "description": "List of recent activities",
+    "filePath": "src/components/dashboard/RecentActivityCard.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/dashboard/RecentActivityCard.tsx",
+    "category": "layout",
+    "semanticTags": ["list", "activity", "container"]
+  },
+  {
+    "id": "activity-login",
+    "definitionId": "dev-div",
+    "name": "Activity Login",
+    "description": "Login activity item",
+    "filePath": "src/components/dashboard/RecentActivityCard.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/dashboard/RecentActivityCard.tsx",
+    "category": "layout",
+    "semanticTags": ["activity", "login", "item"]
+  },
+  {
+    "id": "activity-login-info",
+    "definitionId": "dev-div",
+    "name": "Activity Login Info",
+    "description": "Login activity information",
+    "filePath": "src/components/dashboard/RecentActivityCard.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/dashboard/RecentActivityCard.tsx",
+    "category": "layout",
+    "semanticTags": ["info", "login", "activity"]
+  },
+  {
+    "id": "activity-login-indicator",
+    "definitionId": "dev-div",
+    "name": "Activity Login Indicator",
+    "description": "Login activity indicator dot",
+    "filePath": "src/components/dashboard/RecentActivityCard.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/dashboard/RecentActivityCard.tsx",
+    "category": "ui",
+    "semanticTags": ["indicator", "login", "visual"]
+  },
+  {
+    "id": "activity-login-text",
+    "definitionId": "dev-span",
+    "name": "Activity Login Text",
+    "description": "Login activity description",
+    "filePath": "src/components/dashboard/RecentActivityCard.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/dashboard/RecentActivityCard.tsx",
+    "category": "ui",
+    "semanticTags": ["text", "login", "activity"]
+  },
+  {
+    "id": "activity-login-time",
+    "definitionId": "dev-span",
+    "name": "Activity Login Time",
+    "description": "Login activity timestamp",
+    "filePath": "src/components/dashboard/RecentActivityCard.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/dashboard/RecentActivityCard.tsx",
+    "category": "ui",
+    "semanticTags": ["time", "login", "timestamp"]
+  },
+  {
+    "id": "activity-profile",
+    "definitionId": "dev-div",
+    "name": "Activity Profile",
+    "description": "Profile update activity item",
+    "filePath": "src/components/dashboard/RecentActivityCard.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/dashboard/RecentActivityCard.tsx",
+    "category": "layout",
+    "semanticTags": ["activity", "profile", "item"]
+  },
+  {
+    "id": "activity-profile-info",
+    "definitionId": "dev-div",
+    "name": "Activity Profile Info",
+    "description": "Profile activity information",
+    "filePath": "src/components/dashboard/RecentActivityCard.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/dashboard/RecentActivityCard.tsx",
+    "category": "layout",
+    "semanticTags": ["info", "profile", "activity"]
+  },
+  {
+    "id": "activity-profile-indicator",
+    "definitionId": "dev-div",
+    "name": "Activity Profile Indicator",
+    "description": "Profile activity indicator dot",
+    "filePath": "src/components/dashboard/RecentActivityCard.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/dashboard/RecentActivityCard.tsx",
+    "category": "ui",
+    "semanticTags": ["indicator", "profile", "visual"]
+  },
+  {
+    "id": "activity-profile-text",
+    "definitionId": "dev-span",
+    "name": "Activity Profile Text",
+    "description": "Profile activity description",
+    "filePath": "src/components/dashboard/RecentActivityCard.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/dashboard/RecentActivityCard.tsx",
+    "category": "ui",
+    "semanticTags": ["text", "profile", "activity"]
+  },
+  {
+    "id": "activity-profile-time",
+    "definitionId": "dev-span",
+    "name": "Activity Profile Time",
+    "description": "Profile activity timestamp",
+    "filePath": "src/components/dashboard/RecentActivityCard.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/dashboard/RecentActivityCard.tsx",
+    "category": "ui",
+    "semanticTags": ["time", "profile", "timestamp"]
+  },
+  {
+    "id": "dashboard-loading",
+    "definitionId": "dev-container",
+    "name": "Dashboard Loading",
+    "description": "Dashboard loading state",
+    "filePath": "src/components/dashboard/DashboardLoading.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/dashboard/DashboardLoading.tsx",
+    "category": "component",
+    "semanticTags": ["loading", "dashboard", "state"]
+  },
+  {
+    "id": "loading-wrapper",
+    "definitionId": "dev-div",
+    "name": "Loading Wrapper",
+    "description": "Loading state wrapper",
+    "filePath": "src/components/dashboard/DashboardLoading.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/dashboard/DashboardLoading.tsx",
+    "category": "layout",
+    "semanticTags": ["wrapper", "loading", "centered"]
+  },
+  {
+    "id": "loading-content",
+    "definitionId": "dev-div",
+    "name": "Loading Content",
+    "description": "Loading content container",
+    "filePath": "src/components/dashboard/DashboardLoading.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/dashboard/DashboardLoading.tsx",
+    "category": "layout",
+    "semanticTags": ["content", "loading", "container"]
+  },
+  {
+    "id": "loading-spinner",
+    "definitionId": "dev-div",
+    "name": "Loading Spinner",
+    "description": "Animated loading spinner",
+    "filePath": "src/components/dashboard/DashboardLoading.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/dashboard/DashboardLoading.tsx",
+    "category": "ui",
+    "semanticTags": ["spinner", "loading", "animation"]
+  },
+  {
+    "id": "loading-text",
+    "definitionId": "dev-p",
+    "name": "Loading Text",
+    "description": "Loading state message",
+    "filePath": "src/components/dashboard/DashboardLoading.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/dashboard/DashboardLoading.tsx",
+    "category": "ui",
+    "semanticTags": ["text", "loading", "message"]
+  },
+  {
+    "id": "dashboard-error",
+    "definitionId": "dev-container",
+    "name": "Dashboard Error",
+    "description": "Dashboard error state",
+    "filePath": "src/components/dashboard/DashboardUnauthorized.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/dashboard/DashboardUnauthorized.tsx",
+    "category": "component",
+    "semanticTags": ["error", "dashboard", "state"]
+  },
+  {
+    "id": "dashboard-unauthorized",
+    "definitionId": "dev-container",
+    "name": "Dashboard Unauthorized",
+    "description": "Dashboard unauthorized state",
+    "filePath": "src/components/dashboard/DashboardUnauthorized.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/dashboard/DashboardUnauthorized.tsx",
+    "category": "component",
+    "semanticTags": ["unauthorized", "dashboard", "state"]
+  },
+  {
+    "id": "unauthorized-wrapper",
+    "definitionId": "dev-div",
+    "name": "Unauthorized Wrapper",
+    "description": "Unauthorized state wrapper",
+    "filePath": "src/components/dashboard/DashboardUnauthorized.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/dashboard/DashboardUnauthorized.tsx",
+    "category": "layout",
+    "semanticTags": ["wrapper", "unauthorized", "centered"]
+  },
+  {
+    "id": "unauthorized-card",
+    "definitionId": "dev-card",
+    "name": "Unauthorized Card",
+    "description": "Unauthorized message card",
+    "filePath": "src/components/dashboard/DashboardUnauthorized.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/dashboard/DashboardUnauthorized.tsx",
+    "category": "ui",
+    "semanticTags": ["card", "unauthorized", "message"]
+  },
+  {
+    "id": "unauthorized-content",
+    "definitionId": "dev-card-content",
+    "name": "Unauthorized Content",
+    "description": "Unauthorized card content",
+    "filePath": "src/components/dashboard/DashboardUnauthorized.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/dashboard/DashboardUnauthorized.tsx",
+    "category": "ui",
+    "semanticTags": ["content", "unauthorized", "card"]
+  },
+  {
+    "id": "unauthorized-center",
+    "definitionId": "dev-div",
+    "name": "Unauthorized Center",
+    "description": "Centered content container",
+    "filePath": "src/components/dashboard/DashboardUnauthorized.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/dashboard/DashboardUnauthorized.tsx",
+    "category": "layout",
+    "semanticTags": ["center", "unauthorized", "container"]
+  },
+  {
+    "id": "unauthorized-title",
+    "definitionId": "dev-h2",
+    "name": "Unauthorized Title",
+    "description": "Unauthorized state title",
+    "filePath": "src/components/dashboard/DashboardUnauthorized.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/dashboard/DashboardUnauthorized.tsx",
+    "category": "ui",
+    "semanticTags": ["title", "unauthorized", "heading"]
+  },
+  {
+    "id": "error-message",
+    "definitionId": "dev-p",
+    "name": "Error Message",
+    "description": "Error message display",
+    "filePath": "src/components/dashboard/DashboardUnauthorized.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/dashboard/DashboardUnauthorized.tsx",
+    "category": "ui",
+    "semanticTags": ["message", "error", "text"]
+  },
+  {
+    "id": "unauthorized-description",
+    "definitionId": "dev-p",
+    "name": "Unauthorized Description",
+    "description": "Unauthorized state description",
+    "filePath": "src/components/dashboard/DashboardUnauthorized.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/dashboard/DashboardUnauthorized.tsx",
+    "category": "ui",
+    "semanticTags": ["description", "unauthorized", "text"]
+  },
+  {
+    "id": "login-redirect-button",
+    "definitionId": "dev-button",
+    "name": "Login Redirect Button",
+    "description": "Navigate to login page",
+    "filePath": "src/components/dashboard/DashboardUnauthorized.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/dashboard/DashboardUnauthorized.tsx",
+    "category": "interactive",
+    "semanticTags": ["button", "login", "redirect"]
+  }
+]

@@ -1,0 +1,812 @@
+[
+  {
+    "id": "landing-page-root",
+    "definitionId": "dev-container",
+    "name": "Landing Page Root",
+    "description": "Root container for the landing page",
+    "filePath": "src/pages/Landing.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/pages/Landing.tsx",
+    "category": "page",
+    "semanticTags": ["landing", "page", "root", "container"]
+  },
+  {
+    "id": "main-wrapper",
+    "definitionId": "dev-div",
+    "name": "Main Wrapper",
+    "description": "Main page wrapper with gradient background",
+    "filePath": "src/pages/Landing.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/pages/Landing.tsx",
+    "category": "layout",
+    "semanticTags": ["main", "wrapper", "background", "gradient"]
+  },
+  {
+    "id": "main-header",
+    "definitionId": "dev-header",
+    "name": "Main Header",
+    "description": "Primary site header with navigation",
+    "filePath": "src/components/landing/LandingHeader.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/landing/LandingHeader.tsx",
+    "category": "layout",
+    "semanticTags": ["header", "navigation", "primary"]
+  },
+  {
+    "id": "main-nav",
+    "definitionId": "dev-nav",
+    "name": "Main Navigation",
+    "description": "Primary navigation bar",
+    "filePath": "src/components/landing/LandingHeader.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/landing/LandingHeader.tsx",
+    "category": "navigation",
+    "semanticTags": ["nav", "navigation", "menu"]
+  },
+  {
+    "id": "logo-section",
+    "definitionId": "dev-div",
+    "name": "Logo Section",
+    "description": "Company logo and brand name",
+    "filePath": "src/components/landing/LandingHeader.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/landing/LandingHeader.tsx",
+    "category": "ui",
+    "semanticTags": ["logo", "brand", "identity"]
+  },
+  {
+    "id": "landing-logo-icon",
+    "definitionId": "dev-div",
+    "name": "Landing Logo Icon",
+    "description": "Logo icon container",
+    "filePath": "src/components/landing/LandingHeader.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/landing/LandingHeader.tsx",
+    "category": "ui",
+    "semanticTags": ["logo", "icon", "container"]
+  },
+  {
+    "id": "brand-name",
+    "definitionId": "dev-span",
+    "name": "Brand Name",
+    "description": "Geenius Template brand name",
+    "filePath": "src/components/landing/LandingHeader.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/landing/LandingHeader.tsx",
+    "category": "ui",
+    "semanticTags": ["brand", "name", "text"]
+  },
+  {
+    "id": "nav-actions",
+    "definitionId": "dev-div",
+    "name": "Navigation Actions",
+    "description": "Navigation buttons and user menu",
+    "filePath": "src/components/landing/LandingHeader.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/landing/LandingHeader.tsx",
+    "category": "navigation",
+    "semanticTags": ["nav", "actions", "buttons"]
+  },
+  {
+    "id": "docs-button",
+    "definitionId": "dev-button",
+    "name": "Documentation Button",
+    "description": "Link to documentation",
+    "filePath": "src/components/landing/LandingHeader.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/landing/LandingHeader.tsx",
+    "category": "interactive",
+    "semanticTags": ["docs", "documentation", "button", "link"]
+  },
+  {
+    "id": "user-section",
+    "definitionId": "dev-div",
+    "name": "User Section",
+    "description": "Authenticated user welcome area",
+    "filePath": "src/components/landing/LandingHeader.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/landing/LandingHeader.tsx",
+    "category": "ui",
+    "semanticTags": ["user", "welcome", "authenticated"]
+  },
+  {
+    "id": "welcome-message",
+    "definitionId": "dev-span",
+    "name": "Welcome Message",
+    "description": "Welcome message for authenticated user",
+    "filePath": "src/components/landing/LandingHeader.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/landing/LandingHeader.tsx",
+    "category": "ui",
+    "semanticTags": ["welcome", "message", "user"]
+  },
+  {
+    "id": "nav-dashboard-button",
+    "definitionId": "dev-button",
+    "name": "Navigation Dashboard Button",
+    "description": "Dashboard button in navigation header for authenticated users",
+    "filePath": "src/components/landing/LandingHeader.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/landing/LandingHeader.tsx",
+    "category": "interactive",
+    "semanticTags": ["dashboard", "button", "navigation", "authenticated"]
+  },
+  {
+    "id": "auth-buttons",
+    "definitionId": "dev-div",
+    "name": "Authentication Buttons",
+    "description": "Login and register buttons for unauthenticated users",
+    "filePath": "src/components/landing/LandingHeader.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/landing/LandingHeader.tsx",
+    "category": "interactive",
+    "semanticTags": ["auth", "buttons", "login", "register"]
+  },
+  {
+    "id": "nav-login-button",
+    "definitionId": "dev-button",
+    "name": "Navigation Login Button",
+    "description": "Login button in navigation header",
+    "filePath": "src/components/landing/LandingHeader.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/landing/LandingHeader.tsx",
+    "category": "interactive",
+    "semanticTags": ["login", "button", "navigation", "auth"]
+  },
+  {
+    "id": "nav-register-button",
+    "definitionId": "dev-button",
+    "name": "Navigation Register Button",
+    "description": "Get started button in navigation header",
+    "filePath": "src/components/landing/LandingHeader.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/landing/LandingHeader.tsx",
+    "category": "interactive",
+    "semanticTags": ["register", "button", "navigation", "get-started"]
+  },
+  {
+    "id": "hero-section",
+    "definitionId": "dev-container",
+    "name": "Hero Section",
+    "description": "Hero section container",
+    "filePath": "src/components/landing/LandingHero.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/landing/LandingHero.tsx",
+    "category": "layout",
+    "semanticTags": ["hero", "section", "container"]
+  },
+  {
+    "id": "hero-content",
+    "definitionId": "dev-section",
+    "name": "Hero Content",
+    "description": "Main hero Section with title and call-to-action",
+    "filePath": "src/components/landing/LandingHero.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/landing/LandingHero.tsx",
+    "category": "layout",
+    "semanticTags": ["hero", "content", "main"]
+  },
+  {
+    "id": "hero-content-wrapper",
+    "definitionId": "dev-div",
+    "name": "Hero Content Wrapper",
+    "description": "Animated wrapper for hero content",
+    "filePath": "src/components/landing/LandingHero.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/landing/LandingHero.tsx",
+    "category": "layout",
+    "semanticTags": ["hero", "wrapper", "animation"]
+  },
+  {
+    "id": "hero-title",
+    "definitionId": "dev-h1",
+    "name": "Hero Title",
+    "description": "Main hero title showcasing the tech stack",
+    "filePath": "src/components/landing/LandingHero.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/landing/LandingHero.tsx",
+    "category": "ui",
+    "semanticTags": ["hero", "title", "heading", "h1"]
+  },
+  {
+    "id": "mongodb-highlight",
+    "definitionId": "dev-span",
+    "name": "MongoDB Highlight",
+    "description": "Highlighted MongoDB text in gradient",
+    "filePath": "src/components/landing/LandingHero.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/landing/LandingHero.tsx",
+    "category": "ui",
+    "semanticTags": ["mongodb", "highlight", "gradient", "text"]
+  },
+  {
+    "id": "hero-description",
+    "definitionId": "dev-p",
+    "name": "Hero Description",
+    "description": "Hero Section description explaining the template benefits",
+    "filePath": "src/components/landing/LandingHero.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/landing/LandingHero.tsx",
+    "category": "ui",
+    "semanticTags": ["hero", "description", "paragraph", "benefits"]
+  },
+  {
+    "id": "hero-cta-buttons",
+    "definitionId": "dev-div",
+    "name": "Hero CTA Buttons",
+    "description": "Call-to-action buttons in hero Section",
+    "filePath": "src/components/landing/LandingHero.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/landing/LandingHero.tsx",
+    "category": "interactive",
+    "semanticTags": ["hero", "cta", "buttons", "actions"]
+  },
+  {
+    "id": "hero-start-building",
+    "definitionId": "dev-button",
+    "name": "Start Building Button",
+    "description": "Primary call-to-action button for starting to build with the template",
+    "filePath": "src/components/landing/LandingHero.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/landing/LandingHero.tsx",
+    "category": "interactive",
+    "semanticTags": ["hero", "cta", "button", "start-building"]
+  },
+  {
+    "id": "hero-github-button",
+    "definitionId": "dev-button",
+    "name": "View on GitHub Button",
+    "description": "Secondary button to view the project on GitHub",
+    "filePath": "src/components/landing/LandingHero.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/landing/LandingHero.tsx",
+    "category": "interactive",
+    "semanticTags": ["hero", "github", "button", "view-source"]
+  },
+  {
+    "id": "stats-section",
+    "definitionId": "dev-container",
+    "name": "Stats Section",
+    "description": "Stats section container",
+    "filePath": "src/components/landing/LandingStats.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/landing/LandingStats.tsx",
+    "category": "layout",
+    "semanticTags": ["stats", "section", "container"]
+  },
+  {
+    "id": "stats-content",
+    "definitionId": "dev-section",
+    "name": "Stats Content",
+    "description": "Statistics Section showing performance metrics",
+    "filePath": "src/components/landing/LandingStats.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/landing/LandingStats.tsx",
+    "category": "layout",
+    "semanticTags": ["stats", "content", "metrics"]
+  },
+  {
+    "id": "stats-grid",
+    "definitionId": "dev-div",
+    "name": "Stats Grid",
+    "description": "Grid container for statistics cards",
+    "filePath": "src/components/landing/LandingStats.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/landing/LandingStats.tsx",
+    "category": "layout",
+    "semanticTags": ["stats", "grid", "container"]
+  },
+  {
+    "id": "stat-card-0",
+    "definitionId": "dev-card",
+    "name": "Build Time Stat Card",
+    "description": "Statistical card showing Build Time: < 2s",
+    "filePath": "src/components/landing/LandingStats.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/landing/LandingStats.tsx",
+    "category": "data-display",
+    "semanticTags": ["stat", "card", "build-time", "performance"]
+  },
+  {
+    "id": "stat-card-1",
+    "definitionId": "dev-card",
+    "name": "Bundle Size Stat Card",
+    "description": "Statistical card showing Bundle Size: < 50KB",
+    "filePath": "src/components/landing/LandingStats.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/landing/LandingStats.tsx",
+    "category": "data-display",
+    "semanticTags": ["stat", "card", "bundle-size", "performance"]
+  },
+  {
+    "id": "stat-card-2",
+    "definitionId": "dev-card",
+    "name": "TypeScript Stat Card",
+    "description": "Statistical card showing TypeScript: 100%",
+    "filePath": "src/components/landing/LandingStats.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/landing/LandingStats.tsx",
+    "category": "data-display",
+    "semanticTags": ["stat", "card", "typescript", "coverage"]
+  },
+  {
+    "id": "stat-card-3",
+    "definitionId": "dev-card",
+    "name": "Performance Stat Card",
+    "description": "Statistical card showing Performance: A+",
+    "filePath": "src/components/landing/LandingStats.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/landing/LandingStats.tsx",
+    "category": "data-display",
+    "semanticTags": ["stat", "card", "performance", "rating"]
+  },
+  {
+    "id": "stat-card-content",
+    "definitionId": "dev-card-content",
+    "name": "Stat Card Content",
+    "description": "Content wrapper for stat cards",
+    "filePath": "src/components/landing/LandingStats.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/landing/LandingStats.tsx",
+    "category": "layout",
+    "semanticTags": ["stat", "card", "content", "wrapper"]
+  },
+  {
+    "id": "stat-value",
+    "definitionId": "dev-div",
+    "name": "Stat Value",
+    "description": "Statistical value display",
+    "filePath": "src/components/landing/LandingStats.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/landing/LandingStats.tsx",
+    "category": "data-display",
+    "semanticTags": ["stat", "value", "display", "metric"]
+  },
+  {
+    "id": "stat-label",
+    "definitionId": "dev-div",
+    "name": "Stat Label",
+    "description": "Statistical label display",
+    "filePath": "src/components/landing/LandingStats.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/landing/LandingStats.tsx",
+    "category": "data-display",
+    "semanticTags": ["stat", "label", "display", "metric"]
+  },
+  {
+    "id": "features-section",
+    "definitionId": "dev-container",
+    "name": "Features Section",
+    "description": "Features section container",
+    "filePath": "src/components/landing/LandingFeatures.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/landing/LandingFeatures.tsx",
+    "category": "layout",
+    "semanticTags": ["features", "section", "container"]
+  },
+  {
+    "id": "features-content",
+    "definitionId": "dev-section",
+    "name": "Features Content",
+    "description": "Features content section",
+    "filePath": "src/components/landing/LandingFeatures.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/landing/LandingFeatures.tsx",
+    "category": "layout",
+    "semanticTags": ["features", "content", "section"]
+  },
+  {
+    "id": "features-header",
+    "definitionId": "dev-div",
+    "name": "Features Header",
+    "description": "Features section header wrapper",
+    "filePath": "src/components/landing/LandingFeatures.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/landing/LandingFeatures.tsx",
+    "category": "layout",
+    "semanticTags": ["features", "header", "wrapper"]
+  },
+  {
+    "id": "features-title",
+    "definitionId": "dev-h2",
+    "name": "Features Title",
+    "description": "Why Choose This Template? title",
+    "filePath": "src/components/landing/LandingFeatures.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/landing/LandingFeatures.tsx",
+    "category": "ui",
+    "semanticTags": ["features", "title", "h2", "heading"]
+  },
+  {
+    "id": "features-subtitle",
+    "definitionId": "dev-p",
+    "name": "Features Subtitle",
+    "description": "Features section subtitle",
+    "filePath": "src/components/landing/LandingFeatures.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/landing/LandingFeatures.tsx",
+    "category": "ui",
+    "semanticTags": ["features", "subtitle", "paragraph"]
+  },
+  {
+    "id": "features-grid",
+    "definitionId": "dev-div",
+    "name": "Features Grid",
+    "description": "Grid container for feature cards",
+    "filePath": "src/components/landing/LandingFeatures.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/landing/LandingFeatures.tsx",
+    "category": "layout",
+    "semanticTags": ["features", "grid", "container"]
+  },
+  {
+    "id": "feature-card-0",
+    "definitionId": "dev-card",
+    "name": "Lightning Fast Feature Card",
+    "description": "Feature card for Lightning Fast performance",
+    "filePath": "src/components/landing/LandingFeatures.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/landing/LandingFeatures.tsx",
+    "category": "data-display",
+    "semanticTags": ["feature", "card", "performance", "fast"]
+  },
+  {
+    "id": "feature-card-1",
+    "definitionId": "dev-card",
+    "name": "MongoDB + Prisma Feature Card",
+    "description": "Feature card for MongoDB + Prisma integration",
+    "filePath": "src/components/landing/LandingFeatures.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/landing/LandingFeatures.tsx",
+    "category": "data-display",
+    "semanticTags": ["feature", "card", "mongodb", "prisma"]
+  },
+  {
+    "id": "feature-card-2",
+    "definitionId": "dev-card",
+    "name": "TypeScript Ready Feature Card",
+    "description": "Feature card for TypeScript readiness",
+    "filePath": "src/components/landing/LandingFeatures.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/landing/LandingFeatures.tsx",
+    "category": "data-display",
+    "semanticTags": ["feature", "card", "typescript", "ready"]
+  },
+  {
+    "id": "feature-card-3",
+    "definitionId": "dev-card",
+    "name": "Deploy Anywhere Feature Card",
+    "description": "Feature card for deployment flexibility",
+    "filePath": "src/components/landing/LandingFeatures.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/landing/LandingFeatures.tsx",
+    "category": "data-display",
+    "semanticTags": ["feature", "card", "deploy", "flexibility"]
+  },
+  {
+    "id": "feature-card-content-0",
+    "definitionId": "dev-card-content",
+    "name": "Lightning Fast Card Content",
+    "description": "Content for Lightning Fast card",
+    "filePath": "src/components/landing/LandingFeatures.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/landing/LandingFeatures.tsx",
+    "category": "layout",
+    "semanticTags": ["feature", "content", "performance"]
+  },
+  {
+    "id": "feature-card-content-1",
+    "definitionId": "dev-card-content",
+    "name": "MongoDB + Prisma Card Content",
+    "description": "Content for MongoDB + Prisma card",
+    "filePath": "src/components/landing/LandingFeatures.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/landing/LandingFeatures.tsx",
+    "category": "layout",
+    "semanticTags": ["feature", "content", "database"]
+  },
+  {
+    "id": "feature-card-content-2",
+    "definitionId": "dev-card-content",
+    "name": "TypeScript Ready Card Content",
+    "description": "Content for TypeScript Ready card",
+    "filePath": "src/components/landing/LandingFeatures.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/landing/LandingFeatures.tsx",
+    "category": "layout",
+    "semanticTags": ["feature", "content", "typescript"]
+  },
+  {
+    "id": "feature-card-content-3",
+    "definitionId": "dev-card-content",
+    "name": "Deploy Anywhere Card Content",
+    "description": "Content for Deploy Anywhere card",
+    "filePath": "src/components/landing/LandingFeatures.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/landing/LandingFeatures.tsx",
+    "category": "layout",
+    "semanticTags": ["feature", "content", "deployment"]
+  },
+  {
+    "id": "feature-icon-wrapper",
+    "definitionId": "dev-div",
+    "name": "Feature Icon Wrapper",
+    "description": "Icon wrapper for each feature",
+    "filePath": "src/components/landing/LandingFeatures.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/landing/LandingFeatures.tsx",
+    "category": "ui",
+    "semanticTags": ["feature", "icon", "wrapper"]
+  },
+  {
+    "id": "feature-description",
+    "definitionId": "dev-p",
+    "name": "Feature Description",
+    "description": "Feature description paragraph",
+    "filePath": "src/components/landing/LandingFeatures.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/landing/LandingFeatures.tsx",
+    "category": "ui",
+    "semanticTags": ["feature", "description", "paragraph"]
+  },
+  {
+    "id": "tech-stack-section",
+    "definitionId": "dev-container",
+    "name": "Tech Stack Section",
+    "description": "Tech stack section container",
+    "filePath": "src/components/landing/LandingTechStack.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/landing/LandingTechStack.tsx",
+    "category": "layout",
+    "semanticTags": ["tech-stack", "section", "container"]
+  },
+  {
+    "id": "tech-stack-content",
+    "definitionId": "dev-section",
+    "name": "Tech Stack Content",
+    "description": "Tech stack content section",
+    "filePath": "src/components/landing/LandingTechStack.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/landing/LandingTechStack.tsx",
+    "category": "layout",
+    "semanticTags": ["tech-stack", "content", "section"]
+  },
+  {
+    "id": "tech-stack-header",
+    "definitionId": "dev-div",
+    "name": "Tech Stack Header",
+    "description": "Tech stack section header wrapper",
+    "filePath": "src/components/landing/LandingTechStack.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/landing/LandingTechStack.tsx",
+    "category": "layout",
+    "semanticTags": ["tech-stack", "header", "wrapper"]
+  },
+  {
+    "id": "tech-stack-title",
+    "definitionId": "dev-h2",
+    "name": "Tech Stack Title",
+    "description": "Modern Tech Stack title",
+    "filePath": "src/components/landing/LandingTechStack.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/landing/LandingTechStack.tsx",
+    "category": "ui",
+    "semanticTags": ["tech-stack", "title", "h2", "heading"]
+  },
+  {
+    "id": "tech-stack-subtitle",
+    "definitionId": "dev-p",
+    "name": "Tech Stack Subtitle",
+    "description": "Tech stack section subtitle",
+    "filePath": "src/components/landing/LandingTechStack.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/landing/LandingTechStack.tsx",
+    "category": "ui",
+    "semanticTags": ["tech-stack", "subtitle", "paragraph"]
+  },
+  {
+    "id": "tech-stack-grid",
+    "definitionId": "dev-div",
+    "name": "Tech Stack Grid",
+    "description": "Grid container for tech stack items",
+    "filePath": "src/components/landing/LandingTechStack.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/landing/LandingTechStack.tsx",
+    "category": "layout",
+    "semanticTags": ["tech-stack", "grid", "container"]
+  },
+  {
+    "id": "tech-item-wrapper",
+    "definitionId": "dev-div",
+    "name": "Tech Item Wrapper",
+    "description": "Wrapper for each tech item",
+    "filePath": "src/components/landing/LandingTechStack.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/landing/LandingTechStack.tsx",
+    "category": "layout",
+    "semanticTags": ["tech", "item", "wrapper"]
+  },
+  {
+    "id": "tech-letter-0",
+    "definitionId": "dev-div",
+    "name": "Vite Tech Letter",
+    "description": "Vite tech letter icon",
+    "filePath": "src/components/landing/LandingTechStack.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/landing/LandingTechStack.tsx",
+    "category": "ui",
+    "semanticTags": ["tech", "vite", "icon", "letter"]
+  },
+  {
+    "id": "tech-letter-1",
+    "definitionId": "dev-div",
+    "name": "React Tech Letter",
+    "description": "React tech letter icon",
+    "filePath": "src/components/landing/LandingTechStack.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/landing/LandingTechStack.tsx",
+    "category": "ui",
+    "semanticTags": ["tech", "react", "icon", "letter"]
+  },
+  {
+    "id": "tech-letter-2",
+    "definitionId": "dev-div",
+    "name": "TypeScript Tech Letter",
+    "description": "TypeScript tech letter icon",
+    "filePath": "src/components/landing/LandingTechStack.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/landing/LandingTechStack.tsx",
+    "category": "ui",
+    "semanticTags": ["tech", "typescript", "icon", "letter"]
+  },
+  {
+    "id": "tech-letter-3",
+    "definitionId": "dev-div",
+    "name": "MongoDB Tech Letter",
+    "description": "MongoDB tech letter icon",
+    "filePath": "src/components/landing/LandingTechStack.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/landing/LandingTechStack.tsx",
+    "category": "ui",
+    "semanticTags": ["tech", "mongodb", "icon", "letter"]
+  },
+  {
+    "id": "tech-letter-4",
+    "definitionId": "dev-div",
+    "name": "Prisma Tech Letter",
+    "description": "Prisma tech letter icon",
+    "filePath": "src/components/landing/LandingTechStack.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/landing/LandingTechStack.tsx",
+    "category": "ui",
+    "semanticTags": ["tech", "prisma", "icon", "letter"]
+  },
+  {
+    "id": "tech-letter-5",
+    "definitionId": "dev-div",
+    "name": "Tailwind Tech Letter",
+    "description": "Tailwind tech letter icon",
+    "filePath": "src/components/landing/LandingTechStack.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/landing/LandingTechStack.tsx",
+    "category": "ui",
+    "semanticTags": ["tech", "tailwind", "icon", "letter"]
+  },
+  {
+    "id": "tech-badge-0",
+    "definitionId": "dev-badge",
+    "name": "Vite Technology Badge",
+    "description": "Vite technology badge",
+    "filePath": "src/components/landing/LandingTechStack.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/landing/LandingTechStack.tsx",
+    "category": "ui",
+    "semanticTags": ["tech", "vite", "badge"]
+  },
+  {
+    "id": "tech-badge-1",
+    "definitionId": "dev-badge",
+    "name": "React Technology Badge",
+    "description": "React technology badge",
+    "filePath": "src/components/landing/LandingTechStack.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/landing/LandingTechStack.tsx",
+    "category": "ui",
+    "semanticTags": ["tech", "react", "badge"]
+  },
+  {
+    "id": "tech-badge-2",
+    "definitionId": "dev-badge",
+    "name": "TypeScript Technology Badge",
+    "description": "TypeScript technology badge",
+    "filePath": "src/components/landing/LandingTechStack.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/landing/LandingTechStack.tsx",
+    "category": "ui",
+    "semanticTags": ["tech", "typescript", "badge"]
+  },
+  {
+    "id": "tech-badge-3",
+    "definitionId": "dev-badge",
+    "name": "MongoDB Technology Badge",
+    "description": "MongoDB technology badge",
+    "filePath": "src/components/landing/LandingTechStack.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/landing/LandingTechStack.tsx",
+    "category": "ui",
+    "semanticTags": ["tech", "mongodb", "badge"]
+  },
+  {
+    "id": "tech-badge-4",
+    "definitionId": "dev-badge",
+    "name": "Prisma Technology Badge",
+    "description": "Prisma technology badge",
+    "filePath": "src/components/landing/LandingTechStack.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/landing/LandingTechStack.tsx",
+    "category": "ui",
+    "semanticTags": ["tech", "prisma", "badge"]
+  },
+  {
+    "id": "tech-badge-5",
+    "definitionId": "dev-badge",
+    "name": "Tailwind Technology Badge",
+    "description": "Tailwind technology badge",
+    "filePath": "src/components/landing/LandingTechStack.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/landing/LandingTechStack.tsx",
+    "category": "ui",
+    "semanticTags": ["tech", "tailwind", "badge"]
+  },
+  {
+    "id": "cta-section",
+    "definitionId": "dev-container",
+    "name": "CTA Section",
+    "description": "CTA section container",
+    "filePath": "src/components/landing/LandingCTA.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/landing/LandingCTA.tsx",
+    "category": "layout",
+    "semanticTags": ["cta", "section", "container"]
+  },
+  {
+    "id": "cta-content",
+    "definitionId": "dev-section",
+    "name": "CTA Content",
+    "description": "CTA content section",
+    "filePath": "src/components/landing/LandingCTA.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/landing/LandingCTA.tsx",
+    "category": "layout",
+    "semanticTags": ["cta", "content", "section"]
+  },
+  {
+    "id": "cta-container",
+    "definitionId": "dev-div",
+    "name": "CTA Container",
+    "description": "CTA container with gradient background",
+    "filePath": "src/components/landing/LandingCTA.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/landing/LandingCTA.tsx",
+    "category": "layout",
+    "semanticTags": ["cta", "container", "gradient"]
+  },
+  {
+    "id": "cta-title",
+    "definitionId": "dev-h2",
+    "name": "CTA Title",
+    "description": "Ready to Build Something Amazing? title",
+    "filePath": "src/components/landing/LandingCTA.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/landing/LandingCTA.tsx",
+    "category": "ui",
+    "semanticTags": ["cta", "title", "h2", "heading"]
+  },
+  {
+    "id": "cta-subtitle",
+    "definitionId": "dev-p",
+    "name": "CTA Subtitle",
+    "description": "CTA section subtitle",
+    "filePath": "src/components/landing/LandingCTA.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/landing/LandingCTA.tsx",
+    "category": "ui",
+    "semanticTags": ["cta", "subtitle", "paragraph"]
+  },
+  {
+    "id": "cta-buttons",
+    "definitionId": "dev-div",
+    "name": "CTA Buttons",
+    "description": "Container for CTA buttons",
+    "filePath": "src/components/landing/LandingCTA.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/landing/LandingCTA.tsx",
+    "category": "interactive",
+    "semanticTags": ["cta", "buttons", "container"]
+  },
+  {
+    "id": "cta-start-project",
+    "definitionId": "dev-button",
+    "name": "Start Project Button",
+    "description": "Primary CTA button to start a new project",
+    "filePath": "src/components/landing/LandingCTA.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/landing/LandingCTA.tsx",
+    "category": "interactive",
+    "semanticTags": ["cta", "button", "start", "project"]
+  },
+  {
+    "id": "cta-join-community",
+    "definitionId": "dev-button",
+    "name": "Join Community Button",
+    "description": "Secondary CTA button to join the community",
+    "filePath": "src/components/landing/LandingCTA.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/landing/LandingCTA.tsx",
+    "category": "interactive",
+    "semanticTags": ["cta", "button", "community", "join"]
+  },
+  {
+    "id": "main-footer",
+    "definitionId": "dev-footer",
+    "name": "Main Footer",
+    "description": "Site footer with links and copyright",
+    "filePath": "src/components/landing/LandingFooter.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/landing/LandingFooter.tsx",
+    "category": "layout",
+    "semanticTags": ["footer", "main", "copyright"]
+  },
+  {
+    "id": "footer-content",
+    "definitionId": "dev-div",
+    "name": "Footer Content",
+    "description": "Footer content wrapper",
+    "filePath": "src/components/landing/LandingFooter.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/landing/LandingFooter.tsx",
+    "category": "layout",
+    "semanticTags": ["footer", "content", "wrapper"]
+  },
+  {
+    "id": "footer-copyright",
+    "definitionId": "dev-div",
+    "name": "Footer Copyright",
+    "description": "Copyright information",
+    "filePath": "src/components/landing/LandingFooter.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/landing/LandingFooter.tsx",
+    "category": "ui",
+    "semanticTags": ["footer", "copyright", "text"]
+  },
+  {
+    "id": "footer-links",
+    "definitionId": "dev-div",
+    "name": "Footer Links",
+    "description": "Container for footer links",
+    "filePath": "src/components/landing/LandingFooter.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/landing/LandingFooter.tsx",
+    "category": "navigation",
+    "semanticTags": ["footer", "links", "navigation"]
+  }
+]

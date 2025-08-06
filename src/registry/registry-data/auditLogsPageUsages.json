@@ -1,0 +1,282 @@
+[
+  {
+    "id": "audit-logs-page",
+    "definitionId": "dev-container",
+    "name": "Audit Logs Page",
+    "description": "User audit logs view page",
+    "filePath": "src/pages/AuditLogsPage.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/pages/AuditLogsPage.tsx",
+    "category": "page",
+    "semanticTags": ["audit", "logs", "page", "activity"]
+  },
+  {
+    "id": "audit-logs-loading",
+    "definitionId": "dev-container",
+    "name": "Audit Logs Loading",
+    "description": "Loading state for audit logs",
+    "filePath": "src/components/audit/AuditLogLoadingState.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/audit/AuditLogLoadingState.tsx",
+    "category": "component",
+    "semanticTags": ["loading", "audit", "state"]
+  },
+  {
+    "id": "loading-wrapper",
+    "definitionId": "dev-div",
+    "name": "Loading Wrapper",
+    "description": "Centered loading state wrapper",
+    "filePath": "src/components/audit/AuditLogLoadingState.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/audit/AuditLogLoadingState.tsx",
+    "category": "layout",
+    "semanticTags": ["wrapper", "loading", "centered"]
+  },
+  {
+    "id": "loading-spinner",
+    "definitionId": "dev-div",
+    "name": "Loading Spinner",
+    "description": "Animated loading spinner",
+    "filePath": "src/components/audit/AuditLogLoadingState.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/audit/AuditLogLoadingState.tsx",
+    "category": "ui",
+    "semanticTags": ["spinner", "loading", "animation"]
+  },
+  {
+    "id": "loading-text",
+    "definitionId": "dev-p",
+    "name": "Loading Text",
+    "description": "Loading audit logs message",
+    "filePath": "src/components/audit/AuditLogLoadingState.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/audit/AuditLogLoadingState.tsx",
+    "category": "ui",
+    "semanticTags": ["text", "loading", "message"]
+  },
+  {
+    "id": "audit-log-header",
+    "definitionId": "dev-container",
+    "name": "Audit Log Header",
+    "description": "Audit logs page header",
+    "filePath": "src/components/audit/AuditLogHeader.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/audit/AuditLogHeader.tsx",
+    "category": "component",
+    "semanticTags": ["header", "audit", "navigation"]
+  },
+  {
+    "id": "header-wrapper",
+    "definitionId": "dev-div",
+    "name": "Header Wrapper",
+    "description": "Header content wrapper",
+    "filePath": "src/components/audit/AuditLogHeader.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/audit/AuditLogHeader.tsx",
+    "category": "layout",
+    "semanticTags": ["wrapper", "header", "layout"]
+  },
+  {
+    "id": "header-text",
+    "definitionId": "dev-div",
+    "name": "Header Text",
+    "description": "Header text content",
+    "filePath": "src/components/audit/AuditLogHeader.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/audit/AuditLogHeader.tsx",
+    "category": "layout",
+    "semanticTags": ["text", "header", "content"]
+  },
+  {
+    "id": "header-title",
+    "definitionId": "dev-h1",
+    "name": "Header Title",
+    "description": "Activity Log title",
+    "filePath": "src/components/audit/AuditLogHeader.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/audit/AuditLogHeader.tsx",
+    "category": "ui",
+    "semanticTags": ["title", "heading", "h1"]
+  },
+  {
+    "id": "header-description",
+    "definitionId": "dev-p",
+    "name": "Header Description",
+    "description": "Review your account activity",
+    "filePath": "src/components/audit/AuditLogHeader.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/audit/AuditLogHeader.tsx",
+    "category": "ui",
+    "semanticTags": ["description", "subtitle", "text"]
+  },
+  {
+    "id": "back-button",
+    "definitionId": "dev-button",
+    "name": "Back Button",
+    "description": "Navigate back to dashboard",
+    "filePath": "src/components/audit/AuditLogHeader.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/audit/AuditLogHeader.tsx",
+    "category": "interactive",
+    "semanticTags": ["button", "back", "navigation"]
+  },
+  {
+    "id": "audit-log-error-alert",
+    "definitionId": "dev-container",
+    "name": "Audit Log Error Alert",
+    "description": "Error state component",
+    "filePath": "src/components/audit/AuditLogErrorAlert.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/audit/AuditLogErrorAlert.tsx",
+    "category": "component",
+    "semanticTags": ["error", "alert", "audit"]
+  },
+  {
+    "id": "error-alert",
+    "definitionId": "dev-alert",
+    "name": "Error Alert",
+    "description": "Error alert container",
+    "filePath": "src/components/audit/AuditLogErrorAlert.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/audit/AuditLogErrorAlert.tsx",
+    "category": "ui",
+    "semanticTags": ["alert", "error", "message"]
+  },
+  {
+    "id": "error-text",
+    "definitionId": "dev-alert-description",
+    "name": "Error Text",
+    "description": "Error message display",
+    "filePath": "src/components/audit/AuditLogErrorAlert.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/audit/AuditLogErrorAlert.tsx",
+    "category": "ui",
+    "semanticTags": ["text", "error", "description"]
+  },
+  {
+    "id": "filters-card",
+    "definitionId": "dev-card",
+    "name": "Filters Card",
+    "description": "Audit log filters container",
+    "filePath": "src/components/audit/AuditLogFilters.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/audit/AuditLogFilters.tsx",
+    "category": "ui",
+    "semanticTags": ["card", "filters", "container"]
+  },
+  {
+    "id": "audit-logs-list",
+    "definitionId": "dev-container",
+    "name": "Audit Logs List",
+    "description": "Container for audit log entries",
+    "filePath": "src/components/audit/AuditLogsList.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/audit/AuditLogsList.tsx",
+    "category": "component",
+    "semanticTags": ["list", "audit", "logs", "container"]
+  },
+  {
+    "id": "logs-list-wrapper",
+    "definitionId": "dev-div",
+    "name": "Logs List Wrapper",
+    "description": "Wrapper for log entries",
+    "filePath": "src/components/audit/AuditLogsList.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/audit/AuditLogsList.tsx",
+    "category": "layout",
+    "semanticTags": ["wrapper", "list", "logs"]
+  },
+  {
+    "id": "log-card-dynamic",
+    "definitionId": "dev-card",
+    "name": "Log Card Dynamic",
+    "description": "Individual audit log entry card",
+    "filePath": "src/components/audit/AuditLogCard.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/audit/AuditLogCard.tsx",
+    "category": "ui",
+    "semanticTags": ["card", "log", "entry", "dynamic"]
+  },
+  {
+    "id": "status-badge-dynamic",
+    "definitionId": "dev-badge",
+    "name": "Status Badge Dynamic",
+    "description": "Log entry status badge",
+    "filePath": "src/components/audit/AuditLogCard.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/audit/AuditLogCard.tsx",
+    "category": "ui",
+    "semanticTags": ["badge", "status", "dynamic"]
+  },
+  {
+    "id": "audit-logs-empty-state",
+    "definitionId": "dev-container",
+    "name": "Audit Logs Empty State",
+    "description": "Empty state when no logs found",
+    "filePath": "src/components/audit/AuditLogsEmptyState.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/audit/AuditLogsEmptyState.tsx",
+    "category": "component",
+    "semanticTags": ["empty", "state", "audit", "logs"]
+  },
+  {
+    "id": "no-logs-card",
+    "definitionId": "dev-card",
+    "name": "No Logs Card",
+    "description": "Card for empty state message",
+    "filePath": "src/components/audit/AuditLogsEmptyState.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/audit/AuditLogsEmptyState.tsx",
+    "category": "ui",
+    "semanticTags": ["card", "empty", "message"]
+  },
+  {
+    "id": "empty-state-content",
+    "definitionId": "dev-div",
+    "name": "Empty State Content",
+    "description": "Empty state content wrapper",
+    "filePath": "src/components/audit/AuditLogsEmptyState.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/audit/AuditLogsEmptyState.tsx",
+    "category": "layout",
+    "semanticTags": ["content", "empty", "wrapper"]
+  },
+  {
+    "id": "empty-state-icon",
+    "definitionId": "dev-div",
+    "name": "Empty State Icon",
+    "description": "Icon for empty state",
+    "filePath": "src/components/audit/AuditLogsEmptyState.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/audit/AuditLogsEmptyState.tsx",
+    "category": "ui",
+    "semanticTags": ["icon", "empty", "visual"]
+  },
+  {
+    "id": "empty-state-title",
+    "definitionId": "dev-p",
+    "name": "Empty State Title",
+    "description": "No activities found title",
+    "filePath": "src/components/audit/AuditLogsEmptyState.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/audit/AuditLogsEmptyState.tsx",
+    "category": "ui",
+    "semanticTags": ["title", "empty", "text"]
+  },
+  {
+    "id": "empty-state-description",
+    "definitionId": "dev-p",
+    "name": "Empty State Description",
+    "description": "Empty state description text",
+    "filePath": "src/components/audit/AuditLogsEmptyState.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/audit/AuditLogsEmptyState.tsx",
+    "category": "ui",
+    "semanticTags": ["description", "empty", "text"]
+  },
+  {
+    "id": "pagination-card",
+    "definitionId": "dev-card",
+    "name": "Pagination Card",
+    "description": "Pagination controls container",
+    "filePath": "src/components/audit/AuditLogPagination.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/audit/AuditLogPagination.tsx",
+    "category": "ui",
+    "semanticTags": ["card", "pagination", "controls"]
+  },
+  {
+    "id": "prev-page-button",
+    "definitionId": "dev-button",
+    "name": "Previous Page Button",
+    "description": "Navigate to previous page",
+    "filePath": "src/components/audit/AuditLogPagination.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/audit/AuditLogPagination.tsx",
+    "category": "interactive",
+    "semanticTags": ["button", "previous", "pagination"]
+  },
+  {
+    "id": "next-page-button",
+    "definitionId": "dev-button",
+    "name": "Next Page Button",
+    "description": "Navigate to next page",
+    "filePath": "src/components/audit/AuditLogPagination.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/audit/AuditLogPagination.tsx",
+    "category": "interactive",
+    "semanticTags": ["button", "next", "pagination"]
+  }
+]

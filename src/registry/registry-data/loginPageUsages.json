@@ -1,0 +1,342 @@
+[
+  {
+    "id": "login-page",
+    "definitionId": "dev-container",
+    "name": "Login Page",
+    "description": "User login page container",
+    "filePath": "src/pages/Login.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/pages/Login.tsx",
+    "category": "page",
+    "semanticTags": ["login", "page", "auth", "container"]
+  },
+  {
+    "id": "login-page-wrapper",
+    "definitionId": "dev-div",
+    "name": "Login Page Wrapper",
+    "description": "Full screen centered login wrapper",
+    "filePath": "src/pages/Login.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/pages/Login.tsx",
+    "category": "layout",
+    "semanticTags": ["wrapper", "layout", "centered", "fullscreen"]
+  },
+  {
+    "id": "login-content-wrapper",
+    "definitionId": "dev-div",
+    "name": "Login Content Wrapper",
+    "description": "Wrapper for logo and login card",
+    "filePath": "src/pages/Login.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/pages/Login.tsx",
+    "category": "layout",
+    "semanticTags": ["wrapper", "content", "logo", "card"]
+  },
+  {
+    "id": "login-card",
+    "definitionId": "dev-card",
+    "name": "Login Card",
+    "description": "Main login form card container",
+    "filePath": "src/pages/Login.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/pages/Login.tsx",
+    "category": "ui",
+    "semanticTags": ["card", "login", "form", "container"]
+  },
+  {
+    "id": "login-card-header",
+    "definitionId": "dev-card-header",
+    "name": "Login Card Header",
+    "description": "Header section of login card",
+    "filePath": "src/pages/Login.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/pages/Login.tsx",
+    "category": "ui",
+    "semanticTags": ["card", "header", "login"]
+  },
+  {
+    "id": "login-card-content",
+    "definitionId": "dev-card-content",
+    "name": "Login Card Content",
+    "description": "Main content area of login card",
+    "filePath": "src/pages/Login.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/pages/Login.tsx",
+    "category": "ui",
+    "semanticTags": ["card", "content", "login", "form"]
+  },
+  {
+    "id": "login-header",
+    "definitionId": "dev-container",
+    "name": "Login Header",
+    "description": "Login page header with logo and title",
+    "filePath": "src/components/auth/login/LoginHeader.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/auth/login/LoginHeader.tsx",
+    "category": "component",
+    "semanticTags": ["header", "login", "branding"]
+  },
+  {
+    "id": "login-header-title",
+    "definitionId": "dev-card-title",
+    "name": "Login Header Title",
+    "description": "Sign in to your account title",
+    "filePath": "src/components/auth/login/LoginHeader.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/auth/login/LoginHeader.tsx",
+    "category": "ui",
+    "semanticTags": ["title", "heading", "login"]
+  },
+  {
+    "id": "login-header-description",
+    "definitionId": "dev-card-description",
+    "name": "Login Header Description",
+    "description": "Enter your credentials to access your account",
+    "filePath": "src/components/auth/login/LoginHeader.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/auth/login/LoginHeader.tsx",
+    "category": "ui",
+    "semanticTags": ["description", "subtitle", "login"]
+  },
+  {
+    "id": "social-login-buttons",
+    "definitionId": "dev-container",
+    "name": "Social Login Buttons",
+    "description": "OAuth provider login buttons",
+    "filePath": "src/components/auth/login/LoginSocialButtons.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/auth/login/LoginSocialButtons.tsx",
+    "category": "component",
+    "semanticTags": ["social", "oauth", "login", "buttons"]
+  },
+  {
+    "id": "social-login-grid",
+    "definitionId": "dev-div",
+    "name": "Social Login Grid",
+    "description": "Grid layout for social login buttons",
+    "filePath": "src/components/auth/login/LoginSocialButtons.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/auth/login/LoginSocialButtons.tsx",
+    "category": "layout",
+    "semanticTags": ["grid", "social", "layout"]
+  },
+  {
+    "id": "google-login-button",
+    "definitionId": "dev-button",
+    "name": "Google Login Button",
+    "description": "Sign in with Google OAuth",
+    "filePath": "src/components/auth/login/LoginSocialButtons.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/auth/login/LoginSocialButtons.tsx",
+    "category": "interactive",
+    "semanticTags": ["button", "google", "oauth", "login"]
+  },
+  {
+    "id": "github-login-button",
+    "definitionId": "dev-button",
+    "name": "GitHub Login Button",
+    "description": "Sign in with GitHub OAuth",
+    "filePath": "src/components/auth/login/LoginSocialButtons.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/auth/login/LoginSocialButtons.tsx",
+    "category": "interactive",
+    "semanticTags": ["button", "github", "oauth", "login"]
+  },
+  {
+    "id": "login-divider",
+    "definitionId": "dev-container",
+    "name": "Login Divider",
+    "description": "Divider between social and email login",
+    "filePath": "src/components/auth/login/LoginDivider.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/auth/login/LoginDivider.tsx",
+    "category": "component",
+    "semanticTags": ["divider", "separator", "login"]
+  },
+  {
+    "id": "login-divider-wrapper",
+    "definitionId": "dev-div",
+    "name": "Login Divider Wrapper",
+    "description": "Wrapper for divider element",
+    "filePath": "src/components/auth/login/LoginDivider.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/auth/login/LoginDivider.tsx",
+    "category": "layout",
+    "semanticTags": ["wrapper", "divider", "layout"]
+  },
+  {
+    "id": "login-divider-line",
+    "definitionId": "dev-div",
+    "name": "Login Divider Line",
+    "description": "Horizontal divider line",
+    "filePath": "src/components/auth/login/LoginDivider.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/auth/login/LoginDivider.tsx",
+    "category": "ui",
+    "semanticTags": ["divider", "line", "separator"]
+  },
+  {
+    "id": "divider-border",
+    "definitionId": "dev-span",
+    "name": "Divider Border",
+    "description": "Border element for divider",
+    "filePath": "src/components/auth/login/LoginDivider.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/auth/login/LoginDivider.tsx",
+    "category": "ui",
+    "semanticTags": ["border", "divider", "visual"]
+  },
+  {
+    "id": "login-divider-text-wrapper",
+    "definitionId": "dev-div",
+    "name": "Login Divider Text Wrapper",
+    "description": "Wrapper for divider text",
+    "filePath": "src/components/auth/login/LoginDivider.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/auth/login/LoginDivider.tsx",
+    "category": "layout",
+    "semanticTags": ["wrapper", "text", "divider"]
+  },
+  {
+    "id": "divider-text",
+    "definitionId": "dev-span",
+    "name": "Divider Text",
+    "description": "Or continue with text",
+    "filePath": "src/components/auth/login/LoginDivider.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/auth/login/LoginDivider.tsx",
+    "category": "ui",
+    "semanticTags": ["text", "divider", "label"]
+  },
+  {
+    "id": "login-form",
+    "definitionId": "dev-container",
+    "name": "Login Form",
+    "description": "Email and password login form",
+    "filePath": "src/components/auth/login/LoginForm.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/auth/login/LoginForm.tsx",
+    "category": "component",
+    "semanticTags": ["form", "login", "auth", "email"]
+  },
+  {
+    "id": "email-field-wrapper",
+    "definitionId": "dev-div",
+    "name": "Email Field Wrapper",
+    "description": "Wrapper for email input field",
+    "filePath": "src/components/auth/login/LoginForm.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/auth/login/LoginForm.tsx",
+    "category": "layout",
+    "semanticTags": ["wrapper", "field", "email", "input"]
+  },
+  {
+    "id": "email-label",
+    "definitionId": "dev-label",
+    "name": "Email Label",
+    "description": "Label for email input",
+    "filePath": "src/components/auth/login/LoginForm.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/auth/login/LoginForm.tsx",
+    "category": "ui",
+    "semanticTags": ["label", "email", "form"]
+  },
+  {
+    "id": "email-input",
+    "definitionId": "dev-input",
+    "name": "Email Input",
+    "description": "Email address input field",
+    "filePath": "src/components/auth/login/LoginForm.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/auth/login/LoginForm.tsx",
+    "category": "interactive",
+    "semanticTags": ["input", "email", "form", "field"]
+  },
+  {
+    "id": "password-field-wrapper",
+    "definitionId": "dev-div",
+    "name": "Password Field Wrapper",
+    "description": "Wrapper for password input field",
+    "filePath": "src/components/auth/login/LoginForm.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/auth/login/LoginForm.tsx",
+    "category": "layout",
+    "semanticTags": ["wrapper", "field", "password", "input"]
+  },
+  {
+    "id": "password-label-row",
+    "definitionId": "dev-div",
+    "name": "Password Label Row",
+    "description": "Row containing password label and forgot link",
+    "filePath": "src/components/auth/login/LoginForm.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/auth/login/LoginForm.tsx",
+    "category": "layout",
+    "semanticTags": ["row", "label", "password", "layout"]
+  },
+  {
+    "id": "password-label",
+    "definitionId": "dev-label",
+    "name": "Password Label",
+    "description": "Label for password input",
+    "filePath": "src/components/auth/login/LoginForm.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/auth/login/LoginForm.tsx",
+    "category": "ui",
+    "semanticTags": ["label", "password", "form"]
+  },
+  {
+    "id": "password-input",
+    "definitionId": "dev-input",
+    "name": "Password Input",
+    "description": "Password input field",
+    "filePath": "src/components/auth/login/LoginForm.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/auth/login/LoginForm.tsx",
+    "category": "interactive",
+    "semanticTags": ["input", "password", "form", "field"]
+  },
+  {
+    "id": "login-submit-button",
+    "definitionId": "dev-button",
+    "name": "Login Submit Button",
+    "description": "Sign in form submit button",
+    "filePath": "src/components/auth/login/LoginForm.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/auth/login/LoginForm.tsx",
+    "category": "interactive",
+    "semanticTags": ["button", "submit", "login", "form"]
+  },
+  {
+    "id": "login-footer",
+    "definitionId": "dev-container",
+    "name": "Login Footer",
+    "description": "Footer with registration link",
+    "filePath": "src/components/auth/login/LoginFooter.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/auth/login/LoginFooter.tsx",
+    "category": "component",
+    "semanticTags": ["footer", "login", "links"]
+  },
+  {
+    "id": "login-footer-text",
+    "definitionId": "dev-div",
+    "name": "Login Footer Text",
+    "description": "Footer text container",
+    "filePath": "src/components/auth/login/LoginFooter.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/auth/login/LoginFooter.tsx",
+    "category": "ui",
+    "semanticTags": ["text", "footer", "container"]
+  },
+  {
+    "id": "login-footer-prefix",
+    "definitionId": "dev-span",
+    "name": "Login Footer Prefix",
+    "description": "Don't have an account text",
+    "filePath": "src/components/auth/login/LoginFooter.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/auth/login/LoginFooter.tsx",
+    "category": "ui",
+    "semanticTags": ["text", "footer", "prefix"]
+  },
+  {
+    "id": "login-error",
+    "definitionId": "dev-container",
+    "name": "Login Error",
+    "description": "Error message display component",
+    "filePath": "src/components/auth/login/LoginError.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/auth/login/LoginError.tsx",
+    "category": "component",
+    "semanticTags": ["error", "alert", "login", "message"]
+  },
+  {
+    "id": "login-error-alert",
+    "definitionId": "dev-alert",
+    "name": "Login Error Alert",
+    "description": "Alert component for login errors",
+    "filePath": "src/components/auth/login/LoginError.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/auth/login/LoginError.tsx",
+    "category": "ui",
+    "semanticTags": ["alert", "error", "message", "warning"]
+  },
+  {
+    "id": "login-error-description",
+    "definitionId": "dev-alert-description",
+    "name": "Login Error Description",
+    "description": "Error message text display",
+    "filePath": "src/components/auth/login/LoginError.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/auth/login/LoginError.tsx",
+    "category": "ui",
+    "semanticTags": ["description", "error", "text", "alert"]
+  }
+]

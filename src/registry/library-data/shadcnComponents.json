@@ -1,0 +1,2088 @@
+[
+  {
+    "id": "dev-accordion",
+    "name": "Dev Accordion",
+    "description": "Development-aware accordion component",
+    "componentPath": "src/lib/dev-container/shadcn/Accordion.tsx",
+    "category": "ui",
+    "semanticTags": ["accordion", "collapsible", "ui", "shadcn"],
+    "dependencies": ["shadcn-accordion"]
+  },
+  {
+    "id": "dev-alert",
+    "name": "Dev Alert",
+    "description": "Development-aware alert component",
+    "componentPath": "src/lib/dev-container/shadcn/Alert.tsx",
+    "category": "feedback",
+    "semanticTags": ["alert", "notification", "ui", "shadcn"],
+    "dependencies": ["shadcn-alert"]
+  },
+  {
+    "id": "dev-alert-dialog",
+    "name": "Dev Alert Dialog",
+    "description": "Development-aware alert dialog component",
+    "componentPath": "src/lib/dev-container/shadcn/AlertDialog.tsx",
+    "category": "overlay",
+    "semanticTags": ["dialog", "alert", "modal", "ui", "shadcn"],
+    "dependencies": ["shadcn-alert-dialog"]
+  },
+  {
+    "id": "dev-aspect-ratio",
+    "name": "Dev Aspect Ratio",
+    "description": "Development-aware aspect ratio component",
+    "componentPath": "src/lib/dev-container/shadcn/AspectRatio.tsx",
+    "category": "layout",
+    "semanticTags": ["aspect-ratio", "layout", "ui", "shadcn"],
+    "dependencies": ["shadcn-aspect-ratio"]
+  },
+  {
+    "id": "dev-avatar",
+    "name": "Dev Avatar",
+    "description": "Development-aware avatar component",
+    "componentPath": "src/lib/dev-container/shadcn/Avatar.tsx",
+    "category": "data-display",
+    "semanticTags": ["avatar", "profile", "user", "ui", "shadcn"],
+    "dependencies": ["shadcn-avatar"]
+  },
+  {
+    "id": "dev-badge",
+    "name": "Dev Badge",
+    "description": "Development-aware badge component",
+    "componentPath": "src/lib/dev-container/shadcn/Badge.tsx",
+    "category": "data-display",
+    "semanticTags": ["badge", "label", "ui", "indicator", "shadcn"],
+    "dependencies": ["shadcn-badge"],
+    "props": {
+      "variant": ["default", "secondary", "destructive", "outline"]
+    }
+  },
+  {
+    "id": "dev-breadcrumb",
+    "name": "Dev Breadcrumb",
+    "description": "Development-aware breadcrumb component",
+    "componentPath": "src/lib/dev-container/shadcn/Breadcrumb.tsx",
+    "category": "navigation",
+    "semanticTags": ["breadcrumb", "navigation", "ui", "shadcn"],
+    "dependencies": ["shadcn-breadcrumb"]
+  },
+  {
+    "id": "dev-button",
+    "name": "Dev Button",
+    "description": "Development-aware interactive button component",
+    "componentPath": "src/lib/dev-container/shadcn/Button.tsx",
+    "category": "interactive",
+    "semanticTags": ["button", "interactive", "action", "ui", "shadcn"],
+    "dependencies": ["shadcn-button"],
+    "props": {
+      "variant": ["default", "destructive", "outline", "secondary", "ghost", "link"],
+      "size": ["default", "sm", "lg", "icon"]
+    }
+  },
+  {
+    "id": "dev-calendar",
+    "name": "Dev Calendar",
+    "description": "Development-aware calendar component",
+    "componentPath": "src/lib/dev-container/shadcn/Calendar.tsx",
+    "category": "form",
+    "semanticTags": ["calendar", "date", "picker", "ui", "shadcn"],
+    "dependencies": ["shadcn-calendar"]
+  },
+  {
+    "id": "dev-card",
+    "name": "Dev Card",
+    "description": "Development-aware card component",
+    "componentPath": "src/lib/dev-container/shadcn/Card.tsx",
+    "category": "layout",
+    "semanticTags": ["card", "container", "content", "ui", "shadcn"],
+    "dependencies": ["shadcn-card"]
+  },
+  {
+    "id": "dev-card-content",
+    "name": "Dev Card Content",
+    "description": "Development-aware card content component",
+    "componentPath": "src/lib/dev-container/shadcn/Card.tsx",
+    "category": "layout",
+    "semanticTags": ["card", "content", "ui", "shadcn"],
+    "dependencies": ["shadcn-card"]
+  },
+  {
+    "id": "dev-carousel",
+    "name": "Dev Carousel",
+    "description": "Development-aware carousel component",
+    "componentPath": "src/lib/dev-container/shadcn/Carousel.tsx",
+    "category": "data-display",
+    "semanticTags": ["carousel", "slider", "ui", "shadcn"],
+    "dependencies": ["shadcn-carousel"]
+  },
+  {
+    "id": "dev-chart",
+    "name": "Dev Chart",
+    "description": "Development-aware chart component",
+    "componentPath": "src/lib/dev-container/shadcn/Chart.tsx",
+    "category": "data-display",
+    "semanticTags": ["chart", "graph", "data", "ui", "shadcn"],
+    "dependencies": ["shadcn-chart"]
+  },
+  {
+    "id": "dev-checkbox",
+    "name": "Dev Checkbox",
+    "description": "Development-aware checkbox component",
+    "componentPath": "src/lib/dev-container/shadcn/Checkbox.tsx",
+    "category": "form",
+    "semanticTags": ["checkbox", "form", "input", "ui", "shadcn"],
+    "dependencies": ["shadcn-checkbox"]
+  },
+  {
+    "id": "dev-collapsible",
+    "name": "Dev Collapsible",
+    "description": "Development-aware collapsible component",
+    "componentPath": "src/lib/dev-container/shadcn/Collapsible.tsx",
+    "category": "ui",
+    "semanticTags": ["collapsible", "expandable", "ui", "shadcn"],
+    "dependencies": ["shadcn-collapsible"]
+  },
+  {
+    "id": "dev-command",
+    "name": "Dev Command",
+    "description": "Development-aware command component",
+    "componentPath": "src/lib/dev-container/shadcn/Command.tsx",
+    "category": "interactive",
+    "semanticTags": ["command", "search", "ui", "shadcn"],
+    "dependencies": ["shadcn-command"]
+  },
+  {
+    "id": "dev-context-menu",
+    "name": "Dev Context Menu",
+    "description": "Development-aware context menu component",
+    "componentPath": "src/lib/dev-container/shadcn/ContextMenu.tsx",
+    "category": "overlay",
+    "semanticTags": ["context-menu", "menu", "ui", "shadcn"],
+    "dependencies": ["shadcn-context-menu"]
+  },
+  {
+    "id": "dev-dialog",
+    "name": "Dev Dialog",
+    "description": "Development-aware dialog component",
+    "componentPath": "src/lib/dev-container/shadcn/Dialog.tsx",
+    "category": "overlay",
+    "semanticTags": ["dialog", "modal", "ui", "shadcn"],
+    "dependencies": ["shadcn-dialog"]
+  },
+  {
+    "id": "dev-drawer",
+    "name": "Dev Drawer",
+    "description": "Development-aware drawer component",
+    "componentPath": "src/lib/dev-container/shadcn/Drawer.tsx",
+    "category": "overlay",
+    "semanticTags": ["drawer", "sidebar", "ui", "shadcn"],
+    "dependencies": ["shadcn-drawer"]
+  },
+  {
+    "id": "dev-dropdown-menu",
+    "name": "Dev Dropdown Menu",
+    "description": "Development-aware dropdown menu component",
+    "componentPath": "src/lib/dev-container/shadcn/DropdownMenu.tsx",
+    "category": "overlay",
+    "semanticTags": ["dropdown", "menu", "ui", "shadcn"],
+    "dependencies": ["shadcn-dropdown-menu"]
+  },
+  {
+    "id": "dev-form",
+    "name": "Dev Form",
+    "description": "Development-aware form component",
+    "componentPath": "src/lib/dev-container/shadcn/Form.tsx",
+    "category": "form",
+    "semanticTags": ["form", "input", "ui", "shadcn"],
+    "dependencies": ["shadcn-form"]
+  },
+  {
+    "id": "dev-hover-card",
+    "name": "Dev Hover Card",
+    "description": "Development-aware hover card component",
+    "componentPath": "src/lib/dev-container/shadcn/HoverCard.tsx",
+    "category": "overlay",
+    "semanticTags": ["hover-card", "tooltip", "ui", "shadcn"],
+    "dependencies": ["shadcn-hover-card"]
+  },
+  {
+    "id": "dev-input",
+    "name": "Dev Input",
+    "description": "Development-aware input component",
+    "componentPath": "src/lib/dev-container/shadcn/Input.tsx",
+    "category": "form",
+    "semanticTags": ["input", "form", "ui", "shadcn"],
+    "dependencies": ["shadcn-input"]
+  },
+  {
+    "id": "dev-input-otp",
+    "name": "Dev Input OTP",
+    "description": "Development-aware OTP input component",
+    "componentPath": "src/lib/dev-container/shadcn/InputOTP.tsx",
+    "category": "form",
+    "semanticTags": ["input", "otp", "form", "ui", "shadcn"],
+    "dependencies": ["shadcn-input-otp"]
+  },
+  {
+    "id": "dev-label",
+    "name": "Dev Label",
+    "description": "Development-aware label component",
+    "componentPath": "src/lib/dev-container/shadcn/Label.tsx",
+    "category": "form",
+    "semanticTags": ["label", "form", "ui", "shadcn"],
+    "dependencies": ["shadcn-label"]
+  },
+  {
+    "id": "dev-menubar",
+    "name": "Dev Menubar",
+    "description": "Development-aware menubar component",
+    "componentPath": "src/lib/dev-container/shadcn/Menubar.tsx",
+    "category": "navigation",
+    "semanticTags": ["menubar", "menu", "navigation", "ui", "shadcn"],
+    "dependencies": ["shadcn-menubar"]
+  },
+  {
+    "id": "dev-navigation-menu",
+    "name": "Dev Navigation Menu",
+    "description": "Development-aware navigation menu component",
+    "componentPath": "src/lib/dev-container/shadcn/NavigationMenu.tsx",
+    "category": "navigation",
+    "semanticTags": ["navigation", "menu", "ui", "shadcn"],
+    "dependencies": ["shadcn-navigation-menu"]
+  },
+  {
+    "id": "dev-pagination",
+    "name": "Dev Pagination",
+    "description": "Development-aware pagination component",
+    "componentPath": "src/lib/dev-container/shadcn/Pagination.tsx",
+    "category": "navigation",
+    "semanticTags": ["pagination", "navigation", "ui", "shadcn"],
+    "dependencies": ["shadcn-pagination"]
+  },
+  {
+    "id": "dev-progress",
+    "name": "Dev Progress",
+    "description": "Development-aware progress component",
+    "componentPath": "src/lib/dev-container/shadcn/Progress.tsx",
+    "category": "feedback",
+    "semanticTags": ["progress", "loading", "ui", "shadcn"],
+    "dependencies": ["shadcn-progress"]
+  },
+  {
+    "id": "dev-radio-group",
+    "name": "Dev Radio Group",
+    "description": "Development-aware radio group component",
+    "componentPath": "src/lib/dev-container/shadcn/RadioGroup.tsx",
+    "category": "form",
+    "semanticTags": ["radio", "group", "form", "ui", "shadcn"],
+    "dependencies": ["shadcn-radio-group"]
+  },
+  {
+    "id": "dev-resizable",
+    "name": "Dev Resizable",
+    "description": "Development-aware resizable component",
+    "componentPath": "src/lib/dev-container/shadcn/Resizable.tsx",
+    "category": "layout",
+    "semanticTags": ["resizable", "layout", "ui", "shadcn"],
+    "dependencies": ["shadcn-resizable"]
+  },
+  {
+    "id": "dev-scroll-area",
+    "name": "Dev Scroll Area",
+    "description": "Development-aware scroll area component",
+    "componentPath": "src/lib/dev-container/shadcn/ScrollArea.tsx",
+    "category": "layout",
+    "semanticTags": ["scroll", "area", "layout", "ui", "shadcn"],
+    "dependencies": ["shadcn-scroll-area"]
+  },
+  {
+    "id": "dev-select",
+    "name": "Dev Select",
+    "description": "Development-aware select component",
+    "componentPath": "src/lib/dev-container/shadcn/Select.tsx",
+    "category": "form",
+    "semanticTags": ["select", "dropdown", "form", "ui", "shadcn"],
+    "dependencies": ["shadcn-select"]
+  },
+  {
+    "id": "dev-separator",
+    "name": "Dev Separator",
+    "description": "Development-aware separator component",
+    "componentPath": "src/lib/dev-container/shadcn/Separator.tsx",
+    "category": "layout",
+    "semanticTags": ["separator", "divider", "ui", "shadcn"],
+    "dependencies": ["shadcn-separator"]
+  },
+  {
+    "id": "dev-sheet",
+    "name": "Dev Sheet",
+    "description": "Development-aware sheet component",
+    "componentPath": "src/lib/dev-container/shadcn/Sheet.tsx",
+    "category": "overlay",
+    "semanticTags": ["sheet", "drawer", "overlay", "ui", "shadcn"],
+    "dependencies": ["shadcn-sheet"]
+  },
+  {
+    "id": "dev-skeleton",
+    "name": "Dev Skeleton",
+    "description": "Development-aware skeleton component",
+    "componentPath": "src/lib/dev-container/shadcn/Skeleton.tsx",
+    "category": "feedback",
+    "semanticTags": ["skeleton", "loading", "placeholder", "ui", "shadcn"],
+    "dependencies": ["shadcn-skeleton"]
+  },
+  {
+    "id": "dev-slider",
+    "name": "Dev Slider",
+    "description": "Development-aware slider component",
+    "componentPath": "src/lib/dev-container/shadcn/Slider.tsx",
+    "category": "form",
+    "semanticTags": ["slider", "range", "form", "ui", "shadcn"],
+    "dependencies": ["shadcn-slider"]
+  },
+  {
+    "id": "dev-sonner",
+    "name": "Dev Sonner",
+    "description": "Development-aware sonner toast component",
+    "componentPath": "src/lib/dev-container/shadcn/Sonner.tsx",
+    "category": "feedback",
+    "semanticTags": ["toast", "notification", "sonner", "ui", "shadcn"],
+    "dependencies": ["shadcn-sonner"]
+  },
+  {
+    "id": "dev-switch",
+    "name": "Dev Switch",
+    "description": "Development-aware switch component",
+    "componentPath": "src/lib/dev-container/shadcn/Switch.tsx",
+    "category": "form",
+    "semanticTags": ["switch", "toggle", "form", "ui", "shadcn"],
+    "dependencies": ["shadcn-switch"]
+  },
+  {
+    "id": "dev-table",
+    "name": "Dev Table",
+    "description": "Development-aware table component",
+    "componentPath": "src/lib/dev-container/shadcn/Table.tsx",
+    "category": "data-display",
+    "semanticTags": ["table", "data", "grid", "ui", "shadcn"],
+    "dependencies": ["shadcn-table"]
+  },
+  {
+    "id": "dev-tabs",
+    "name": "Dev Tabs",
+    "description": "Development-aware tabs component",
+    "componentPath": "src/lib/dev-container/shadcn/Tabs.tsx",
+    "category": "navigation",
+    "semanticTags": ["tabs", "navigation", "ui", "shadcn"],
+    "dependencies": ["shadcn-tabs"]
+  },
+  {
+    "id": "dev-textarea",
+    "name": "Dev Textarea",
+    "description": "Development-aware textarea component",
+    "componentPath": "src/lib/dev-container/shadcn/Textarea.tsx",
+    "category": "form",
+    "semanticTags": ["textarea", "input", "form", "ui", "shadcn"],
+    "dependencies": ["shadcn-textarea"]
+  },
+  {
+    "id": "dev-toggle",
+    "name": "Dev Toggle",
+    "description": "Development-aware toggle component",
+    "componentPath": "src/lib/dev-container/shadcn/Toggle.tsx",
+    "category": "form",
+    "semanticTags": ["toggle", "button", "ui", "shadcn"],
+    "dependencies": ["shadcn-toggle"]
+  },
+  {
+    "id": "dev-toggle-group",
+    "name": "Dev Toggle Group",
+    "description": "Development-aware toggle group component",
+    "componentPath": "src/lib/dev-container/shadcn/ToggleGroup.tsx",
+    "category": "form",
+    "semanticTags": ["toggle", "group", "ui", "shadcn"],
+    "dependencies": ["shadcn-toggle-group"]
+  },
+  {
+    "id": "dev-tooltip",
+    "name": "Dev Tooltip",
+    "description": "Development-aware tooltip component",
+    "componentPath": "src/lib/dev-container/shadcn/Tooltip.tsx",
+    "category": "overlay",
+    "semanticTags": ["tooltip", "hover", "ui", "shadcn"],
+    "dependencies": ["shadcn-tooltip"]
+  },
+  {
+    "id": "dev-popover",
+    "name": "Dev Popover",
+    "description": "Development-aware popover component",
+    "componentPath": "src/lib/dev-container/shadcn/Popover.tsx",
+    "category": "overlay",
+    "semanticTags": ["popover", "overlay", "ui", "shadcn"],
+    "dependencies": ["shadcn-popover"]
+  },
+  {
+    "id": "dev-sidebar",
+    "name": "Dev Sidebar",
+    "description": "Development-aware sidebar component",
+    "componentPath": "src/lib/dev-container/shadcn/Sidebar.tsx",
+    "category": "layout",
+    "semanticTags": ["sidebar", "navigation", "ui", "shadcn"],
+    "dependencies": ["shadcn-sidebar"]
+  },
+  {
+    "id": "dev-alert-title",
+    "name": "Dev Alert Title",
+    "description": "Development-aware alert title component",
+    "componentPath": "src/lib/dev-container/shadcn/Alert.tsx",
+    "category": "feedback",
+    "semanticTags": ["alert", "title", "ui", "shadcn"],
+    "dependencies": ["shadcn-alert"]
+  },
+  {
+    "id": "dev-alert-description",
+    "name": "Dev Alert Description",
+    "description": "Development-aware alert description component",
+    "componentPath": "src/lib/dev-container/shadcn/Alert.tsx",
+    "category": "feedback",
+    "semanticTags": ["alert", "description", "ui", "shadcn"],
+    "dependencies": ["shadcn-alert"]
+  },
+  {
+    "id": "dev-alert-dialog-portal",
+    "name": "Dev Alert Dialog Portal",
+    "description": "Development-aware alert dialog portal component",
+    "componentPath": "src/lib/dev-container/shadcn/AlertDialog.tsx",
+    "category": "overlay",
+    "semanticTags": ["alert-dialog", "portal", "ui", "shadcn"],
+    "dependencies": ["shadcn-alert-dialog"]
+  },
+  {
+    "id": "dev-alert-dialog-overlay",
+    "name": "Dev Alert Dialog Overlay",
+    "description": "Development-aware alert dialog overlay component",
+    "componentPath": "src/lib/dev-container/shadcn/AlertDialog.tsx",
+    "category": "overlay",
+    "semanticTags": ["alert-dialog", "overlay", "ui", "shadcn"],
+    "dependencies": ["shadcn-alert-dialog"]
+  },
+  {
+    "id": "dev-alert-dialog-content",
+    "name": "Dev Alert Dialog Content",
+    "description": "Development-aware alert dialog content component",
+    "componentPath": "src/lib/dev-container/shadcn/AlertDialog.tsx",
+    "category": "overlay",
+    "semanticTags": ["alert-dialog", "content", "ui", "shadcn"],
+    "dependencies": ["shadcn-alert-dialog"]
+  },
+  {
+    "id": "dev-alert-dialog-header",
+    "name": "Dev Alert Dialog Header",
+    "description": "Development-aware alert dialog header component",
+    "componentPath": "src/lib/dev-container/shadcn/AlertDialog.tsx",
+    "category": "overlay",
+    "semanticTags": ["alert-dialog", "header", "ui", "shadcn"],
+    "dependencies": ["shadcn-alert-dialog"]
+  },
+  {
+    "id": "dev-alert-dialog-footer",
+    "name": "Dev Alert Dialog Footer",
+    "description": "Development-aware alert dialog footer component",
+    "componentPath": "src/lib/dev-container/shadcn/AlertDialog.tsx",
+    "category": "overlay",
+    "semanticTags": ["alert-dialog", "footer", "ui", "shadcn"],
+    "dependencies": ["shadcn-alert-dialog"]
+  },
+  {
+    "id": "dev-alert-dialog-title",
+    "name": "Dev Alert Dialog Title",
+    "description": "Development-aware alert dialog title component",
+    "componentPath": "src/lib/dev-container/shadcn/AlertDialog.tsx",
+    "category": "overlay",
+    "semanticTags": ["alert-dialog", "title", "ui", "shadcn"],
+    "dependencies": ["shadcn-alert-dialog"]
+  },
+  {
+    "id": "dev-alert-dialog-description",
+    "name": "Dev Alert Dialog Description",
+    "description": "Development-aware alert dialog description component",
+    "componentPath": "src/lib/dev-container/shadcn/AlertDialog.tsx",
+    "category": "overlay",
+    "semanticTags": ["alert-dialog", "description", "ui", "shadcn"],
+    "dependencies": ["shadcn-alert-dialog"]
+  },
+  {
+    "id": "dev-alert-dialog-action",
+    "name": "Dev Alert Dialog Action",
+    "description": "Development-aware alert dialog action component",
+    "componentPath": "src/lib/dev-container/shadcn/AlertDialog.tsx",
+    "category": "overlay",
+    "semanticTags": ["alert-dialog", "action", "ui", "shadcn"],
+    "dependencies": ["shadcn-alert-dialog"]
+  },
+  {
+    "id": "dev-alert-dialog-cancel",
+    "name": "Dev Alert Dialog Cancel",
+    "description": "Development-aware alert dialog cancel component",
+    "componentPath": "src/lib/dev-container/shadcn/AlertDialog.tsx",
+    "category": "overlay",
+    "semanticTags": ["alert-dialog", "cancel", "ui", "shadcn"],
+    "dependencies": ["shadcn-alert-dialog"]
+  },
+  {
+    "id": "dev-table-header",
+    "name": "Dev Table Header",
+    "description": "Development-aware table header component",
+    "componentPath": "src/lib/dev-container/shadcn/Table.tsx",
+    "category": "data-display",
+    "semanticTags": ["table", "header", "ui", "shadcn"],
+    "dependencies": ["shadcn-table"]
+  },
+  {
+    "id": "dev-table-body",
+    "name": "Dev Table Body",
+    "description": "Development-aware table body component",
+    "componentPath": "src/lib/dev-container/shadcn/Table.tsx",
+    "category": "data-display",
+    "semanticTags": ["table", "body", "ui", "shadcn"],
+    "dependencies": ["shadcn-table"]
+  },
+  {
+    "id": "dev-table-footer",
+    "name": "Dev Table Footer",
+    "description": "Development-aware table footer component",
+    "componentPath": "src/lib/dev-container/shadcn/Table.tsx",
+    "category": "data-display",
+    "semanticTags": ["table", "footer", "ui", "shadcn"],
+    "dependencies": ["shadcn-table"]
+  },
+  {
+    "id": "dev-table-row",
+    "name": "Dev Table Row",
+    "description": "Development-aware table row component",
+    "componentPath": "src/lib/dev-container/shadcn/Table.tsx",
+    "category": "data-display",
+    "semanticTags": ["table", "row", "ui", "shadcn"],
+    "dependencies": ["shadcn-table"]
+  },
+  {
+    "id": "dev-table-head",
+    "name": "Dev Table Head",
+    "description": "Development-aware table head component",
+    "componentPath": "src/lib/dev-container/shadcn/Table.tsx",
+    "category": "data-display",
+    "semanticTags": ["table", "head", "ui", "shadcn"],
+    "dependencies": ["shadcn-table"]
+  },
+  {
+    "id": "dev-table-cell",
+    "name": "Dev Table Cell",
+    "description": "Development-aware table cell component",
+    "componentPath": "src/lib/dev-container/shadcn/Table.tsx",
+    "category": "data-display",
+    "semanticTags": ["table", "cell", "ui", "shadcn"],
+    "dependencies": ["shadcn-table"]
+  },
+  {
+    "id": "dev-table-caption",
+    "name": "Dev Table Caption",
+    "description": "Development-aware table caption component",
+    "componentPath": "src/lib/dev-container/shadcn/Table.tsx",
+    "category": "data-display",
+    "semanticTags": ["table", "caption", "ui", "shadcn"],
+    "dependencies": ["shadcn-table"]
+  },
+  {
+    "id": "dev-tabs-list",
+    "name": "Dev Tabs List",
+    "description": "Development-aware tabs list component",
+    "componentPath": "src/lib/dev-container/shadcn/Tabs.tsx",
+    "category": "navigation",
+    "semanticTags": ["tabs", "list", "ui", "shadcn"],
+    "dependencies": ["shadcn-tabs"]
+  },
+  {
+    "id": "dev-tabs-trigger",
+    "name": "Dev Tabs Trigger",
+    "description": "Development-aware tabs trigger component",
+    "componentPath": "src/lib/dev-container/shadcn/Tabs.tsx",
+    "category": "navigation",
+    "semanticTags": ["tabs", "trigger", "ui", "shadcn"],
+    "dependencies": ["shadcn-tabs"]
+  },
+  {
+    "id": "dev-tabs-content",
+    "name": "Dev Tabs Content",
+    "description": "Development-aware tabs content component",
+    "componentPath": "src/lib/dev-container/shadcn/Tabs.tsx",
+    "category": "navigation",
+    "semanticTags": ["tabs", "content", "ui", "shadcn"],
+    "dependencies": ["shadcn-tabs"]
+  },
+  {
+    "id": "dev-toggle-group-item",
+    "name": "Dev Toggle Group Item",
+    "description": "Development-aware toggle group item component",
+    "componentPath": "src/lib/dev-container/shadcn/ToggleGroup.tsx",
+    "category": "form",
+    "semanticTags": ["toggle", "group", "item", "ui", "shadcn"],
+    "dependencies": ["shadcn-toggle-group"]
+  },
+  {
+    "id": "dev-tooltip-provider",
+    "name": "Dev Tooltip Provider",
+    "description": "Development-aware tooltip provider component",
+    "componentPath": "src/lib/dev-container/shadcn/Tooltip.tsx",
+    "category": "overlay",
+    "semanticTags": ["tooltip", "provider", "ui", "shadcn"],
+    "dependencies": ["shadcn-tooltip"]
+  },
+  {
+    "id": "dev-tooltip-trigger",
+    "name": "Dev Tooltip Trigger",
+    "description": "Development-aware tooltip trigger component",
+    "componentPath": "src/lib/dev-container/shadcn/Tooltip.tsx",
+    "category": "overlay",
+    "semanticTags": ["tooltip", "trigger", "ui", "shadcn"],
+    "dependencies": ["shadcn-tooltip"]
+  },
+  {
+    "id": "dev-tooltip-content",
+    "name": "Dev Tooltip Content",
+    "description": "Development-aware tooltip content component",
+    "componentPath": "src/lib/dev-container/shadcn/Tooltip.tsx",
+    "category": "overlay",
+    "semanticTags": ["tooltip", "content", "ui", "shadcn"],
+    "dependencies": ["shadcn-tooltip"]
+  },
+  {
+    "id": "dev-alert-dialog-trigger",
+    "name": "Dev Alert Dialog Trigger",
+    "description": "Development-aware alert dialog trigger component",
+    "componentPath": "src/lib/dev-container/shadcn/AlertDialog.tsx",
+    "category": "overlay",
+    "semanticTags": ["alert-dialog", "trigger", "ui", "shadcn"],
+    "dependencies": ["shadcn-alert-dialog"]
+  },
+  {
+    "id": "dev-avatar-image",
+    "name": "Dev Avatar Image",
+    "description": "Development-aware avatar image component",
+    "componentPath": "src/lib/dev-container/shadcn/Avatar.tsx",
+    "category": "data-display",
+    "semanticTags": ["avatar", "image", "ui", "shadcn"],
+    "dependencies": ["shadcn-avatar"]
+  },
+  {
+    "id": "dev-avatar-fallback",
+    "name": "Dev Avatar Fallback",
+    "description": "Development-aware avatar fallback component",
+    "componentPath": "src/lib/dev-container/shadcn/Avatar.tsx",
+    "category": "data-display",
+    "semanticTags": ["avatar", "fallback", "ui", "shadcn"],
+    "dependencies": ["shadcn-avatar"]
+  },
+  {
+    "id": "dev-breadcrumb-list",
+    "name": "Dev Breadcrumb List",
+    "description": "Development-aware breadcrumb list component",
+    "componentPath": "src/lib/dev-container/shadcn/Breadcrumb.tsx",
+    "category": "navigation",
+    "semanticTags": ["breadcrumb", "list", "ui", "shadcn"],
+    "dependencies": ["shadcn-breadcrumb"]
+  },
+  {
+    "id": "dev-breadcrumb-item",
+    "name": "Dev Breadcrumb Item",
+    "description": "Development-aware breadcrumb item component",
+    "componentPath": "src/lib/dev-container/shadcn/Breadcrumb.tsx",
+    "category": "navigation",
+    "semanticTags": ["breadcrumb", "item", "ui", "shadcn"],
+    "dependencies": ["shadcn-breadcrumb"]
+  },
+  {
+    "id": "dev-breadcrumb-link",
+    "name": "Dev Breadcrumb Link",
+    "description": "Development-aware breadcrumb link component",
+    "componentPath": "src/lib/dev-container/shadcn/Breadcrumb.tsx",
+    "category": "navigation",
+    "semanticTags": ["breadcrumb", "link", "ui", "shadcn"],
+    "dependencies": ["shadcn-breadcrumb"]
+  },
+  {
+    "id": "dev-breadcrumb-page",
+    "name": "Dev Breadcrumb Page",
+    "description": "Development-aware breadcrumb page component",
+    "componentPath": "src/lib/dev-container/shadcn/Breadcrumb.tsx",
+    "category": "navigation",
+    "semanticTags": ["breadcrumb", "page", "ui", "shadcn"],
+    "dependencies": ["shadcn-breadcrumb"]
+  },
+  {
+    "id": "dev-breadcrumb-separator",
+    "name": "Dev Breadcrumb Separator",
+    "description": "Development-aware breadcrumb separator component",
+    "componentPath": "src/lib/dev-container/shadcn/Breadcrumb.tsx",
+    "category": "navigation",
+    "semanticTags": ["breadcrumb", "separator", "ui", "shadcn"],
+    "dependencies": ["shadcn-breadcrumb"]
+  },
+  {
+    "id": "dev-breadcrumb-ellipsis",
+    "name": "Dev Breadcrumb Ellipsis",
+    "description": "Development-aware breadcrumb ellipsis component",
+    "componentPath": "src/lib/dev-container/shadcn/Breadcrumb.tsx",
+    "category": "navigation",
+    "semanticTags": ["breadcrumb", "ellipsis", "ui", "shadcn"],
+    "dependencies": ["shadcn-breadcrumb"]
+  },
+  {
+    "id": "dev-card-header",
+    "name": "Dev Card Header",
+    "description": "Development-aware card header component",
+    "componentPath": "src/lib/dev-container/shadcn/Card.tsx",
+    "category": "layout",
+    "semanticTags": ["card", "header", "ui", "shadcn"],
+    "dependencies": ["shadcn-card"]
+  },
+  {
+    "id": "dev-card-title",
+    "name": "Dev Card Title",
+    "description": "Development-aware card title component",
+    "componentPath": "src/lib/dev-container/shadcn/Card.tsx",
+    "category": "layout",
+    "semanticTags": ["card", "title", "ui", "shadcn"],
+    "dependencies": ["shadcn-card"]
+  },
+  {
+    "id": "dev-card-description",
+    "name": "Dev Card Description",
+    "description": "Development-aware card description component",
+    "componentPath": "src/lib/dev-container/shadcn/Card.tsx",
+    "category": "layout",
+    "semanticTags": ["card", "description", "ui", "shadcn"],
+    "dependencies": ["shadcn-card"]
+  },
+  {
+    "id": "dev-card-footer",
+    "name": "Dev Card Footer",
+    "description": "Development-aware card footer component",
+    "componentPath": "src/lib/dev-container/shadcn/Card.tsx",
+    "category": "layout",
+    "semanticTags": ["card", "footer", "ui", "shadcn"],
+    "dependencies": ["shadcn-card"]
+  },
+  {
+    "id": "dev-carousel-content",
+    "name": "Dev Carousel Content",
+    "description": "Development-aware carousel content component",
+    "componentPath": "src/lib/dev-container/shadcn/Carousel.tsx",
+    "category": "data-display",
+    "semanticTags": ["carousel", "content", "ui", "shadcn"],
+    "dependencies": ["shadcn-carousel"]
+  },
+  {
+    "id": "dev-carousel-item",
+    "name": "Dev Carousel Item",
+    "description": "Development-aware carousel item component",
+    "componentPath": "src/lib/dev-container/shadcn/Carousel.tsx",
+    "category": "data-display",
+    "semanticTags": ["carousel", "item", "ui", "shadcn"],
+    "dependencies": ["shadcn-carousel"]
+  },
+  {
+    "id": "dev-carousel-previous",
+    "name": "Dev Carousel Previous",
+    "description": "Development-aware carousel previous button component",
+    "componentPath": "src/lib/dev-container/shadcn/Carousel.tsx",
+    "category": "data-display",
+    "semanticTags": ["carousel", "previous", "ui", "shadcn"],
+    "dependencies": ["shadcn-carousel"]
+  },
+  {
+    "id": "dev-carousel-next",
+    "name": "Dev Carousel Next",
+    "description": "Development-aware carousel next button component",
+    "componentPath": "src/lib/dev-container/shadcn/Carousel.tsx",
+    "category": "data-display",
+    "semanticTags": ["carousel", "next", "ui", "shadcn"],
+    "dependencies": ["shadcn-carousel"]
+  },
+  {
+    "id": "dev-toaster",
+    "name": "Dev Toaster",
+    "description": "Development-aware toaster component",
+    "componentPath": "src/lib/dev-container/shadcn/Sonner.tsx",
+    "category": "feedback",
+    "semanticTags": ["toaster", "notification", "ui", "shadcn"],
+    "dependencies": ["shadcn-sonner"]
+  },
+  {
+    "id": "dev-sidebar-provider",
+    "name": "Dev Sidebar Provider",
+    "description": "Development-aware sidebar provider component",
+    "componentPath": "src/lib/dev-container/shadcn/Sidebar.tsx",
+    "category": "layout",
+    "semanticTags": ["sidebar", "provider", "ui", "shadcn"],
+    "dependencies": ["shadcn-sidebar"]
+  },
+  {
+    "id": "dev-sidebar-trigger",
+    "name": "Dev Sidebar Trigger",
+    "description": "Development-aware sidebar trigger component",
+    "componentPath": "src/lib/dev-container/shadcn/Sidebar.tsx",
+    "category": "layout",
+    "semanticTags": ["sidebar", "trigger", "ui", "shadcn"],
+    "dependencies": ["shadcn-sidebar"]
+  },
+  {
+    "id": "dev-sidebar-content",
+    "name": "Dev Sidebar Content",
+    "description": "Development-aware sidebar content component",
+    "componentPath": "src/lib/dev-container/shadcn/Sidebar.tsx",
+    "category": "layout",
+    "semanticTags": ["sidebar", "content", "ui", "shadcn"],
+    "dependencies": ["shadcn-sidebar"]
+  },
+  {
+    "id": "dev-sidebar-header",
+    "name": "Dev Sidebar Header",
+    "description": "Development-aware sidebar header component",
+    "componentPath": "src/lib/dev-container/shadcn/Sidebar.tsx",
+    "category": "layout",
+    "semanticTags": ["sidebar", "header", "ui", "shadcn"],
+    "dependencies": ["shadcn-sidebar"]
+  },
+  {
+    "id": "dev-sidebar-footer",
+    "name": "Dev Sidebar Footer",
+    "description": "Development-aware sidebar footer component",
+    "componentPath": "src/lib/dev-container/shadcn/Sidebar.tsx",
+    "category": "layout",
+    "semanticTags": ["sidebar", "footer", "ui", "shadcn"],
+    "dependencies": ["shadcn-sidebar"]
+  },
+  {
+    "id": "dev-sidebar-menu",
+    "name": "Dev Sidebar Menu",
+    "description": "Development-aware sidebar menu component",
+    "componentPath": "src/lib/dev-container/shadcn/Sidebar.tsx",
+    "category": "layout",
+    "semanticTags": ["sidebar", "menu", "ui", "shadcn"],
+    "dependencies": ["shadcn-sidebar"]
+  },
+  {
+    "id": "dev-sidebar-menu-item",
+    "name": "Dev Sidebar Menu Item",
+    "description": "Development-aware sidebar menu item component",
+    "componentPath": "src/lib/dev-container/shadcn/Sidebar.tsx",
+    "category": "layout",
+    "semanticTags": ["sidebar", "menu", "item", "ui", "shadcn"],
+    "dependencies": ["shadcn-sidebar"]
+  },
+  {
+    "id": "dev-sidebar-menu-button",
+    "name": "Dev Sidebar Menu Button",
+    "description": "Development-aware sidebar menu button component",
+    "componentPath": "src/lib/dev-container/shadcn/Sidebar.tsx",
+    "category": "layout",
+    "semanticTags": ["sidebar", "menu", "button", "ui", "shadcn"],
+    "dependencies": ["shadcn-sidebar"]
+  },
+  {
+    "id": "dev-accordion-item",
+    "name": "Dev Accordion Item",
+    "description": "Development-aware accordion item component",
+    "componentPath": "src/lib/dev-container/shadcn/Accordion.tsx",
+    "category": "ui",
+    "semanticTags": ["accordion", "item", "ui", "shadcn"],
+    "dependencies": ["shadcn-accordion"]
+  },
+  {
+    "id": "dev-accordion-trigger",
+    "name": "Dev Accordion Trigger",
+    "description": "Development-aware accordion trigger component",
+    "componentPath": "src/lib/dev-container/shadcn/Accordion.tsx",
+    "category": "ui",
+    "semanticTags": ["accordion", "trigger", "ui", "shadcn"],
+    "dependencies": ["shadcn-accordion"]
+  },
+  {
+    "id": "dev-accordion-content",
+    "name": "Dev Accordion Content",
+    "description": "Development-aware accordion content component",
+    "componentPath": "src/lib/dev-container/shadcn/Accordion.tsx",
+    "category": "ui",
+    "semanticTags": ["accordion", "content", "ui", "shadcn"],
+    "dependencies": ["shadcn-accordion"]
+  },
+  {
+    "id": "dev-chart-container",
+    "name": "Dev Chart Container",
+    "description": "Development-aware chart container component",
+    "componentPath": "src/lib/dev-container/shadcn/Chart.tsx",
+    "category": "data-display",
+    "semanticTags": ["chart", "container", "ui", "shadcn"],
+    "dependencies": ["shadcn-chart"]
+  },
+  {
+    "id": "dev-chart-tooltip",
+    "name": "Dev Chart Tooltip",
+    "description": "Development-aware chart tooltip component",
+    "componentPath": "src/lib/dev-container/shadcn/Chart.tsx",
+    "category": "data-display",
+    "semanticTags": ["chart", "tooltip", "ui", "shadcn"],
+    "dependencies": ["shadcn-chart"]
+  },
+  {
+    "id": "dev-chart-tooltip-content",
+    "name": "Dev Chart Tooltip Content",
+    "description": "Development-aware chart tooltip content component",
+    "componentPath": "src/lib/dev-container/shadcn/Chart.tsx",
+    "category": "data-display",
+    "semanticTags": ["chart", "tooltip", "content", "ui", "shadcn"],
+    "dependencies": ["shadcn-chart"]
+  },
+  {
+    "id": "dev-chart-legend",
+    "name": "Dev Chart Legend",
+    "description": "Development-aware chart legend component",
+    "componentPath": "src/lib/dev-container/shadcn/Chart.tsx",
+    "category": "data-display",
+    "semanticTags": ["chart", "legend", "ui", "shadcn"],
+    "dependencies": ["shadcn-chart"]
+  },
+  {
+    "id": "dev-chart-legend-content",
+    "name": "Dev Chart Legend Content",
+    "description": "Development-aware chart legend content component",
+    "componentPath": "src/lib/dev-container/shadcn/Chart.tsx",
+    "category": "data-display",
+    "semanticTags": ["chart", "legend", "content", "ui", "shadcn"],
+    "dependencies": ["shadcn-chart"]
+  },
+  {
+    "id": "dev-collapsible-trigger",
+    "name": "Dev Collapsible Trigger",
+    "description": "Development-aware collapsible trigger component",
+    "componentPath": "src/lib/dev-container/shadcn/Collapsible.tsx",
+    "category": "ui",
+    "semanticTags": ["collapsible", "trigger", "ui", "shadcn"],
+    "dependencies": ["shadcn-collapsible"]
+  },
+  {
+    "id": "dev-collapsible-content",
+    "name": "Dev Collapsible Content",
+    "description": "Development-aware collapsible content component",
+    "componentPath": "src/lib/dev-container/shadcn/Collapsible.tsx",
+    "category": "ui",
+    "semanticTags": ["collapsible", "content", "ui", "shadcn"],
+    "dependencies": ["shadcn-collapsible"]
+  },
+  {
+    "id": "dev-command-input",
+    "name": "Dev Command Input",
+    "description": "Development-aware command input component",
+    "componentPath": "src/lib/dev-container/shadcn/Command.tsx",
+    "category": "interactive",
+    "semanticTags": ["command", "input", "ui", "shadcn"],
+    "dependencies": ["shadcn-command"]
+  },
+  {
+    "id": "dev-command-list",
+    "name": "Dev Command List",
+    "description": "Development-aware command list component",
+    "componentPath": "src/lib/dev-container/shadcn/Command.tsx",
+    "category": "interactive",
+    "semanticTags": ["command", "list", "ui", "shadcn"],
+    "dependencies": ["shadcn-command"]
+  },
+  {
+    "id": "dev-command-empty",
+    "name": "Dev Command Empty",
+    "description": "Development-aware command empty component",
+    "componentPath": "src/lib/dev-container/shadcn/Command.tsx",
+    "category": "interactive",
+    "semanticTags": ["command", "empty", "ui", "shadcn"],
+    "dependencies": ["shadcn-command"]
+  },
+  {
+    "id": "dev-command-group",
+    "name": "Dev Command Group",
+    "description": "Development-aware command group component",
+    "componentPath": "src/lib/dev-container/shadcn/Command.tsx",
+    "category": "interactive",
+    "semanticTags": ["command", "group", "ui", "shadcn"],
+    "dependencies": ["shadcn-command"]
+  },
+  {
+    "id": "dev-command-item",
+    "name": "Dev Command Item",
+    "description": "Development-aware command item component",
+    "componentPath": "src/lib/dev-container/shadcn/Command.tsx",
+    "category": "interactive",
+    "semanticTags": ["command", "item", "ui", "shadcn"],
+    "dependencies": ["shadcn-command"]
+  },
+  {
+    "id": "dev-command-shortcut",
+    "name": "Dev Command Shortcut",
+    "description": "Development-aware command shortcut component",
+    "componentPath": "src/lib/dev-container/shadcn/Command.tsx",
+    "category": "interactive",
+    "semanticTags": ["command", "shortcut", "ui", "shadcn"],
+    "dependencies": ["shadcn-command"]
+  },
+  {
+    "id": "dev-command-separator",
+    "name": "Dev Command Separator",
+    "description": "Development-aware command separator component",
+    "componentPath": "src/lib/dev-container/shadcn/Command.tsx",
+    "category": "interactive",
+    "semanticTags": ["command", "separator", "ui", "shadcn"],
+    "dependencies": ["shadcn-command"]
+  },
+  {
+    "id": "dev-context-menu-trigger",
+    "name": "Dev Context Menu Trigger",
+    "description": "Development-aware context menu trigger component",
+    "componentPath": "src/lib/dev-container/shadcn/ContextMenu.tsx",
+    "category": "overlay",
+    "semanticTags": ["context-menu", "trigger", "ui", "shadcn"],
+    "dependencies": ["shadcn-context-menu"]
+  },
+  {
+    "id": "dev-context-menu-content",
+    "name": "Dev Context Menu Content",
+    "description": "Development-aware context menu content component",
+    "componentPath": "src/lib/dev-container/shadcn/ContextMenu.tsx",
+    "category": "overlay",
+    "semanticTags": ["context-menu", "content", "ui", "shadcn"],
+    "dependencies": ["shadcn-context-menu"]
+  },
+  {
+    "id": "dev-context-menu-item",
+    "name": "Dev Context Menu Item",
+    "description": "Development-aware context menu item component",
+    "componentPath": "src/lib/dev-container/shadcn/ContextMenu.tsx",
+    "category": "overlay",
+    "semanticTags": ["context-menu", "item", "ui", "shadcn"],
+    "dependencies": ["shadcn-context-menu"]
+  },
+  {
+    "id": "dev-context-menu-separator",
+    "name": "Dev Context Menu Separator",
+    "description": "Development-aware context menu separator component",
+    "componentPath": "src/lib/dev-container/shadcn/ContextMenu.tsx",
+    "category": "overlay",
+    "semanticTags": ["context-menu", "separator", "ui", "shadcn"],
+    "dependencies": ["shadcn-context-menu"]
+  },
+  {
+    "id": "dev-context-menu-sub",
+    "name": "Dev Context Menu Sub",
+    "description": "Development-aware context menu sub component",
+    "componentPath": "src/lib/dev-container/shadcn/ContextMenu.tsx",
+    "category": "overlay",
+    "semanticTags": ["context-menu", "sub", "ui", "shadcn"],
+    "dependencies": ["shadcn-context-menu"]
+  },
+  {
+    "id": "dev-context-menu-sub-content",
+    "name": "Dev Context Menu Sub Content",
+    "description": "Development-aware context menu sub content component",
+    "componentPath": "src/lib/dev-container/shadcn/ContextMenu.tsx",
+    "category": "overlay",
+    "semanticTags": ["context-menu", "sub", "content", "ui", "shadcn"],
+    "dependencies": ["shadcn-context-menu"]
+  },
+  {
+    "id": "dev-context-menu-sub-trigger",
+    "name": "Dev Context Menu Sub Trigger",
+    "description": "Development-aware context menu sub trigger component",
+    "componentPath": "src/lib/dev-container/shadcn/ContextMenu.tsx",
+    "category": "overlay",
+    "semanticTags": ["context-menu", "sub", "trigger", "ui", "shadcn"],
+    "dependencies": ["shadcn-context-menu"]
+  },
+  {
+    "id": "dev-dialog-trigger",
+    "name": "Dev Dialog Trigger",
+    "description": "Development-aware dialog trigger component",
+    "componentPath": "src/lib/dev-container/shadcn/Dialog.tsx",
+    "category": "overlay",
+    "semanticTags": ["dialog", "trigger", "ui", "shadcn"],
+    "dependencies": ["shadcn-dialog"]
+  },
+  {
+    "id": "dev-dialog-content",
+    "name": "Dev Dialog Content",
+    "description": "Development-aware dialog content component",
+    "componentPath": "src/lib/dev-container/shadcn/Dialog.tsx",
+    "category": "overlay",
+    "semanticTags": ["dialog", "content", "ui", "shadcn"],
+    "dependencies": ["shadcn-dialog"]
+  },
+  {
+    "id": "dev-dialog-header",
+    "name": "Dev Dialog Header",
+    "description": "Development-aware dialog header component",
+    "componentPath": "src/lib/dev-container/shadcn/Dialog.tsx",
+    "category": "overlay",
+    "semanticTags": ["dialog", "header", "ui", "shadcn"],
+    "dependencies": ["shadcn-dialog"]
+  },
+  {
+    "id": "dev-dialog-footer",
+    "name": "Dev Dialog Footer",
+    "description": "Development-aware dialog footer component",
+    "componentPath": "src/lib/dev-container/shadcn/Dialog.tsx",
+    "category": "overlay",
+    "semanticTags": ["dialog", "footer", "ui", "shadcn"],
+    "dependencies": ["shadcn-dialog"]
+  },
+  {
+    "id": "dev-dialog-title",
+    "name": "Dev Dialog Title",
+    "description": "Development-aware dialog title component",
+    "componentPath": "src/lib/dev-container/shadcn/Dialog.tsx",
+    "category": "overlay",
+    "semanticTags": ["dialog", "title", "ui", "shadcn"],
+    "dependencies": ["shadcn-dialog"]
+  },
+  {
+    "id": "dev-dialog-description",
+    "name": "Dev Dialog Description",
+    "description": "Development-aware dialog description component",
+    "componentPath": "src/lib/dev-container/shadcn/Dialog.tsx",
+    "category": "overlay",
+    "semanticTags": ["dialog", "description", "ui", "shadcn"],
+    "dependencies": ["shadcn-dialog"]
+  },
+  {
+    "id": "dev-dialog-close",
+    "name": "Dev Dialog Close",
+    "description": "Development-aware dialog close component",
+    "componentPath": "src/lib/dev-container/shadcn/Dialog.tsx",
+    "category": "overlay",
+    "semanticTags": ["dialog", "close", "ui", "shadcn"],
+    "dependencies": ["shadcn-dialog"]
+  },
+  {
+    "id": "dev-drawer-trigger",
+    "name": "Dev Drawer Trigger",
+    "description": "Development-aware drawer trigger component",
+    "componentPath": "src/lib/dev-container/shadcn/Drawer.tsx",
+    "category": "overlay",
+    "semanticTags": ["drawer", "trigger", "ui", "shadcn"],
+    "dependencies": ["shadcn-drawer"]
+  },
+  {
+    "id": "dev-drawer-content",
+    "name": "Dev Drawer Content",
+    "description": "Development-aware drawer content component",
+    "componentPath": "src/lib/dev-container/shadcn/Drawer.tsx",
+    "category": "overlay",
+    "semanticTags": ["drawer", "content", "ui", "shadcn"],
+    "dependencies": ["shadcn-drawer"]
+  },
+  {
+    "id": "dev-drawer-header",
+    "name": "Dev Drawer Header",
+    "description": "Development-aware drawer header component",
+    "componentPath": "src/lib/dev-container/shadcn/Drawer.tsx",
+    "category": "overlay",
+    "semanticTags": ["drawer", "header", "ui", "shadcn"],
+    "dependencies": ["shadcn-drawer"]
+  },
+  {
+    "id": "dev-drawer-footer",
+    "name": "Dev Drawer Footer",
+    "description": "Development-aware drawer footer component",
+    "componentPath": "src/lib/dev-container/shadcn/Drawer.tsx",
+    "category": "overlay",
+    "semanticTags": ["drawer", "footer", "ui", "shadcn"],
+    "dependencies": ["shadcn-drawer"]
+  },
+  {
+    "id": "dev-drawer-title",
+    "name": "Dev Drawer Title",
+    "description": "Development-aware drawer title component",
+    "componentPath": "src/lib/dev-container/shadcn/Drawer.tsx",
+    "category": "overlay",
+    "semanticTags": ["drawer", "title", "ui", "shadcn"],
+    "dependencies": ["shadcn-drawer"]
+  },
+  {
+    "id": "dev-drawer-description",
+    "name": "Dev Drawer Description",
+    "description": "Development-aware drawer description component",
+    "componentPath": "src/lib/dev-container/shadcn/Drawer.tsx",
+    "category": "overlay",
+    "semanticTags": ["drawer", "description", "ui", "shadcn"],
+    "dependencies": ["shadcn-drawer"]
+  },
+  {
+    "id": "dev-dropdown-menu-trigger",
+    "name": "Dev Dropdown Menu Trigger",
+    "description": "Development-aware dropdown menu trigger component",
+    "componentPath": "src/lib/dev-container/shadcn/DropdownMenu.tsx",
+    "category": "overlay",
+    "semanticTags": ["dropdown", "menu", "trigger", "ui", "shadcn"],
+    "dependencies": ["shadcn-dropdown-menu"]
+  },
+  {
+    "id": "dev-dropdown-menu-content",
+    "name": "Dev Dropdown Menu Content",
+    "description": "Development-aware dropdown menu content component",
+    "componentPath": "src/lib/dev-container/shadcn/DropdownMenu.tsx",
+    "category": "overlay",
+    "semanticTags": ["dropdown", "menu", "content", "ui", "shadcn"],
+    "dependencies": ["shadcn-dropdown-menu"]
+  },
+  {
+    "id": "dev-dropdown-menu-item",
+    "name": "Dev Dropdown Menu Item",
+    "description": "Development-aware dropdown menu item component",
+    "componentPath": "src/lib/dev-container/shadcn/DropdownMenu.tsx",
+    "category": "overlay",
+    "semanticTags": ["dropdown", "menu", "item", "ui", "shadcn"],
+    "dependencies": ["shadcn-dropdown-menu"]
+  },
+  {
+    "id": "dev-dropdown-menu-separator",
+    "name": "Dev Dropdown Menu Separator",
+    "description": "Development-aware dropdown menu separator component",
+    "componentPath": "src/lib/dev-container/shadcn/DropdownMenu.tsx",
+    "category": "overlay",
+    "semanticTags": ["dropdown", "menu", "separator", "ui", "shadcn"],
+    "dependencies": ["shadcn-dropdown-menu"]
+  },
+  {
+    "id": "dev-dropdown-menu-label",
+    "name": "Dev Dropdown Menu Label",
+    "description": "Development-aware dropdown menu label component",
+    "componentPath": "src/lib/dev-container/shadcn/DropdownMenu.tsx",
+    "category": "overlay",
+    "semanticTags": ["dropdown", "menu", "label", "ui", "shadcn"],
+    "dependencies": ["shadcn-dropdown-menu"]
+  },
+  {
+    "id": "dev-dropdown-menu-sub",
+    "name": "Dev Dropdown Menu Sub",
+    "description": "Development-aware dropdown menu sub component",
+    "componentPath": "src/lib/dev-container/shadcn/DropdownMenu.tsx",
+    "category": "overlay",
+    "semanticTags": ["dropdown", "menu", "sub", "ui", "shadcn"],
+    "dependencies": ["shadcn-dropdown-menu"]
+  },
+  {
+    "id": "dev-dropdown-menu-sub-content",
+    "name": "Dev Dropdown Menu Sub Content",
+    "description": "Development-aware dropdown menu sub content component",
+    "componentPath": "src/lib/dev-container/shadcn/DropdownMenu.tsx",
+    "category": "overlay",
+    "semanticTags": ["dropdown", "menu", "sub", "content", "ui", "shadcn"],
+    "dependencies": ["shadcn-dropdown-menu"]
+  },
+  {
+    "id": "dev-dropdown-menu-sub-trigger",
+    "name": "Dev Dropdown Menu Sub Trigger",
+    "description": "Development-aware dropdown menu sub trigger component",
+    "componentPath": "src/lib/dev-container/shadcn/DropdownMenu.tsx",
+    "category": "overlay",
+    "semanticTags": ["dropdown", "menu", "sub", "trigger", "ui", "shadcn"],
+    "dependencies": ["shadcn-dropdown-menu"]
+  },
+  {
+    "id": "dev-dropdown-menu-checkbox-item",
+    "name": "Dev Dropdown Menu Checkbox Item",
+    "description": "Development-aware dropdown menu checkbox item component",
+    "componentPath": "src/lib/dev-container/shadcn/DropdownMenu.tsx",
+    "category": "overlay",
+    "semanticTags": ["dropdown", "menu", "checkbox", "item", "ui", "shadcn"],
+    "dependencies": ["shadcn-dropdown-menu"]
+  },
+  {
+    "id": "dev-dropdown-menu-radio-item",
+    "name": "Dev Dropdown Menu Radio Item",
+    "description": "Development-aware dropdown menu radio item component",
+    "componentPath": "src/lib/dev-container/shadcn/DropdownMenu.tsx",
+    "category": "overlay",
+    "semanticTags": ["dropdown", "menu", "radio", "item", "ui", "shadcn"],
+    "dependencies": ["shadcn-dropdown-menu"]
+  },
+  {
+    "id": "dev-dropdown-menu-radio-group",
+    "name": "Dev Dropdown Menu Radio Group",
+    "description": "Development-aware dropdown menu radio group component",
+    "componentPath": "src/lib/dev-container/shadcn/DropdownMenu.tsx",
+    "category": "overlay",
+    "semanticTags": ["dropdown", "menu", "radio", "group", "ui", "shadcn"],
+    "dependencies": ["shadcn-dropdown-menu"]
+  },
+  {
+    "id": "dev-dropdown-menu-portal",
+    "name": "Dev Dropdown Menu Portal",
+    "description": "Development-aware dropdown menu portal component",
+    "componentPath": "src/lib/dev-container/shadcn/DropdownMenu.tsx",
+    "category": "overlay",
+    "semanticTags": ["dropdown", "menu", "portal", "ui", "shadcn"],
+    "dependencies": ["shadcn-dropdown-menu"]
+  },
+  {
+    "id": "dev-dropdown-menu-shortcut",
+    "name": "Dev Dropdown Menu Shortcut",
+    "description": "Development-aware dropdown menu shortcut component",
+    "componentPath": "src/lib/dev-container/shadcn/DropdownMenu.tsx",
+    "category": "overlay",
+    "semanticTags": ["dropdown", "menu", "shortcut", "ui", "shadcn"],
+    "dependencies": ["shadcn-dropdown-menu"]
+  },
+  {
+    "id": "dev-form-item",
+    "name": "Dev Form Item",
+    "description": "Development-aware form item component",
+    "componentPath": "src/lib/dev-container/shadcn/Form.tsx",
+    "category": "form",
+    "semanticTags": ["form", "item", "ui", "shadcn"],
+    "dependencies": ["shadcn-form"]
+  },
+  {
+    "id": "dev-form-label",
+    "name": "Dev Form Label",
+    "description": "Development-aware form label component",
+    "componentPath": "src/lib/dev-container/shadcn/Form.tsx",
+    "category": "form",
+    "semanticTags": ["form", "label", "ui", "shadcn"],
+    "dependencies": ["shadcn-form"]
+  },
+  {
+    "id": "dev-form-control",
+    "name": "Dev Form Control",
+    "description": "Development-aware form control component",
+    "componentPath": "src/lib/dev-container/shadcn/Form.tsx",
+    "category": "form",
+    "semanticTags": ["form", "control", "ui", "shadcn"],
+    "dependencies": ["shadcn-form"]
+  },
+  {
+    "id": "dev-form-description",
+    "name": "Dev Form Description",
+    "description": "Development-aware form description component",
+    "componentPath": "src/lib/dev-container/shadcn/Form.tsx",
+    "category": "form",
+    "semanticTags": ["form", "description", "ui", "shadcn"],
+    "dependencies": ["shadcn-form"]
+  },
+  {
+    "id": "dev-form-message",
+    "name": "Dev Form Message",
+    "description": "Development-aware form message component",
+    "componentPath": "src/lib/dev-container/shadcn/Form.tsx",
+    "category": "form",
+    "semanticTags": ["form", "message", "ui", "shadcn"],
+    "dependencies": ["shadcn-form"]
+  },
+  {
+    "id": "dev-form-field",
+    "name": "Dev Form Field",
+    "description": "Development-aware form field component",
+    "componentPath": "src/lib/dev-container/shadcn/Form.tsx",
+    "category": "form",
+    "semanticTags": ["form", "field", "ui", "shadcn"],
+    "dependencies": ["shadcn-form"]
+  },
+  {
+    "id": "dev-hover-card-trigger",
+    "name": "Dev Hover Card Trigger",
+    "description": "Development-aware hover card trigger component",
+    "componentPath": "src/lib/dev-container/shadcn/HoverCard.tsx",
+    "category": "overlay",
+    "semanticTags": ["hover-card", "trigger", "ui", "shadcn"],
+    "dependencies": ["shadcn-hover-card"]
+  },
+  {
+    "id": "dev-hover-card-content",
+    "name": "Dev Hover Card Content",
+    "description": "Development-aware hover card content component",
+    "componentPath": "src/lib/dev-container/shadcn/HoverCard.tsx",
+    "category": "overlay",
+    "semanticTags": ["hover-card", "content", "ui", "shadcn"],
+    "dependencies": ["shadcn-hover-card"]
+  },
+  {
+    "id": "dev-menubar-menu",
+    "name": "Dev Menubar Menu",
+    "description": "Development-aware menubar menu component",
+    "componentPath": "src/lib/dev-container/shadcn/Menubar.tsx",
+    "category": "navigation",
+    "semanticTags": ["menubar", "menu", "ui", "shadcn"],
+    "dependencies": ["shadcn-menubar"]
+  },
+  {
+    "id": "dev-menubar-trigger",
+    "name": "Dev Menubar Trigger",
+    "description": "Development-aware menubar trigger component",
+    "componentPath": "src/lib/dev-container/shadcn/Menubar.tsx",
+    "category": "navigation",
+    "semanticTags": ["menubar", "trigger", "ui", "shadcn"],
+    "dependencies": ["shadcn-menubar"]
+  },
+  {
+    "id": "dev-menubar-content",
+    "name": "Dev Menubar Content",
+    "description": "Development-aware menubar content component",
+    "componentPath": "src/lib/dev-container/shadcn/Menubar.tsx",
+    "category": "navigation",
+    "semanticTags": ["menubar", "content", "ui", "shadcn"],
+    "dependencies": ["shadcn-menubar"]
+  },
+  {
+    "id": "dev-menubar-item",
+    "name": "Dev Menubar Item",
+    "description": "Development-aware menubar item component",
+    "componentPath": "src/lib/dev-container/shadcn/Menubar.tsx",
+    "category": "navigation",
+    "semanticTags": ["menubar", "item", "ui", "shadcn"],
+    "dependencies": ["shadcn-menubar"]
+  },
+  {
+    "id": "dev-menubar-separator",
+    "name": "Dev Menubar Separator",
+    "description": "Development-aware menubar separator component",
+    "componentPath": "src/lib/dev-container/shadcn/Menubar.tsx",
+    "category": "navigation",
+    "semanticTags": ["menubar", "separator", "ui", "shadcn"],
+    "dependencies": ["shadcn-menubar"]
+  },
+  {
+    "id": "dev-menubar-label",
+    "name": "Dev Menubar Label",
+    "description": "Development-aware menubar label component",
+    "componentPath": "src/lib/dev-container/shadcn/Menubar.tsx",
+    "category": "navigation",
+    "semanticTags": ["menubar", "label", "ui", "shadcn"],
+    "dependencies": ["shadcn-menubar"]
+  },
+  {
+    "id": "dev-menubar-checkbox-item",
+    "name": "Dev Menubar Checkbox Item",
+    "description": "Development-aware menubar checkbox item component",
+    "componentPath": "src/lib/dev-container/shadcn/Menubar.tsx",
+    "category": "navigation",
+    "semanticTags": ["menubar", "checkbox", "item", "ui", "shadcn"],
+    "dependencies": ["shadcn-menubar"]
+  },
+  {
+    "id": "dev-menubar-radio-item",
+    "name": "Dev Menubar Radio Item",
+    "description": "Development-aware menubar radio item component",
+    "componentPath": "src/lib/dev-container/shadcn/Menubar.tsx",
+    "category": "navigation",
+    "semanticTags": ["menubar", "radio", "item", "ui", "shadcn"],
+    "dependencies": ["shadcn-menubar"]
+  },
+  {
+    "id": "dev-menubar-radio-group",
+    "name": "Dev Menubar Radio Group",
+    "description": "Development-aware menubar radio group component",
+    "componentPath": "src/lib/dev-container/shadcn/Menubar.tsx",
+    "category": "navigation",
+    "semanticTags": ["menubar", "radio", "group", "ui", "shadcn"],
+    "dependencies": ["shadcn-menubar"]
+  },
+  {
+    "id": "dev-menubar-portal",
+    "name": "Dev Menubar Portal",
+    "description": "Development-aware menubar portal component",
+    "componentPath": "src/lib/dev-container/shadcn/Menubar.tsx",
+    "category": "navigation",
+    "semanticTags": ["menubar", "portal", "ui", "shadcn"],
+    "dependencies": ["shadcn-menubar"]
+  },
+  {
+    "id": "dev-menubar-sub",
+    "name": "Dev Menubar Sub",
+    "description": "Development-aware menubar sub component",
+    "componentPath": "src/lib/dev-container/shadcn/Menubar.tsx",
+    "category": "navigation",
+    "semanticTags": ["menubar", "sub", "ui", "shadcn"],
+    "dependencies": ["shadcn-menubar"]
+  },
+  {
+    "id": "dev-menubar-sub-content",
+    "name": "Dev Menubar Sub Content",
+    "description": "Development-aware menubar sub content component",
+    "componentPath": "src/lib/dev-container/shadcn/Menubar.tsx",
+    "category": "navigation",
+    "semanticTags": ["menubar", "sub", "content", "ui", "shadcn"],
+    "dependencies": ["shadcn-menubar"]
+  },
+  {
+    "id": "dev-menubar-sub-trigger",
+    "name": "Dev Menubar Sub Trigger",
+    "description": "Development-aware menubar sub trigger component",
+    "componentPath": "src/lib/dev-container/shadcn/Menubar.tsx",
+    "category": "navigation",
+    "semanticTags": ["menubar", "sub", "trigger", "ui", "shadcn"],
+    "dependencies": ["shadcn-menubar"]
+  },
+  {
+    "id": "dev-menubar-shortcut",
+    "name": "Dev Menubar Shortcut",
+    "description": "Development-aware menubar shortcut component",
+    "componentPath": "src/lib/dev-container/shadcn/Menubar.tsx",
+    "category": "navigation",
+    "semanticTags": ["menubar", "shortcut", "ui", "shadcn"],
+    "dependencies": ["shadcn-menubar"]
+  },
+  {
+    "id": "dev-navigation-menu-list",
+    "name": "Dev Navigation Menu List",
+    "description": "Development-aware navigation menu list component",
+    "componentPath": "src/lib/dev-container/shadcn/NavigationMenu.tsx",
+    "category": "navigation",
+    "semanticTags": ["navigation", "menu", "list", "ui", "shadcn"],
+    "dependencies": ["shadcn-navigation-menu"]
+  },
+  {
+    "id": "dev-navigation-menu-item",
+    "name": "Dev Navigation Menu Item",
+    "description": "Development-aware navigation menu item component",
+    "componentPath": "src/lib/dev-container/shadcn/NavigationMenu.tsx",
+    "category": "navigation",
+    "semanticTags": ["navigation", "menu", "item", "ui", "shadcn"],
+    "dependencies": ["shadcn-navigation-menu"]
+  },
+  {
+    "id": "dev-navigation-menu-trigger",
+    "name": "Dev Navigation Menu Trigger",
+    "description": "Development-aware navigation menu trigger component",
+    "componentPath": "src/lib/dev-container/shadcn/NavigationMenu.tsx",
+    "category": "navigation",
+    "semanticTags": ["navigation", "menu", "trigger", "ui", "shadcn"],
+    "dependencies": ["shadcn-navigation-menu"]
+  },
+  {
+    "id": "dev-navigation-menu-content",
+    "name": "Dev Navigation Menu Content",
+    "description": "Development-aware navigation menu content component",
+    "componentPath": "src/lib/dev-container/shadcn/NavigationMenu.tsx",
+    "category": "navigation",
+    "semanticTags": ["navigation", "menu", "content", "ui", "shadcn"],
+    "dependencies": ["shadcn-navigation-menu"]
+  },
+  {
+    "id": "dev-navigation-menu-link",
+    "name": "Dev Navigation Menu Link",
+    "description": "Development-aware navigation menu link component",
+    "componentPath": "src/lib/dev-container/shadcn/NavigationMenu.tsx",
+    "category": "navigation",
+    "semanticTags": ["navigation", "menu", "link", "ui", "shadcn"],
+    "dependencies": ["shadcn-navigation-menu"]
+  },
+  {
+    "id": "dev-navigation-menu-indicator",
+    "name": "Dev Navigation Menu Indicator",
+    "description": "Development-aware navigation menu indicator component",
+    "componentPath": "src/lib/dev-container/shadcn/NavigationMenu.tsx",
+    "category": "navigation",
+    "semanticTags": ["navigation", "menu", "indicator", "ui", "shadcn"],
+    "dependencies": ["shadcn-navigation-menu"]
+  },
+  {
+    "id": "dev-navigation-menu-viewport",
+    "name": "Dev Navigation Menu Viewport",
+    "description": "Development-aware navigation menu viewport component",
+    "componentPath": "src/lib/dev-container/shadcn/NavigationMenu.tsx",
+    "category": "navigation",
+    "semanticTags": ["navigation", "menu", "viewport", "ui", "shadcn"],
+    "dependencies": ["shadcn-navigation-menu"]
+  },
+  {
+    "id": "dev-pagination-content",
+    "name": "Dev Pagination Content",
+    "description": "Development-aware pagination content component",
+    "componentPath": "src/lib/dev-container/shadcn/Pagination.tsx",
+    "category": "navigation",
+    "semanticTags": ["pagination", "content", "ui", "shadcn"],
+    "dependencies": ["shadcn-pagination"]
+  },
+  {
+    "id": "dev-pagination-item",
+    "name": "Dev Pagination Item",
+    "description": "Development-aware pagination item component",
+    "componentPath": "src/lib/dev-container/shadcn/Pagination.tsx",
+    "category": "navigation",
+    "semanticTags": ["pagination", "item", "ui", "shadcn"],
+    "dependencies": ["shadcn-pagination"]
+  },
+  {
+    "id": "dev-pagination-link",
+    "name": "Dev Pagination Link",
+    "description": "Development-aware pagination link component",
+    "componentPath": "src/lib/dev-container/shadcn/Pagination.tsx",
+    "category": "navigation",
+    "semanticTags": ["pagination", "link", "ui", "shadcn"],
+    "dependencies": ["shadcn-pagination"]
+  },
+  {
+    "id": "dev-pagination-previous",
+    "name": "Dev Pagination Previous",
+    "description": "Development-aware pagination previous component",
+    "componentPath": "src/lib/dev-container/shadcn/Pagination.tsx",
+    "category": "navigation",
+    "semanticTags": ["pagination", "previous", "ui", "shadcn"],
+    "dependencies": ["shadcn-pagination"]
+  },
+  {
+    "id": "dev-pagination-next",
+    "name": "Dev Pagination Next",
+    "description": "Development-aware pagination next component",
+    "componentPath": "src/lib/dev-container/shadcn/Pagination.tsx",
+    "category": "navigation",
+    "semanticTags": ["pagination", "next", "ui", "shadcn"],
+    "dependencies": ["shadcn-pagination"]
+  },
+  {
+    "id": "dev-pagination-ellipsis",
+    "name": "Dev Pagination Ellipsis",
+    "description": "Development-aware pagination ellipsis component",
+    "componentPath": "src/lib/dev-container/shadcn/Pagination.tsx",
+    "category": "navigation",
+    "semanticTags": ["pagination", "ellipsis", "ui", "shadcn"],
+    "dependencies": ["shadcn-pagination"]
+  },
+  {
+    "id": "dev-popover-trigger",
+    "name": "Dev Popover Trigger",
+    "description": "Development-aware popover trigger component",
+    "componentPath": "src/lib/dev-container/shadcn/Popover.tsx",
+    "category": "overlay",
+    "semanticTags": ["popover", "trigger", "ui", "shadcn"],
+    "dependencies": ["shadcn-popover"]
+  },
+  {
+    "id": "dev-popover-content",
+    "name": "Dev Popover Content",
+    "description": "Development-aware popover content component",
+    "componentPath": "src/lib/dev-container/shadcn/Popover.tsx",
+    "category": "overlay",
+    "semanticTags": ["popover", "content", "ui", "shadcn"],
+    "dependencies": ["shadcn-popover"]
+  },
+  {
+    "id": "dev-radio-group-item",
+    "name": "Dev Radio Group Item",
+    "description": "Development-aware radio group item component",
+    "componentPath": "src/lib/dev-container/shadcn/RadioGroup.tsx",
+    "category": "form",
+    "semanticTags": ["radio", "group", "item", "ui", "shadcn"],
+    "dependencies": ["shadcn-radio-group"]
+  },
+  {
+    "id": "dev-resizable-panel-group",
+    "name": "Dev Resizable Panel Group",
+    "description": "Development-aware resizable panel group component",
+    "componentPath": "src/lib/dev-container/shadcn/Resizable.tsx",
+    "category": "layout",
+    "semanticTags": ["resizable", "panel", "group", "ui", "shadcn"],
+    "dependencies": ["shadcn-resizable"]
+  },
+  {
+    "id": "dev-resizable-panel",
+    "name": "Dev Resizable Panel",
+    "description": "Development-aware resizable panel component",
+    "componentPath": "src/lib/dev-container/shadcn/Resizable.tsx",
+    "category": "layout",
+    "semanticTags": ["resizable", "panel", "ui", "shadcn"],
+    "dependencies": ["shadcn-resizable"]
+  },
+  {
+    "id": "dev-resizable-handle",
+    "name": "Dev Resizable Handle",
+    "description": "Development-aware resizable handle component",
+    "componentPath": "src/lib/dev-container/shadcn/Resizable.tsx",
+    "category": "layout",
+    "semanticTags": ["resizable", "handle", "ui", "shadcn"],
+    "dependencies": ["shadcn-resizable"]
+  },
+  {
+    "id": "dev-scroll-area-scrollbar",
+    "name": "Dev Scroll Area Scrollbar",
+    "description": "Development-aware scroll area scrollbar component",
+    "componentPath": "src/lib/dev-container/shadcn/ScrollArea.tsx",
+    "category": "layout",
+    "semanticTags": ["scroll", "area", "scrollbar", "ui", "shadcn"],
+    "dependencies": ["shadcn-scroll-area"]
+  },
+  {
+    "id": "dev-scroll-area-thumb",
+    "name": "Dev Scroll Area Thumb",
+    "description": "Development-aware scroll area thumb component",
+    "componentPath": "src/lib/dev-container/shadcn/ScrollArea.tsx",
+    "category": "layout",
+    "semanticTags": ["scroll", "area", "thumb", "ui", "shadcn"],
+    "dependencies": ["shadcn-scroll-area"]
+  },
+  {
+    "id": "dev-scroll-area-corner",
+    "name": "Dev Scroll Area Corner",
+    "description": "Development-aware scroll area corner component",
+    "componentPath": "src/lib/dev-container/shadcn/ScrollArea.tsx",
+    "category": "layout",
+    "semanticTags": ["scroll", "area", "corner", "ui", "shadcn"],
+    "dependencies": ["shadcn-scroll-area"]
+  },
+  {
+    "id": "dev-scroll-area-viewport",
+    "name": "Dev Scroll Area Viewport",
+    "description": "Development-aware scroll area viewport component",
+    "componentPath": "src/lib/dev-container/shadcn/ScrollArea.tsx",
+    "category": "layout",
+    "semanticTags": ["scroll", "area", "viewport", "ui", "shadcn"],
+    "dependencies": ["shadcn-scroll-area"]
+  },
+  {
+    "id": "dev-select-trigger",
+    "name": "Dev Select Trigger",
+    "description": "Development-aware select trigger component",
+    "componentPath": "src/lib/dev-container/shadcn/Select.tsx",
+    "category": "form",
+    "semanticTags": ["select", "trigger", "ui", "shadcn"],
+    "dependencies": ["shadcn-select"]
+  },
+  {
+    "id": "dev-select-content",
+    "name": "Dev Select Content",
+    "description": "Development-aware select content component",
+    "componentPath": "src/lib/dev-container/shadcn/Select.tsx",
+    "category": "form",
+    "semanticTags": ["select", "content", "ui", "shadcn"],
+    "dependencies": ["shadcn-select"]
+  },
+  {
+    "id": "dev-select-item",
+    "name": "Dev Select Item",
+    "description": "Development-aware select item component",
+    "componentPath": "src/lib/dev-container/shadcn/Select.tsx",
+    "category": "form",
+    "semanticTags": ["select", "item", "ui", "shadcn"],
+    "dependencies": ["shadcn-select"]
+  },
+  {
+    "id": "dev-select-value",
+    "name": "Dev Select Value",
+    "description": "Development-aware select value component",
+    "componentPath": "src/lib/dev-container/shadcn/Select.tsx",
+    "category": "form",
+    "semanticTags": ["select", "value", "ui", "shadcn"],
+    "dependencies": ["shadcn-select"]
+  },
+  {
+    "id": "dev-select-label",
+    "name": "Dev Select Label",
+    "description": "Development-aware select label component",
+    "componentPath": "src/lib/dev-container/shadcn/Select.tsx",
+    "category": "form",
+    "semanticTags": ["select", "label", "ui", "shadcn"],
+    "dependencies": ["shadcn-select"]
+  },
+  {
+    "id": "dev-select-separator",
+    "name": "Dev Select Separator",
+    "description": "Development-aware select separator component",
+    "componentPath": "src/lib/dev-container/shadcn/Select.tsx",
+    "category": "form",
+    "semanticTags": ["select", "separator", "ui", "shadcn"],
+    "dependencies": ["shadcn-select"]
+  },
+  {
+    "id": "dev-select-scroll-up-button",
+    "name": "Dev Select Scroll Up Button",
+    "description": "Development-aware select scroll up button component",
+    "componentPath": "src/lib/dev-container/shadcn/Select.tsx",
+    "category": "form",
+    "semanticTags": ["select", "scroll", "up", "button", "ui", "shadcn"],
+    "dependencies": ["shadcn-select"]
+  },
+  {
+    "id": "dev-select-scroll-down-button",
+    "name": "Dev Select Scroll Down Button",
+    "description": "Development-aware select scroll down button component",
+    "componentPath": "src/lib/dev-container/shadcn/Select.tsx",
+    "category": "form",
+    "semanticTags": ["select", "scroll", "down", "button", "ui", "shadcn"],
+    "dependencies": ["shadcn-select"]
+  },
+  {
+    "id": "dev-sheet-trigger",
+    "name": "Dev Sheet Trigger",
+    "description": "Development-aware sheet trigger component",
+    "componentPath": "src/lib/dev-container/shadcn/Sheet.tsx",
+    "category": "overlay",
+    "semanticTags": ["sheet", "trigger", "ui", "shadcn"],
+    "dependencies": ["shadcn-sheet"]
+  },
+  {
+    "id": "dev-sheet-content",
+    "name": "Dev Sheet Content",
+    "description": "Development-aware sheet content component",
+    "componentPath": "src/lib/dev-container/shadcn/Sheet.tsx",
+    "category": "overlay",
+    "semanticTags": ["sheet", "content", "ui", "shadcn"],
+    "dependencies": ["shadcn-sheet"]
+  },
+  {
+    "id": "dev-sheet-header",
+    "name": "Dev Sheet Header",
+    "description": "Development-aware sheet header component",
+    "componentPath": "src/lib/dev-container/shadcn/Sheet.tsx",
+    "category": "overlay",
+    "semanticTags": ["sheet", "header", "ui", "shadcn"],
+    "dependencies": ["shadcn-sheet"]
+  },
+  {
+    "id": "dev-sheet-footer",
+    "name": "Dev Sheet Footer",
+    "description": "Development-aware sheet footer component",
+    "componentPath": "src/lib/dev-container/shadcn/Sheet.tsx",
+    "category": "overlay",
+    "semanticTags": ["sheet", "footer", "ui", "shadcn"],
+    "dependencies": ["shadcn-sheet"]
+  },
+  {
+    "id": "dev-sheet-title",
+    "name": "Dev Sheet Title",
+    "description": "Development-aware sheet title component",
+    "componentPath": "src/lib/dev-container/shadcn/Sheet.tsx",
+    "category": "overlay",
+    "semanticTags": ["sheet", "title", "ui", "shadcn"],
+    "dependencies": ["shadcn-sheet"]
+  },
+  {
+    "id": "dev-sheet-description",
+    "name": "Dev Sheet Description",
+    "description": "Development-aware sheet description component",
+    "componentPath": "src/lib/dev-container/shadcn/Sheet.tsx",
+    "category": "overlay",
+    "semanticTags": ["sheet", "description", "ui", "shadcn"],
+    "dependencies": ["shadcn-sheet"]
+  },
+  {
+    "id": "dev-sheet-close",
+    "name": "Dev Sheet Close",
+    "description": "Development-aware sheet close component",
+    "componentPath": "src/lib/dev-container/shadcn/Sheet.tsx",
+    "category": "overlay",
+    "semanticTags": ["sheet", "close", "ui", "shadcn"],
+    "dependencies": ["shadcn-sheet"]
+  },
+  {
+    "id": "dev-calendar-day-button",
+    "name": "Dev Calendar Day Button",
+    "description": "Development-aware calendar day button component",
+    "componentPath": "src/lib/dev-container/shadcn/Calendar.tsx",
+    "category": "interactive",
+    "semanticTags": ["calendar", "day", "button", "ui", "shadcn"],
+    "dependencies": ["shadcn-calendar"]
+  },
+  {
+    "id": "dev-command-dialog",
+    "name": "Dev Command Dialog",
+    "description": "Development-aware command dialog component",
+    "componentPath": "src/lib/dev-container/shadcn/Command.tsx",
+    "category": "overlay",
+    "semanticTags": ["command", "dialog", "search", "ui", "shadcn"],
+    "dependencies": ["shadcn-command"]
+  },
+  {
+    "id": "dev-context-menu-checkbox-item",
+    "name": "Dev Context Menu Checkbox Item",
+    "description": "Development-aware context menu checkbox item component",
+    "componentPath": "src/lib/dev-container/shadcn/ContextMenu.tsx",
+    "category": "interactive",
+    "semanticTags": ["context-menu", "checkbox", "item", "ui", "shadcn"],
+    "dependencies": ["shadcn-context-menu"]
+  },
+  {
+    "id": "dev-context-menu-radio-group",
+    "name": "Dev Context Menu Radio Group",
+    "description": "Development-aware context menu radio group component",
+    "componentPath": "src/lib/dev-container/shadcn/ContextMenu.tsx",
+    "category": "interactive",
+    "semanticTags": ["context-menu", "radio", "group", "ui", "shadcn"],
+    "dependencies": ["shadcn-context-menu"]
+  },
+  {
+    "id": "dev-context-menu-radio-item",
+    "name": "Dev Context Menu Radio Item",
+    "description": "Development-aware context menu radio item component",
+    "componentPath": "src/lib/dev-container/shadcn/ContextMenu.tsx",
+    "category": "interactive",
+    "semanticTags": ["context-menu", "radio", "item", "ui", "shadcn"],
+    "dependencies": ["shadcn-context-menu"]
+  },
+  {
+    "id": "dev-context-menu-label",
+    "name": "Dev Context Menu Label",
+    "description": "Development-aware context menu label component",
+    "componentPath": "src/lib/dev-container/shadcn/ContextMenu.tsx",
+    "category": "ui",
+    "semanticTags": ["context-menu", "label", "ui", "shadcn"],
+    "dependencies": ["shadcn-context-menu"]
+  },
+  {
+    "id": "dev-context-menu-group",
+    "name": "Dev Context Menu Group",
+    "description": "Development-aware context menu group component",
+    "componentPath": "src/lib/dev-container/shadcn/ContextMenu.tsx",
+    "category": "ui",
+    "semanticTags": ["context-menu", "group", "ui", "shadcn"],
+    "dependencies": ["shadcn-context-menu"]
+  },
+  {
+    "id": "dev-context-menu-portal",
+    "name": "Dev Context Menu Portal",
+    "description": "Development-aware context menu portal component",
+    "componentPath": "src/lib/dev-container/shadcn/ContextMenu.tsx",
+    "category": "overlay",
+    "semanticTags": ["context-menu", "portal", "ui", "shadcn"],
+    "dependencies": ["shadcn-context-menu"]
+  },
+  {
+    "id": "dev-context-menu-shortcut",
+    "name": "Dev Context Menu Shortcut",
+    "description": "Development-aware context menu shortcut component",
+    "componentPath": "src/lib/dev-container/shadcn/ContextMenu.tsx",
+    "category": "ui",
+    "semanticTags": ["context-menu", "shortcut", "ui", "shadcn"],
+    "dependencies": ["shadcn-context-menu"]
+  },
+  {
+    "id": "dev-dialog-portal",
+    "name": "Dev Dialog Portal",
+    "description": "Development-aware dialog portal component",
+    "componentPath": "src/lib/dev-container/shadcn/Dialog.tsx",
+    "category": "overlay",
+    "semanticTags": ["dialog", "portal", "ui", "shadcn"],
+    "dependencies": ["shadcn-dialog"]
+  },
+  {
+    "id": "dev-dialog-overlay",
+    "name": "Dev Dialog Overlay",
+    "description": "Development-aware dialog overlay component",
+    "componentPath": "src/lib/dev-container/shadcn/Dialog.tsx",
+    "category": "overlay",
+    "semanticTags": ["dialog", "overlay", "ui", "shadcn"],
+    "dependencies": ["shadcn-dialog"]
+  },
+  {
+    "id": "dev-drawer-portal",
+    "name": "Dev Drawer Portal",
+    "description": "Development-aware drawer portal component",
+    "componentPath": "src/lib/dev-container/shadcn/Drawer.tsx",
+    "category": "overlay",
+    "semanticTags": ["drawer", "portal", "ui", "shadcn"],
+    "dependencies": ["shadcn-drawer"]
+  },
+  {
+    "id": "dev-drawer-overlay",
+    "name": "Dev Drawer Overlay",
+    "description": "Development-aware drawer overlay component",
+    "componentPath": "src/lib/dev-container/shadcn/Drawer.tsx",
+    "category": "overlay",
+    "semanticTags": ["drawer", "overlay", "ui", "shadcn"],
+    "dependencies": ["shadcn-drawer"]
+  },
+  {
+    "id": "dev-drawer-close",
+    "name": "Dev Drawer Close",
+    "description": "Development-aware drawer close component",
+    "componentPath": "src/lib/dev-container/shadcn/Drawer.tsx",
+    "category": "interactive",
+    "semanticTags": ["drawer", "close", "button", "ui", "shadcn"],
+    "dependencies": ["shadcn-drawer"]
+  },
+  {
+    "id": "dev-dropdown-menu-group",
+    "name": "Dev Dropdown Menu Group",
+    "description": "Development-aware dropdown menu group component",
+    "componentPath": "src/lib/dev-container/shadcn/DropdownMenu.tsx",
+    "category": "ui",
+    "semanticTags": ["dropdown-menu", "group", "ui", "shadcn"],
+    "dependencies": ["shadcn-dropdown-menu"]
+  },
+  {
+    "id": "dev-input-otp-group",
+    "name": "Dev Input OTP Group",
+    "description": "Development-aware input OTP group component",
+    "componentPath": "src/lib/dev-container/shadcn/InputOTP.tsx",
+    "category": "form",
+    "semanticTags": ["input", "otp", "group", "ui", "shadcn"],
+    "dependencies": ["shadcn-input-otp"]
+  },
+  {
+    "id": "dev-input-otp-slot",
+    "name": "Dev Input OTP Slot",
+    "description": "Development-aware input OTP slot component",
+    "componentPath": "src/lib/dev-container/shadcn/InputOTP.tsx",
+    "category": "form",
+    "semanticTags": ["input", "otp", "slot", "ui", "shadcn"],
+    "dependencies": ["shadcn-input-otp"]
+  },
+  {
+    "id": "dev-input-otp-separator",
+    "name": "Dev Input OTP Separator",
+    "description": "Development-aware input OTP separator component",
+    "componentPath": "src/lib/dev-container/shadcn/InputOTP.tsx",
+    "category": "ui",
+    "semanticTags": ["input", "otp", "separator", "ui", "shadcn"],
+    "dependencies": ["shadcn-input-otp"]
+  },
+  {
+    "id": "dev-menubar-group",
+    "name": "Dev Menubar Group",
+    "description": "Development-aware menubar group component",
+    "componentPath": "src/lib/dev-container/shadcn/Menubar.tsx",
+    "category": "ui",
+    "semanticTags": ["menubar", "group", "ui", "shadcn"],
+    "dependencies": ["shadcn-menubar"]
+  },
+  {
+    "id": "dev-scroll-bar",
+    "name": "Dev Scroll Bar",
+    "description": "Development-aware scroll bar component",
+    "componentPath": "src/lib/dev-container/shadcn/ScrollArea.tsx",
+    "category": "ui",
+    "semanticTags": ["scroll", "bar", "ui", "shadcn"],
+    "dependencies": ["shadcn-scroll-area"]
+  },
+  {
+    "id": "dev-select-group",
+    "name": "Dev Select Group",
+    "description": "Development-aware select group component",
+    "componentPath": "src/lib/dev-container/shadcn/Select.tsx",
+    "category": "form",
+    "semanticTags": ["select", "group", "form", "ui", "shadcn"],
+    "dependencies": ["shadcn-select"]
+  },
+  {
+    "id": "dev-sheet-portal",
+    "name": "Dev Sheet Portal",
+    "description": "Development-aware sheet portal component",
+    "componentPath": "src/lib/dev-container/shadcn/Sheet.tsx",
+    "category": "overlay",
+    "semanticTags": ["sheet", "portal", "ui", "shadcn"],
+    "dependencies": ["shadcn-sheet"]
+  },
+  {
+    "id": "dev-sheet-overlay",
+    "name": "Dev Sheet Overlay",
+    "description": "Development-aware sheet overlay component",
+    "componentPath": "src/lib/dev-container/shadcn/Sheet.tsx",
+    "category": "overlay",
+    "semanticTags": ["sheet", "overlay", "ui", "shadcn"],
+    "dependencies": ["shadcn-sheet"]
+  }
+]

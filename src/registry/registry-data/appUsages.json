@@ -1,0 +1,12 @@
+[
+  {
+    "id": "app-root",
+    "definitionId": "dev-container",
+    "name": "App Root Container",
+    "description": "Root container for the entire application",
+    "filePath": "src/App.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/App.tsx",
+    "category": "page",
+    "semanticTags": ["app", "root", "container", "main"]
+  }
+]

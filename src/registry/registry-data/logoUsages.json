@@ -1,0 +1,32 @@
+[
+  {
+    "id": "logo-component",
+    "definitionId": "dev-container",
+    "name": "Logo Component",
+    "description": "Shared logo component for authentication pages",
+    "filePath": "src/components/auth/Logo.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/auth/Logo.tsx",
+    "category": "component",
+    "semanticTags": ["logo", "brand", "auth", "component"]
+  },
+  {
+    "id": "logo-section",
+    "definitionId": "dev-div",
+    "name": "Logo Section",
+    "description": "Company logo and brand name",
+    "filePath": "src/components/auth/Logo.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/auth/Logo.tsx",
+    "category": "layout",
+    "semanticTags": ["logo", "section", "brand"]
+  },
+  {
+    "id": "brand-name",
+    "definitionId": "dev-span",
+    "name": "Brand Name",
+    "description": "Geenius Template brand name",
+    "filePath": "src/components/auth/Logo.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/auth/Logo.tsx",
+    "category": "ui",
+    "semanticTags": ["brand", "name", "text", "logo"]
+  }
+]

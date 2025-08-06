@@ -1,0 +1,492 @@
+[
+  {
+    "id": "user-details-page",
+    "definitionId": "dev-container",
+    "name": "User Details Page",
+    "description": "Individual user details management page",
+    "filePath": "src/pages/UserDetailsPage.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/pages/UserDetailsPage.tsx",
+    "category": "page",
+    "semanticTags": ["user", "details", "page", "admin"]
+  },
+  {
+    "id": "user-details-grid",
+    "definitionId": "dev-div",
+    "name": "User Details Grid",
+    "description": "Grid layout for activity and sessions",
+    "filePath": "src/pages/UserDetailsPage.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/pages/UserDetailsPage.tsx",
+    "category": "layout",
+    "semanticTags": ["grid", "layout", "details"]
+  },
+  {
+    "id": "user-details-loading",
+    "definitionId": "dev-container",
+    "name": "User Details Loading State",
+    "description": "Loading state for user details page",
+    "filePath": "src/components/users/details/UserDetailsLoadingState.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/users/details/UserDetailsLoadingState.tsx",
+    "category": "component",
+    "semanticTags": ["loading", "state", "user", "details"]
+  },
+  {
+    "id": "loading-card",
+    "definitionId": "dev-card",
+    "name": "Loading Card",
+    "description": "Card container for loading state",
+    "filePath": "src/components/users/details/UserDetailsLoadingState.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/users/details/UserDetailsLoadingState.tsx",
+    "category": "ui",
+    "semanticTags": ["card", "loading", "container"]
+  },
+  {
+    "id": "loading-content",
+    "definitionId": "dev-div",
+    "name": "Loading Content",
+    "description": "Loading content wrapper",
+    "filePath": "src/components/users/details/UserDetailsLoadingState.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/users/details/UserDetailsLoadingState.tsx",
+    "category": "layout",
+    "semanticTags": ["content", "loading", "wrapper"]
+  },
+  {
+    "id": "loading-spinner",
+    "definitionId": "dev-div",
+    "name": "Loading Spinner",
+    "description": "Animated loading spinner",
+    "filePath": "src/components/users/details/UserDetailsLoadingState.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/users/details/UserDetailsLoadingState.tsx",
+    "category": "ui",
+    "semanticTags": ["spinner", "loading", "animation"]
+  },
+  {
+    "id": "loading-text",
+    "definitionId": "dev-p",
+    "name": "Loading Text",
+    "description": "Loading state message",
+    "filePath": "src/components/users/details/UserDetailsLoadingState.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/users/details/UserDetailsLoadingState.tsx",
+    "category": "ui",
+    "semanticTags": ["text", "loading", "message"]
+  },
+  {
+    "id": "user-details-error",
+    "definitionId": "dev-container",
+    "name": "User Details Error State",
+    "description": "Error state for user details page",
+    "filePath": "src/components/users/details/UserDetailsErrorState.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/users/details/UserDetailsErrorState.tsx",
+    "category": "component",
+    "semanticTags": ["error", "state", "user", "details"]
+  },
+  {
+    "id": "error-card",
+    "definitionId": "dev-card",
+    "name": "Error Card",
+    "description": "Error state card container",
+    "filePath": "src/components/users/details/UserDetailsErrorState.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/users/details/UserDetailsErrorState.tsx",
+    "category": "ui",
+    "semanticTags": ["card", "error", "container"]
+  },
+  {
+    "id": "error-content",
+    "definitionId": "dev-div",
+    "name": "Error Content",
+    "description": "Error content wrapper",
+    "filePath": "src/components/users/details/UserDetailsErrorState.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/users/details/UserDetailsErrorState.tsx",
+    "category": "layout",
+    "semanticTags": ["content", "error", "wrapper"]
+  },
+  {
+    "id": "error-message",
+    "definitionId": "dev-p",
+    "name": "Error Message",
+    "description": "Error message text",
+    "filePath": "src/components/users/details/UserDetailsErrorState.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/users/details/UserDetailsErrorState.tsx",
+    "category": "ui",
+    "semanticTags": ["message", "error", "text"]
+  },
+  {
+    "id": "back-button",
+    "definitionId": "dev-button",
+    "name": "Back Button",
+    "description": "Navigate back to users list",
+    "filePath": "src/components/users/details/UserDetailsErrorState.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/users/details/UserDetailsErrorState.tsx",
+    "category": "interactive",
+    "semanticTags": ["button", "back", "navigation"]
+  },
+  {
+    "id": "user-details-header",
+    "definitionId": "dev-container",
+    "name": "User Details Header",
+    "description": "Header with navigation and actions",
+    "filePath": "src/components/users/details/UserDetailsHeader.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/users/details/UserDetailsHeader.tsx",
+    "category": "component",
+    "semanticTags": ["header", "user", "details", "navigation"]
+  },
+  {
+    "id": "header-wrapper",
+    "definitionId": "dev-div",
+    "name": "Header Wrapper",
+    "description": "Header content wrapper",
+    "filePath": "src/components/users/details/UserDetailsHeader.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/users/details/UserDetailsHeader.tsx",
+    "category": "layout",
+    "semanticTags": ["wrapper", "header", "layout"]
+  },
+  {
+    "id": "header-nav",
+    "definitionId": "dev-div",
+    "name": "Header Navigation",
+    "description": "Header navigation container",
+    "filePath": "src/components/users/details/UserDetailsHeader.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/users/details/UserDetailsHeader.tsx",
+    "category": "layout",
+    "semanticTags": ["navigation", "header", "container"]
+  },
+  {
+    "id": "back-button",
+    "definitionId": "dev-button",
+    "name": "Back to Users Button",
+    "description": "Navigate back to users list",
+    "filePath": "src/components/users/details/UserDetailsHeader.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/users/details/UserDetailsHeader.tsx",
+    "category": "interactive",
+    "semanticTags": ["button", "back", "navigation", "users"]
+  },
+  {
+    "id": "delete-user-button",
+    "definitionId": "dev-button",
+    "name": "Delete User Button",
+    "description": "Button to delete user",
+    "filePath": "src/components/users/details/UserDetailsHeader.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/users/details/UserDetailsHeader.tsx",
+    "category": "interactive",
+    "semanticTags": ["button", "delete", "user", "action"]
+  },
+  {
+    "id": "user-info-card",
+    "definitionId": "dev-card",
+    "name": "User Info Card",
+    "description": "User information display card",
+    "filePath": "src/components/users/details/UserInfo.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/users/details/UserInfo.tsx",
+    "category": "ui",
+    "semanticTags": ["card", "user", "info", "details"]
+  },
+  {
+    "id": "user-role-badge",
+    "definitionId": "dev-badge",
+    "name": "User Role Badge",
+    "description": "Badge displaying user role",
+    "filePath": "src/components/users/details/UserInfo.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/users/details/UserInfo.tsx",
+    "category": "ui",
+    "semanticTags": ["badge", "role", "user", "status"]
+  },
+  {
+    "id": "change-role-button",
+    "definitionId": "dev-button",
+    "name": "Change Role Button",
+    "description": "Button to change user role",
+    "filePath": "src/components/users/details/UserInfo.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/users/details/UserInfo.tsx",
+    "category": "interactive",
+    "semanticTags": ["button", "role", "change", "permission"]
+  },
+  {
+    "id": "user-preferences",
+    "definitionId": "dev-container",
+    "name": "User Preferences",
+    "description": "User preferences display component",
+    "filePath": "src/components/users/details/UserPreferences.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/users/details/UserPreferences.tsx",
+    "category": "component",
+    "semanticTags": ["preferences", "user", "settings"]
+  },
+  {
+    "id": "preferences-card",
+    "definitionId": "dev-card",
+    "name": "Preferences Card",
+    "description": "Card for user preferences",
+    "filePath": "src/components/users/details/UserPreferences.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/users/details/UserPreferences.tsx",
+    "category": "ui",
+    "semanticTags": ["card", "preferences", "container"]
+  },
+  {
+    "id": "preferences-title",
+    "definitionId": "dev-h3",
+    "name": "Preferences Title",
+    "description": "User preferences section title",
+    "filePath": "src/components/users/details/UserPreferences.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/users/details/UserPreferences.tsx",
+    "category": "ui",
+    "semanticTags": ["title", "heading", "preferences"]
+  },
+  {
+    "id": "preferences-grid",
+    "definitionId": "dev-div",
+    "name": "Preferences Grid",
+    "description": "Grid layout for preferences",
+    "filePath": "src/components/users/details/UserPreferences.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/users/details/UserPreferences.tsx",
+    "category": "layout",
+    "semanticTags": ["grid", "preferences", "layout"]
+  },
+  {
+    "id": "theme-preference",
+    "definitionId": "dev-div",
+    "name": "Theme Preference",
+    "description": "Theme preference container",
+    "filePath": "src/components/users/details/UserPreferences.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/users/details/UserPreferences.tsx",
+    "category": "layout",
+    "semanticTags": ["theme", "preference", "container"]
+  },
+  {
+    "id": "theme-label",
+    "definitionId": "dev-p",
+    "name": "Theme Label",
+    "description": "Theme preference label",
+    "filePath": "src/components/users/details/UserPreferences.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/users/details/UserPreferences.tsx",
+    "category": "ui",
+    "semanticTags": ["label", "theme", "text"]
+  },
+  {
+    "id": "theme-value",
+    "definitionId": "dev-p",
+    "name": "Theme Value",
+    "description": "Theme preference value",
+    "filePath": "src/components/users/details/UserPreferences.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/users/details/UserPreferences.tsx",
+    "category": "ui",
+    "semanticTags": ["value", "theme", "text"]
+  },
+  {
+    "id": "email-preference",
+    "definitionId": "dev-div",
+    "name": "Email Preference",
+    "description": "Email notifications preference container",
+    "filePath": "src/components/users/details/UserPreferences.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/users/details/UserPreferences.tsx",
+    "category": "layout",
+    "semanticTags": ["email", "preference", "container"]
+  },
+  {
+    "id": "email-label",
+    "definitionId": "dev-p",
+    "name": "Email Label",
+    "description": "Email preference label",
+    "filePath": "src/components/users/details/UserPreferences.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/users/details/UserPreferences.tsx",
+    "category": "ui",
+    "semanticTags": ["label", "email", "text"]
+  },
+  {
+    "id": "email-value",
+    "definitionId": "dev-p",
+    "name": "Email Value",
+    "description": "Email preference value",
+    "filePath": "src/components/users/details/UserPreferences.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/users/details/UserPreferences.tsx",
+    "category": "ui",
+    "semanticTags": ["value", "email", "text"]
+  },
+  {
+    "id": "language-preference",
+    "definitionId": "dev-div",
+    "name": "Language Preference",
+    "description": "Language preference container",
+    "filePath": "src/components/users/details/UserPreferences.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/users/details/UserPreferences.tsx",
+    "category": "layout",
+    "semanticTags": ["language", "preference", "container"]
+  },
+  {
+    "id": "language-label",
+    "definitionId": "dev-p",
+    "name": "Language Label",
+    "description": "Language preference label",
+    "filePath": "src/components/users/details/UserPreferences.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/users/details/UserPreferences.tsx",
+    "category": "ui",
+    "semanticTags": ["label", "language", "text"]
+  },
+  {
+    "id": "language-value",
+    "definitionId": "dev-p",
+    "name": "Language Value",
+    "description": "Language preference value",
+    "filePath": "src/components/users/details/UserPreferences.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/users/details/UserPreferences.tsx",
+    "category": "ui",
+    "semanticTags": ["value", "language", "text"]
+  },
+  {
+    "id": "timezone-preference",
+    "definitionId": "dev-div",
+    "name": "Timezone Preference",
+    "description": "Timezone preference container",
+    "filePath": "src/components/users/details/UserPreferences.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/users/details/UserPreferences.tsx",
+    "category": "layout",
+    "semanticTags": ["timezone", "preference", "container"]
+  },
+  {
+    "id": "timezone-label",
+    "definitionId": "dev-p",
+    "name": "Timezone Label",
+    "description": "Timezone preference label",
+    "filePath": "src/components/users/details/UserPreferences.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/users/details/UserPreferences.tsx",
+    "category": "ui",
+    "semanticTags": ["label", "timezone", "text"]
+  },
+  {
+    "id": "timezone-value",
+    "definitionId": "dev-p",
+    "name": "Timezone Value",
+    "description": "Timezone preference value",
+    "filePath": "src/components/users/details/UserPreferences.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/users/details/UserPreferences.tsx",
+    "category": "ui",
+    "semanticTags": ["value", "timezone", "text"]
+  },
+  {
+    "id": "user-activity-card",
+    "definitionId": "dev-card",
+    "name": "User Activity Card",
+    "description": "Recent activity display card",
+    "filePath": "src/components/users/details/UserActivity.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/users/details/UserActivity.tsx",
+    "category": "ui",
+    "semanticTags": ["card", "activity", "user", "history"]
+  },
+  {
+    "id": "user-sessions-card",
+    "definitionId": "dev-card",
+    "name": "User Sessions Card",
+    "description": "Active sessions display card",
+    "filePath": "src/components/users/details/UserSessions.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/users/details/UserSessions.tsx",
+    "category": "ui",
+    "semanticTags": ["card", "sessions", "user", "active"]
+  },
+  {
+    "id": "current-session-badge",
+    "definitionId": "dev-badge",
+    "name": "Current Session Badge",
+    "description": "Badge for current session",
+    "filePath": "src/components/users/details/UserSessions.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/users/details/UserSessions.tsx",
+    "category": "ui",
+    "semanticTags": ["badge", "session", "current", "indicator"]
+  },
+  {
+    "id": "active-session-badge",
+    "definitionId": "dev-badge",
+    "name": "Active Session Badge",
+    "description": "Badge for active sessions",
+    "filePath": "src/components/users/details/UserSessions.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/users/details/UserSessions.tsx",
+    "category": "ui",
+    "semanticTags": ["badge", "session", "active", "status"]
+  },
+  {
+    "id": "terminate-session-button",
+    "definitionId": "dev-button",
+    "name": "Terminate Session Button",
+    "description": "Button to terminate a session",
+    "filePath": "src/components/users/details/UserSessions.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/users/details/UserSessions.tsx",
+    "category": "interactive",
+    "semanticTags": ["button", "terminate", "session", "action"]
+  },
+  {
+    "id": "delete-user-confirm-modal",
+    "definitionId": "dev-container",
+    "name": "Delete User Confirm Modal",
+    "description": "Confirmation modal for user deletion",
+    "filePath": "src/components/users/details/DeleteUserConfirmModal.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/users/details/DeleteUserConfirmModal.tsx",
+    "category": "component",
+    "semanticTags": ["modal", "confirm", "delete", "user"]
+  },
+  {
+    "id": "modal-backdrop",
+    "definitionId": "dev-div",
+    "name": "Modal Backdrop",
+    "description": "Modal backdrop overlay",
+    "filePath": "src/components/users/details/DeleteUserConfirmModal.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/users/details/DeleteUserConfirmModal.tsx",
+    "category": "layout",
+    "semanticTags": ["backdrop", "modal", "overlay"]
+  },
+  {
+    "id": "delete-confirm-card",
+    "definitionId": "dev-card",
+    "name": "Delete Confirm Card",
+    "description": "Delete confirmation modal card",
+    "filePath": "src/components/users/details/DeleteUserConfirmModal.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/users/details/DeleteUserConfirmModal.tsx",
+    "category": "ui",
+    "semanticTags": ["card", "modal", "confirm", "delete"]
+  },
+  {
+    "id": "modal-title",
+    "definitionId": "dev-h3",
+    "name": "Modal Title",
+    "description": "Delete confirmation modal title",
+    "filePath": "src/components/users/details/DeleteUserConfirmModal.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/users/details/DeleteUserConfirmModal.tsx",
+    "category": "ui",
+    "semanticTags": ["title", "modal", "heading"]
+  },
+  {
+    "id": "modal-message",
+    "definitionId": "dev-p",
+    "name": "Modal Message",
+    "description": "Delete confirmation message",
+    "filePath": "src/components/users/details/DeleteUserConfirmModal.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/users/details/DeleteUserConfirmModal.tsx",
+    "category": "ui",
+    "semanticTags": ["message", "modal", "text", "confirm"]
+  },
+  {
+    "id": "modal-actions",
+    "definitionId": "dev-div",
+    "name": "Modal Actions",
+    "description": "Modal action buttons container",
+    "filePath": "src/components/users/details/DeleteUserConfirmModal.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/users/details/DeleteUserConfirmModal.tsx",
+    "category": "layout",
+    "semanticTags": ["actions", "modal", "buttons", "container"]
+  },
+  {
+    "id": "cancel-delete-button",
+    "definitionId": "dev-button",
+    "name": "Cancel Delete Button",
+    "description": "Cancel user deletion button",
+    "filePath": "src/components/users/details/DeleteUserConfirmModal.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/users/details/DeleteUserConfirmModal.tsx",
+    "category": "interactive",
+    "semanticTags": ["button", "cancel", "delete", "modal"]
+  },
+  {
+    "id": "confirm-delete-button",
+    "definitionId": "dev-button",
+    "name": "Confirm Delete Button",
+    "description": "Confirm user deletion button",
+    "filePath": "src/components/users/details/DeleteUserConfirmModal.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/users/details/DeleteUserConfirmModal.tsx",
+    "category": "interactive",
+    "semanticTags": ["button", "confirm", "delete", "modal", "destructive"]
+  }
+]

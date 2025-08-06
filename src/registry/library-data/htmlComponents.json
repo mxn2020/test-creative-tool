@@ -1,0 +1,338 @@
+[
+  {
+    "id": "dev-html-div",
+    "name": "Dev Div",
+    "description": "Development-aware div container element",
+    "componentPath": "src/lib/dev-container/html/Div.tsx",
+    "category": "layout",
+    "semanticTags": ["div", "container", "layout", "wrapper"]
+  },
+  {
+    "id": "dev-html-footer",
+    "name": "Dev Footer",
+    "description": "Development-aware footer element",
+    "componentPath": "src/lib/dev-container/html/Footer.tsx",
+    "category": "layout",
+    "semanticTags": ["footer", "navigation", "layout"]
+  },
+  {
+    "id": "dev-html-header",
+    "name": "Dev Header",
+    "description": "Development-aware header element",
+    "componentPath": "src/lib/dev-container/html/Header.tsx",
+    "category": "layout",
+    "semanticTags": ["header", "top", "semantic"]
+  },
+  {
+    "id": "dev-html-h1",
+    "name": "Dev H1",
+    "description": "Development-aware H1 heading element",
+    "componentPath": "src/lib/dev-container/html/Headings.tsx",
+    "category": "typography",
+    "semanticTags": ["h1", "heading", "title", "content"]
+  },
+  {
+    "id": "dev-html-h2",
+    "name": "Dev H2",
+    "description": "Development-aware H2 heading element",
+    "componentPath": "src/lib/dev-container/html/Headings.tsx",
+    "category": "typography",
+    "semanticTags": ["h2", "heading", "subtitle", "content"]
+  },
+  {
+    "id": "dev-html-h3",
+    "name": "Dev H3",
+    "description": "Development-aware H3 heading element",
+    "componentPath": "src/lib/dev-container/html/Headings.tsx",
+    "category": "typography",
+    "semanticTags": ["h3", "heading", "section-title", "content"]
+  },
+  {
+    "id": "dev-html-h4",
+    "name": "Dev H4",
+    "description": "Development-aware H4 heading element",
+    "componentPath": "src/lib/dev-container/html/Headings.tsx",
+    "category": "typography",
+    "semanticTags": ["h4", "heading", "subsection-title", "content"]
+  },
+  {
+    "id": "dev-html-h5",
+    "name": "Dev H5",
+    "description": "Development-aware H5 heading element",
+    "componentPath": "src/lib/dev-container/html/Headings.tsx",
+    "category": "typography",
+    "semanticTags": ["h5", "heading", "minor-title", "content"]
+  },
+  {
+    "id": "dev-html-h6",
+    "name": "Dev H6",
+    "description": "Development-aware H6 heading element",
+    "componentPath": "src/lib/dev-container/html/Headings.tsx",
+    "category": "typography",
+    "semanticTags": ["h6", "heading", "smallest-title", "content"]
+  },
+  {
+    "id": "dev-html-ul",
+    "name": "Dev Unordered List",
+    "description": "Development-aware unordered list element",
+    "componentPath": "src/lib/dev-container/html/Lists.tsx",
+    "category": "content",
+    "semanticTags": ["ul", "list", "unordered", "content"]
+  },
+  {
+    "id": "dev-html-ol",
+    "name": "Dev Ordered List",
+    "description": "Development-aware ordered list element",
+    "componentPath": "src/lib/dev-container/html/Lists.tsx",
+    "category": "content",
+    "semanticTags": ["ol", "list", "ordered", "numbered", "content"]
+  },
+  {
+    "id": "dev-html-li",
+    "name": "Dev List Item",
+    "description": "Development-aware list item element",
+    "componentPath": "src/lib/dev-container/html/Lists.tsx",
+    "category": "content",
+    "semanticTags": ["li", "list-item", "item", "content"]
+  },
+  {
+    "id": "dev-html-img",
+    "name": "Dev Image",
+    "description": "Development-aware image element",
+    "componentPath": "src/lib/dev-container/html/Media.tsx",
+    "category": "media",
+    "semanticTags": ["img", "image", "media", "content"]
+  },
+  {
+    "id": "dev-html-video",
+    "name": "Dev Video",
+    "description": "Development-aware video element",
+    "componentPath": "src/lib/dev-container/html/Media.tsx",
+    "category": "media",
+    "semanticTags": ["video", "media", "player", "content"]
+  },
+  {
+    "id": "dev-html-audio",
+    "name": "Dev Audio",
+    "description": "Development-aware audio element",
+    "componentPath": "src/lib/dev-container/html/Media.tsx",
+    "category": "media",
+    "semanticTags": ["audio", "media", "player", "content"]
+  },
+  {
+    "id": "dev-html-nav",
+    "name": "Dev Nav",
+    "description": "Development-aware navigation element",
+    "componentPath": "src/lib/dev-container/html/Nav.tsx",
+    "category": "navigation",
+    "semanticTags": ["nav", "navigation", "menu", "layout"]
+  },
+  {
+    "id": "dev-html-p",
+    "name": "Dev Paragraph",
+    "description": "Development-aware paragraph element",
+    "componentPath": "src/lib/dev-container/html/Paragraph.tsx",
+    "category": "typography",
+    "semanticTags": ["p", "paragraph", "text", "content"]
+  },
+  {
+    "id": "dev-html-section",
+    "name": "Dev Section",
+    "description": "Development-aware section element",
+    "componentPath": "src/lib/dev-container/html/Section.tsx",
+    "category": "layout",
+    "semanticTags": ["section", "content", "layout"]
+  },
+  {
+    "id": "dev-html-article",
+    "name": "Dev Article",
+    "description": "Development-aware article element",
+    "componentPath": "src/lib/dev-container/html/Semantic.tsx",
+    "category": "content",
+    "semanticTags": ["article", "content", "layout"]
+  },
+  {
+    "id": "dev-html-aside",
+    "name": "Dev Aside",
+    "description": "Development-aware aside element",
+    "componentPath": "src/lib/dev-container/html/Semantic.tsx",
+    "category": "content",
+    "semanticTags": ["aside", "sidebar", "layout"]
+  },
+  {
+    "id": "dev-html-main",
+    "name": "Dev Main",
+    "description": "Development-aware main element",
+    "componentPath": "src/lib/dev-container/html/Semantic.tsx",
+    "category": "layout",
+    "semanticTags": ["main", "content", "layout"]
+  },
+  {
+    "id": "dev-html-figure",
+    "name": "Dev Figure",
+    "description": "Development-aware figure element for media content",
+    "componentPath": "src/lib/dev-container/html/Semantic.tsx",
+    "category": "media",
+    "semanticTags": ["figure", "media", "semantic", "content"]
+  },
+  {
+    "id": "dev-html-figcaption",
+    "name": "Dev Figcaption",
+    "description": "Development-aware figcaption element for figure captions",
+    "componentPath": "src/lib/dev-container/html/Semantic.tsx",
+    "category": "typography",
+    "semanticTags": ["figcaption", "caption", "semantic", "content"]
+  },
+  {
+    "id": "dev-html-anchor",
+    "name": "Dev Anchor",
+    "description": "Development-aware anchor/link element",
+    "componentPath": "src/lib/dev-container/html/Text.tsx",
+    "category": "interactive",
+    "semanticTags": ["a", "anchor", "link", "navigation", "interactive"]
+  },
+  {
+    "id": "dev-html-code",
+    "name": "Dev Code",
+    "description": "Development-aware inline code element",
+    "componentPath": "src/lib/dev-container/html/Text.tsx",
+    "category": "typography",
+    "semanticTags": ["code", "programming", "inline", "text", "semantic"]
+  },
+  {
+    "id": "dev-html-pre",
+    "name": "Dev Pre",
+    "description": "Development-aware preformatted text element",
+    "componentPath": "src/lib/dev-container/html/Text.tsx",
+    "category": "typography",
+    "semanticTags": ["pre", "preformatted", "code-block", "text", "semantic"]
+  },
+  {
+    "id": "dev-html-blockquote",
+    "name": "Dev Blockquote",
+    "description": "Development-aware blockquote element",
+    "componentPath": "src/lib/dev-container/html/Text.tsx",
+    "category": "content",
+    "semanticTags": ["blockquote", "quote", "citation", "text", "semantic"]
+  },
+  {
+    "id": "dev-html-span",
+    "name": "Dev Span",
+    "description": "Development-aware span element",
+    "componentPath": "src/lib/dev-container/html/Span.tsx",
+    "category": "typography",
+    "semanticTags": ["span", "inline", "text"]
+  },
+  {
+    "id": "dev-html-table",
+    "name": "Dev Table",
+    "description": "Development-aware table element",
+    "componentPath": "src/lib/dev-container/html/Table.tsx",
+    "category": "data-display",
+    "semanticTags": ["table", "data", "grid", "layout"]
+  },
+  {
+    "id": "dev-html-table-row",
+    "name": "Dev Table Row",
+    "description": "Development-aware table row element",
+    "componentPath": "src/lib/dev-container/html/Table.tsx",
+    "category": "data-display",
+    "semanticTags": ["tr", "table-row", "data-row", "grid"]
+  },
+  {
+    "id": "dev-html-table-cell",
+    "name": "Dev Table Cell",
+    "description": "Development-aware table cell element",
+    "componentPath": "src/lib/dev-container/html/Table.tsx",
+    "category": "data-display",
+    "semanticTags": ["td", "table-cell", "data-cell", "grid"]
+  },
+  {
+    "id": "dev-html-table-header",
+    "name": "Dev Table Header",
+    "description": "Development-aware table header element",
+    "componentPath": "src/lib/dev-container/html/Table.tsx",
+    "category": "data-display",
+    "semanticTags": ["th", "table-header", "data-header", "grid"]
+  },
+  {
+    "id": "dev-html-table-head",
+    "name": "Dev Table Head",
+    "description": "Development-aware table head element",
+    "componentPath": "src/lib/dev-container/html/Table.tsx",
+    "category": "data-display",
+    "semanticTags": ["thead", "table-head", "data-head", "grid"]
+  },
+  {
+    "id": "dev-html-table-body",
+    "name": "Dev Table Body",
+    "description": "Development-aware table body element",
+    "componentPath": "src/lib/dev-container/html/Table.tsx",
+    "category": "data-display",
+    "semanticTags": ["tbody", "table-body", "data-body", "grid"]
+  },
+  {
+    "id": "dev-html-table-footer",
+    "name": "Dev Table Footer",
+    "description": "Development-aware table footer element",
+    "componentPath": "src/lib/dev-container/html/Table.tsx",
+    "category": "data-display",
+    "semanticTags": ["tfoot", "table-footer", "data-footer", "grid"]
+  },
+  {
+    "id": "dev-html-table-caption",
+    "name": "Dev Table Caption",
+    "description": "Development-aware table caption element",
+    "componentPath": "src/lib/dev-container/html/Table.tsx",
+    "category": "data-display",
+    "semanticTags": ["caption", "table-caption", "data-caption"]
+  },
+  {
+    "id": "dev-html-label",
+    "name": "Dev Label",
+    "description": "Development-aware label element for form controls",
+    "componentPath": "src/lib/dev-container/html/Label.tsx",
+    "category": "form",
+    "semanticTags": ["label", "form", "input-label"]
+  },
+  {
+    "id": "dev-html-input",
+    "name": "Dev Input",
+    "description": "Development-aware input element for text input",
+    "componentPath": "src/lib/dev-container/html/Input.tsx",
+    "category": "form",
+    "semanticTags": ["input", "text-input", "form-control"]
+  },
+  {
+    "id": "dev-html-button",
+    "name": "Dev Button",
+    "description": "Development-aware button element for actions",
+    "componentPath": "src/lib/dev-container/html/Button.tsx",
+    "category": "interactive",
+    "semanticTags": ["button", "action", "clickable"]
+  },
+  {
+    "id": "dev-html-small",
+    "name": "Dev Small",
+    "description": "Development-aware small text element",
+    "componentPath": "src/lib/dev-container/html/Text.tsx",
+    "category": "typography",
+    "semanticTags": ["small", "text", "fine-print"]
+  },
+  {
+    "id": "dev-html-strong",
+    "name": "Dev Strong",
+    "description": "Development-aware strong text element",
+    "componentPath": "src/lib/dev-container/html/Text.tsx",
+    "category": "typography",
+    "semanticTags": ["strong", "text", "bold"]
+  },
+  {
+    "id": "dev-html-em",
+    "name": "Dev Emphasis",
+    "description": "Development-aware emphasis text element",
+    "componentPath": "src/lib/dev-container/html/Text.tsx",
+    "category": "typography",
+    "semanticTags": ["em", "text", "emphasis", "italic"]
+  }
+]

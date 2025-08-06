@@ -1,0 +1,742 @@
+[
+  {
+    "id": "settings-page",
+    "definitionId": "dev-container",
+    "name": "Settings Page",
+    "description": "User settings and preferences page",
+    "filePath": "src/pages/SettingsPage.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/pages/SettingsPage.tsx",
+    "category": "page",
+    "semanticTags": ["settings", "page", "preferences", "configuration"]
+  },
+  {
+    "id": "settings-header",
+    "definitionId": "dev-container",
+    "name": "Settings Header",
+    "description": "Settings page header section",
+    "filePath": "src/components/settings/SettingsHeader.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/settings/SettingsHeader.tsx",
+    "category": "component",
+    "semanticTags": ["header", "settings", "title"]
+  },
+  {
+    "id": "settings-header-content",
+    "definitionId": "dev-div",
+    "name": "Settings Header Content",
+    "description": "Header content wrapper",
+    "filePath": "src/components/settings/SettingsHeader.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/settings/SettingsHeader.tsx",
+    "category": "layout",
+    "semanticTags": ["content", "header", "wrapper"]
+  },
+  {
+    "id": "settings-title",
+    "definitionId": "dev-h1",
+    "name": "Settings Title",
+    "description": "Settings page main title",
+    "filePath": "src/components/settings/SettingsHeader.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/settings/SettingsHeader.tsx",
+    "category": "ui",
+    "semanticTags": ["title", "heading", "h1"]
+  },
+  {
+    "id": "settings-description",
+    "definitionId": "dev-p",
+    "name": "Settings Description",
+    "description": "Manage your account settings",
+    "filePath": "src/components/settings/SettingsHeader.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/settings/SettingsHeader.tsx",
+    "category": "ui",
+    "semanticTags": ["description", "subtitle", "text"]
+  },
+  {
+    "id": "general-settings",
+    "definitionId": "dev-container",
+    "name": "General Settings",
+    "description": "General application settings section",
+    "filePath": "src/components/settings/GeneralSettings.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/settings/GeneralSettings.tsx",
+    "category": "component",
+    "semanticTags": ["general", "settings", "section"]
+  },
+  {
+    "id": "general-settings-card",
+    "definitionId": "dev-card",
+    "name": "General Settings Card",
+    "description": "Card container for general settings",
+    "filePath": "src/components/settings/GeneralSettings.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/settings/GeneralSettings.tsx",
+    "category": "ui",
+    "semanticTags": ["card", "general", "settings"]
+  },
+  {
+    "id": "general-settings-header",
+    "definitionId": "dev-div",
+    "name": "General Settings Header",
+    "description": "General settings header wrapper",
+    "filePath": "src/components/settings/GeneralSettings.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/settings/GeneralSettings.tsx",
+    "category": "layout",
+    "semanticTags": ["header", "general", "wrapper"]
+  },
+  {
+    "id": "general-settings-title",
+    "definitionId": "dev-h2",
+    "name": "General Settings Title",
+    "description": "General section title",
+    "filePath": "src/components/settings/GeneralSettings.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/settings/GeneralSettings.tsx",
+    "category": "ui",
+    "semanticTags": ["title", "heading", "h2"]
+  },
+  {
+    "id": "general-settings-content",
+    "definitionId": "dev-div",
+    "name": "General Settings Content",
+    "description": "General settings form content",
+    "filePath": "src/components/settings/GeneralSettings.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/settings/GeneralSettings.tsx",
+    "category": "layout",
+    "semanticTags": ["content", "form", "general"]
+  },
+  {
+    "id": "app-name-field",
+    "definitionId": "dev-div",
+    "name": "App Name Field",
+    "description": "Application name input field",
+    "filePath": "src/components/settings/GeneralSettings.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/settings/GeneralSettings.tsx",
+    "category": "layout",
+    "semanticTags": ["field", "app", "name"]
+  },
+  {
+    "id": "app-name-label",
+    "definitionId": "dev-label",
+    "name": "App Name Label",
+    "description": "Label for app name input",
+    "filePath": "src/components/settings/GeneralSettings.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/settings/GeneralSettings.tsx",
+    "category": "ui",
+    "semanticTags": ["label", "app", "name"]
+  },
+  {
+    "id": "app-name-input",
+    "definitionId": "dev-input",
+    "name": "App Name Input",
+    "description": "Application name text input",
+    "filePath": "src/components/settings/GeneralSettings.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/settings/GeneralSettings.tsx",
+    "category": "interactive",
+    "semanticTags": ["input", "app", "name", "text"]
+  },
+  {
+    "id": "app-url-field",
+    "definitionId": "dev-div",
+    "name": "App URL Field",
+    "description": "Application URL input field",
+    "filePath": "src/components/settings/GeneralSettings.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/settings/GeneralSettings.tsx",
+    "category": "layout",
+    "semanticTags": ["field", "app", "url"]
+  },
+  {
+    "id": "app-url-label",
+    "definitionId": "dev-label",
+    "name": "App URL Label",
+    "description": "Label for app URL input",
+    "filePath": "src/components/settings/GeneralSettings.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/settings/GeneralSettings.tsx",
+    "category": "ui",
+    "semanticTags": ["label", "app", "url"]
+  },
+  {
+    "id": "app-url-input",
+    "definitionId": "dev-input",
+    "name": "App URL Input",
+    "description": "Application URL text input",
+    "filePath": "src/components/settings/GeneralSettings.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/settings/GeneralSettings.tsx",
+    "category": "interactive",
+    "semanticTags": ["input", "app", "url", "text"]
+  },
+  {
+    "id": "notification-settings",
+    "definitionId": "dev-container",
+    "name": "Notification Settings",
+    "description": "Notification preferences section",
+    "filePath": "src/components/settings/NotificationSettings.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/settings/NotificationSettings.tsx",
+    "category": "component",
+    "semanticTags": ["notification", "settings", "section"]
+  },
+  {
+    "id": "notification-settings-card",
+    "definitionId": "dev-card",
+    "name": "Notification Settings Card",
+    "description": "Card container for notification settings",
+    "filePath": "src/components/settings/NotificationSettings.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/settings/NotificationSettings.tsx",
+    "category": "ui",
+    "semanticTags": ["card", "notification", "settings"]
+  },
+  {
+    "id": "notification-settings-header",
+    "definitionId": "dev-div",
+    "name": "Notification Settings Header",
+    "description": "Notification settings header wrapper",
+    "filePath": "src/components/settings/NotificationSettings.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/settings/NotificationSettings.tsx",
+    "category": "layout",
+    "semanticTags": ["header", "notification", "wrapper"]
+  },
+  {
+    "id": "notification-settings-title",
+    "definitionId": "dev-h2",
+    "name": "Notification Settings Title",
+    "description": "Notifications section title",
+    "filePath": "src/components/settings/NotificationSettings.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/settings/NotificationSettings.tsx",
+    "category": "ui",
+    "semanticTags": ["title", "heading", "h2"]
+  },
+  {
+    "id": "notification-settings-content",
+    "definitionId": "dev-div",
+    "name": "Notification Settings Content",
+    "description": "Notification settings options",
+    "filePath": "src/components/settings/NotificationSettings.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/settings/NotificationSettings.tsx",
+    "category": "layout",
+    "semanticTags": ["content", "options", "notification"]
+  },
+  {
+    "id": "email-notification-field",
+    "definitionId": "dev-div",
+    "name": "Email Notification Field",
+    "description": "Email notification toggle field",
+    "filePath": "src/components/settings/NotificationSettings.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/settings/NotificationSettings.tsx",
+    "category": "layout",
+    "semanticTags": ["field", "email", "notification"]
+  },
+  {
+    "id": "email-notification-info",
+    "definitionId": "dev-div",
+    "name": "Email Notification Info",
+    "description": "Email notification information",
+    "filePath": "src/components/settings/NotificationSettings.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/settings/NotificationSettings.tsx",
+    "category": "layout",
+    "semanticTags": ["info", "email", "notification"]
+  },
+  {
+    "id": "email-notification-title",
+    "definitionId": "dev-p",
+    "name": "Email Notification Title",
+    "description": "Email notifications label",
+    "filePath": "src/components/settings/NotificationSettings.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/settings/NotificationSettings.tsx",
+    "category": "ui",
+    "semanticTags": ["title", "email", "label"]
+  },
+  {
+    "id": "email-notification-desc",
+    "definitionId": "dev-p",
+    "name": "Email Notification Description",
+    "description": "Email notification description text",
+    "filePath": "src/components/settings/NotificationSettings.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/settings/NotificationSettings.tsx",
+    "category": "ui",
+    "semanticTags": ["description", "email", "text"]
+  },
+  {
+    "id": "email-toggle-label",
+    "definitionId": "dev-label",
+    "name": "Email Toggle Label",
+    "description": "Email notification toggle label",
+    "filePath": "src/components/settings/NotificationSettings.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/settings/NotificationSettings.tsx",
+    "category": "ui",
+    "semanticTags": ["label", "toggle", "email"]
+  },
+  {
+    "id": "email-toggle-input",
+    "definitionId": "dev-input",
+    "name": "Email Toggle Input",
+    "description": "Email notification checkbox input",
+    "filePath": "src/components/settings/NotificationSettings.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/settings/NotificationSettings.tsx",
+    "category": "interactive",
+    "semanticTags": ["input", "toggle", "checkbox", "email"]
+  },
+  {
+    "id": "email-toggle-switch",
+    "definitionId": "dev-div",
+    "name": "Email Toggle Switch",
+    "description": "Email notification switch visual",
+    "filePath": "src/components/settings/NotificationSettings.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/settings/NotificationSettings.tsx",
+    "category": "ui",
+    "semanticTags": ["switch", "toggle", "visual"]
+  },
+  {
+    "id": "push-notification-field",
+    "definitionId": "dev-div",
+    "name": "Push Notification Field",
+    "description": "Push notification toggle field",
+    "filePath": "src/components/settings/NotificationSettings.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/settings/NotificationSettings.tsx",
+    "category": "layout",
+    "semanticTags": ["field", "push", "notification"]
+  },
+  {
+    "id": "push-notification-info",
+    "definitionId": "dev-div",
+    "name": "Push Notification Info",
+    "description": "Push notification information",
+    "filePath": "src/components/settings/NotificationSettings.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/settings/NotificationSettings.tsx",
+    "category": "layout",
+    "semanticTags": ["info", "push", "notification"]
+  },
+  {
+    "id": "push-notification-title",
+    "definitionId": "dev-p",
+    "name": "Push Notification Title",
+    "description": "Push notifications label",
+    "filePath": "src/components/settings/NotificationSettings.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/settings/NotificationSettings.tsx",
+    "category": "ui",
+    "semanticTags": ["title", "push", "label"]
+  },
+  {
+    "id": "push-notification-desc",
+    "definitionId": "dev-p",
+    "name": "Push Notification Description",
+    "description": "Push notification description text",
+    "filePath": "src/components/settings/NotificationSettings.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/settings/NotificationSettings.tsx",
+    "category": "ui",
+    "semanticTags": ["description", "push", "text"]
+  },
+  {
+    "id": "push-toggle-label",
+    "definitionId": "dev-label",
+    "name": "Push Toggle Label",
+    "description": "Push notification toggle label",
+    "filePath": "src/components/settings/NotificationSettings.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/settings/NotificationSettings.tsx",
+    "category": "ui",
+    "semanticTags": ["label", "toggle", "push"]
+  },
+  {
+    "id": "push-toggle-input",
+    "definitionId": "dev-input",
+    "name": "Push Toggle Input",
+    "description": "Push notification checkbox input",
+    "filePath": "src/components/settings/NotificationSettings.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/settings/NotificationSettings.tsx",
+    "category": "interactive",
+    "semanticTags": ["input", "toggle", "checkbox", "push"]
+  },
+  {
+    "id": "push-toggle-switch",
+    "definitionId": "dev-div",
+    "name": "Push Toggle Switch",
+    "description": "Push notification switch visual",
+    "filePath": "src/components/settings/NotificationSettings.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/settings/NotificationSettings.tsx",
+    "category": "ui",
+    "semanticTags": ["switch", "toggle", "visual"]
+  },
+  {
+    "id": "appearance-settings",
+    "definitionId": "dev-container",
+    "name": "Appearance Settings",
+    "description": "Visual appearance settings section",
+    "filePath": "src/components/settings/AppearanceSettings.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/settings/AppearanceSettings.tsx",
+    "category": "component",
+    "semanticTags": ["appearance", "settings", "theme"]
+  },
+  {
+    "id": "appearance-settings-card",
+    "definitionId": "dev-card",
+    "name": "Appearance Settings Card",
+    "description": "Card container for appearance settings",
+    "filePath": "src/components/settings/AppearanceSettings.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/settings/AppearanceSettings.tsx",
+    "category": "ui",
+    "semanticTags": ["card", "appearance", "settings"]
+  },
+  {
+    "id": "appearance-settings-header",
+    "definitionId": "dev-div",
+    "name": "Appearance Settings Header",
+    "description": "Appearance settings header wrapper",
+    "filePath": "src/components/settings/AppearanceSettings.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/settings/AppearanceSettings.tsx",
+    "category": "layout",
+    "semanticTags": ["header", "appearance", "wrapper"]
+  },
+  {
+    "id": "appearance-settings-title",
+    "definitionId": "dev-h2",
+    "name": "Appearance Settings Title",
+    "description": "Appearance section title",
+    "filePath": "src/components/settings/AppearanceSettings.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/settings/AppearanceSettings.tsx",
+    "category": "ui",
+    "semanticTags": ["title", "heading", "h2"]
+  },
+  {
+    "id": "appearance-settings-content",
+    "definitionId": "dev-div",
+    "name": "Appearance Settings Content",
+    "description": "Appearance settings options",
+    "filePath": "src/components/settings/AppearanceSettings.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/settings/AppearanceSettings.tsx",
+    "category": "layout",
+    "semanticTags": ["content", "options", "appearance"]
+  },
+  {
+    "id": "theme-field",
+    "definitionId": "dev-div",
+    "name": "Theme Field",
+    "description": "Theme selection field",
+    "filePath": "src/components/settings/AppearanceSettings.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/settings/AppearanceSettings.tsx",
+    "category": "layout",
+    "semanticTags": ["field", "theme", "selection"]
+  },
+  {
+    "id": "theme-label",
+    "definitionId": "dev-label",
+    "name": "Theme Label",
+    "description": "Label for theme selector",
+    "filePath": "src/components/settings/AppearanceSettings.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/settings/AppearanceSettings.tsx",
+    "category": "ui",
+    "semanticTags": ["label", "theme", "selector"]
+  },
+  {
+    "id": "theme-select",
+    "definitionId": "dev-select",
+    "name": "Theme Select",
+    "description": "Theme selection dropdown",
+    "filePath": "src/components/settings/AppearanceSettings.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/settings/AppearanceSettings.tsx",
+    "category": "interactive",
+    "semanticTags": ["select", "theme", "dropdown"]
+  },
+  {
+    "id": "theme-select-trigger",
+    "definitionId": "dev-select-trigger",
+    "name": "Theme Select Trigger",
+    "description": "Theme dropdown trigger button",
+    "filePath": "src/components/settings/AppearanceSettings.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/settings/AppearanceSettings.tsx",
+    "category": "interactive",
+    "semanticTags": ["trigger", "select", "theme"]
+  },
+  {
+    "id": "theme-select-value",
+    "definitionId": "dev-select-value",
+    "name": "Theme Select Value",
+    "description": "Selected theme display",
+    "filePath": "src/components/settings/AppearanceSettings.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/settings/AppearanceSettings.tsx",
+    "category": "ui",
+    "semanticTags": ["value", "selected", "theme"]
+  },
+  {
+    "id": "theme-select-content",
+    "definitionId": "dev-select-content",
+    "name": "Theme Select Content",
+    "description": "Theme dropdown options container",
+    "filePath": "src/components/settings/AppearanceSettings.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/settings/AppearanceSettings.tsx",
+    "category": "ui",
+    "semanticTags": ["content", "options", "dropdown"]
+  },
+  {
+    "id": "theme-select-light",
+    "definitionId": "dev-select-item",
+    "name": "Theme Select Light",
+    "description": "Light theme option",
+    "filePath": "src/components/settings/AppearanceSettings.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/settings/AppearanceSettings.tsx",
+    "category": "interactive",
+    "semanticTags": ["option", "light", "theme"]
+  },
+  {
+    "id": "theme-select-dark",
+    "definitionId": "dev-select-item",
+    "name": "Theme Select Dark",
+    "description": "Dark theme option",
+    "filePath": "src/components/settings/AppearanceSettings.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/settings/AppearanceSettings.tsx",
+    "category": "interactive",
+    "semanticTags": ["option", "dark", "theme"]
+  },
+  {
+    "id": "theme-select-system",
+    "definitionId": "dev-select-item",
+    "name": "Theme Select System",
+    "description": "System theme option",
+    "filePath": "src/components/settings/AppearanceSettings.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/settings/AppearanceSettings.tsx",
+    "category": "interactive",
+    "semanticTags": ["option", "system", "theme"]
+  },
+  {
+    "id": "security-settings",
+    "definitionId": "dev-container",
+    "name": "Security Settings",
+    "description": "Security configuration section",
+    "filePath": "src/components/settings/SecuritySettings.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/settings/SecuritySettings.tsx",
+    "category": "component",
+    "semanticTags": ["security", "settings", "authentication"]
+  },
+  {
+    "id": "security-settings-card",
+    "definitionId": "dev-card",
+    "name": "Security Settings Card",
+    "description": "Card container for security settings",
+    "filePath": "src/components/settings/SecuritySettings.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/settings/SecuritySettings.tsx",
+    "category": "ui",
+    "semanticTags": ["card", "security", "settings"]
+  },
+  {
+    "id": "security-settings-header",
+    "definitionId": "dev-div",
+    "name": "Security Settings Header",
+    "description": "Security settings header wrapper",
+    "filePath": "src/components/settings/SecuritySettings.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/settings/SecuritySettings.tsx",
+    "category": "layout",
+    "semanticTags": ["header", "security", "wrapper"]
+  },
+  {
+    "id": "security-settings-title",
+    "definitionId": "dev-h2",
+    "name": "Security Settings Title",
+    "description": "Security section title",
+    "filePath": "src/components/settings/SecuritySettings.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/settings/SecuritySettings.tsx",
+    "category": "ui",
+    "semanticTags": ["title", "heading", "h2"]
+  },
+  {
+    "id": "security-settings-content",
+    "definitionId": "dev-div",
+    "name": "Security Settings Content",
+    "description": "Security settings options",
+    "filePath": "src/components/settings/SecuritySettings.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/settings/SecuritySettings.tsx",
+    "category": "layout",
+    "semanticTags": ["content", "options", "security"]
+  },
+  {
+    "id": "2fa-field",
+    "definitionId": "dev-div",
+    "name": "2FA Field",
+    "description": "Two-factor authentication field",
+    "filePath": "src/components/settings/SecuritySettings.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/settings/SecuritySettings.tsx",
+    "category": "layout",
+    "semanticTags": ["field", "2fa", "security"]
+  },
+  {
+    "id": "2fa-info",
+    "definitionId": "dev-div",
+    "name": "2FA Info",
+    "description": "Two-factor authentication information",
+    "filePath": "src/components/settings/SecuritySettings.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/settings/SecuritySettings.tsx",
+    "category": "layout",
+    "semanticTags": ["info", "2fa", "description"]
+  },
+  {
+    "id": "2fa-title",
+    "definitionId": "dev-p",
+    "name": "2FA Title",
+    "description": "Two-factor authentication label",
+    "filePath": "src/components/settings/SecuritySettings.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/settings/SecuritySettings.tsx",
+    "category": "ui",
+    "semanticTags": ["title", "2fa", "label"]
+  },
+  {
+    "id": "2fa-desc",
+    "definitionId": "dev-p",
+    "name": "2FA Description",
+    "description": "Two-factor authentication description",
+    "filePath": "src/components/settings/SecuritySettings.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/settings/SecuritySettings.tsx",
+    "category": "ui",
+    "semanticTags": ["description", "2fa", "text"]
+  },
+  {
+    "id": "enable-2fa-button",
+    "definitionId": "dev-button",
+    "name": "Enable 2FA Button",
+    "description": "Enable two-factor authentication",
+    "filePath": "src/components/settings/SecuritySettings.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/settings/SecuritySettings.tsx",
+    "category": "interactive",
+    "semanticTags": ["button", "enable", "2fa", "security"]
+  },
+  {
+    "id": "session-timeout-field",
+    "definitionId": "dev-div",
+    "name": "Session Timeout Field",
+    "description": "Session timeout configuration field",
+    "filePath": "src/components/settings/SecuritySettings.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/settings/SecuritySettings.tsx",
+    "category": "layout",
+    "semanticTags": ["field", "session", "timeout"]
+  },
+  {
+    "id": "session-timeout-info",
+    "definitionId": "dev-div",
+    "name": "Session Timeout Info",
+    "description": "Session timeout information",
+    "filePath": "src/components/settings/SecuritySettings.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/settings/SecuritySettings.tsx",
+    "category": "layout",
+    "semanticTags": ["info", "session", "timeout"]
+  },
+  {
+    "id": "session-timeout-title",
+    "definitionId": "dev-p",
+    "name": "Session Timeout Title",
+    "description": "Session timeout label",
+    "filePath": "src/components/settings/SecuritySettings.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/settings/SecuritySettings.tsx",
+    "category": "ui",
+    "semanticTags": ["title", "session", "timeout"]
+  },
+  {
+    "id": "session-timeout-desc",
+    "definitionId": "dev-p",
+    "name": "Session Timeout Description",
+    "description": "Session timeout description",
+    "filePath": "src/components/settings/SecuritySettings.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/settings/SecuritySettings.tsx",
+    "category": "ui",
+    "semanticTags": ["description", "session", "timeout"]
+  },
+  {
+    "id": "session-timeout-select",
+    "definitionId": "dev-select",
+    "name": "Session Timeout Select",
+    "description": "Session timeout duration selector",
+    "filePath": "src/components/settings/SecuritySettings.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/settings/SecuritySettings.tsx",
+    "category": "interactive",
+    "semanticTags": ["select", "timeout", "duration"]
+  },
+  {
+    "id": "session-timeout-trigger",
+    "definitionId": "dev-select-trigger",
+    "name": "Session Timeout Trigger",
+    "description": "Session timeout dropdown trigger",
+    "filePath": "src/components/settings/SecuritySettings.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/settings/SecuritySettings.tsx",
+    "category": "interactive",
+    "semanticTags": ["trigger", "select", "timeout"]
+  },
+  {
+    "id": "session-timeout-value",
+    "definitionId": "dev-select-value",
+    "name": "Session Timeout Value",
+    "description": "Selected timeout duration display",
+    "filePath": "src/components/settings/SecuritySettings.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/settings/SecuritySettings.tsx",
+    "category": "ui",
+    "semanticTags": ["value", "selected", "timeout"]
+  },
+  {
+    "id": "session-timeout-content",
+    "definitionId": "dev-select-content",
+    "name": "Session Timeout Content",
+    "description": "Timeout dropdown options container",
+    "filePath": "src/components/settings/SecuritySettings.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/settings/SecuritySettings.tsx",
+    "category": "ui",
+    "semanticTags": ["content", "options", "dropdown"]
+  },
+  {
+    "id": "timeout-30",
+    "definitionId": "dev-select-item",
+    "name": "Timeout 30 Minutes",
+    "description": "30 minutes timeout option",
+    "filePath": "src/components/settings/SecuritySettings.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/settings/SecuritySettings.tsx",
+    "category": "interactive",
+    "semanticTags": ["option", "timeout", "30min"]
+  },
+  {
+    "id": "timeout-60",
+    "definitionId": "dev-select-item",
+    "name": "Timeout 60 Minutes",
+    "description": "60 minutes timeout option",
+    "filePath": "src/components/settings/SecuritySettings.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/settings/SecuritySettings.tsx",
+    "category": "interactive",
+    "semanticTags": ["option", "timeout", "60min"]
+  },
+  {
+    "id": "timeout-120",
+    "definitionId": "dev-select-item",
+    "name": "Timeout 120 Minutes",
+    "description": "120 minutes timeout option",
+    "filePath": "src/components/settings/SecuritySettings.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/settings/SecuritySettings.tsx",
+    "category": "interactive",
+    "semanticTags": ["option", "timeout", "120min"]
+  },
+  {
+    "id": "timeout-never",
+    "definitionId": "dev-select-item",
+    "name": "Timeout Never",
+    "description": "Never timeout option",
+    "filePath": "src/components/settings/SecuritySettings.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/settings/SecuritySettings.tsx",
+    "category": "interactive",
+    "semanticTags": ["option", "timeout", "never"]
+  },
+  {
+    "id": "settings-actions",
+    "definitionId": "dev-container",
+    "name": "Settings Actions",
+    "description": "Save settings action section",
+    "filePath": "src/components/settings/SettingsActions.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/settings/SettingsActions.tsx",
+    "category": "component",
+    "semanticTags": ["actions", "save", "settings"]
+  },
+  {
+    "id": "settings-actions-wrapper",
+    "definitionId": "dev-div",
+    "name": "Settings Actions Wrapper",
+    "description": "Action buttons wrapper",
+    "filePath": "src/components/settings/SettingsActions.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/settings/SettingsActions.tsx",
+    "category": "layout",
+    "semanticTags": ["wrapper", "actions", "buttons"]
+  },
+  {
+    "id": "save-settings-button",
+    "definitionId": "dev-button",
+    "name": "Save Settings Button",
+    "description": "Save all settings changes",
+    "filePath": "src/components/settings/SettingsActions.tsx",
+    "repositoryPath": "https://github.com/your-username/geenius-template-vite-react-mongo/blob/main/src/components/settings/SettingsActions.tsx",
+    "category": "interactive",
+    "semanticTags": ["button", "save", "settings", "submit"]
+  }
+]
