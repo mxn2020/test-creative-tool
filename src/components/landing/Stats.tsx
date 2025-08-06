@@ -1,38 +1,47 @@
 import React from 'react';
-import { Container, Div, H2, P } from '@/lib/dev-container';
-import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/card';
-import { Users, Calendar, TrendingUp } from 'lucide-react';
+import { Container, Div, H2, Stat } from '@/lib/dev-container';
+import { TrendingUp, Users, ChartBar, Pulse } from 'lucide-react';
 
-interface StatItem {
-  icon: React.ElementType;
-  label: string;
-  value: string;
-}
-
-const stats: StatItem[] = [
-  { icon: Users, label: 'Active Clients', value: '12,453' },
-  { icon: Calendar, label: 'Monthly Appointments', value: '8,921' },
-  { icon: TrendingUp, label: 'Growth Rate', value: '27%' },
+const stats = [
+  {
+    icon: <TrendingUp className="h-8 w-8 text-indigo-600" />,
+    label: 'Active Users',
+    value: '12,345',
+  },
+  {
+    icon: <ChartBar className="h-8 w-8 text-indigo-600" />,
+    label: 'Daily Sessions',
+    value: '34,567',
+  },
+  {
+    icon: <Pulse className="h-8 w-8 text-indigo-600" />,
+    label: 'Uptime',
+    value: '99.99%',
+  },
+  {
+    icon: <Users className="h-8 w-8 text-indigo-600" />,
+    label: 'Projects Managed',
+    value: '1,234',
+  },
 ];
 
-export const LandingStats: React.FC = () => {
+export const Stats: React.FC = () => {
   return (
     <Container componentId="landing-stats">
-      <Div devId="stats-section" className="py-12 bg-gray-50">
+      <Div devId="stats-section" className="py-12 bg-gray-100">
         <H2 devId="stats-heading" className="text-3xl font-bold text-center mb-8">
-          Key Metrics
+          Business at a Glance
         </H2>
-        <Div devId="stats-grid" className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto">
-          {stats.map((stat, idx) => (
-            <Card key={idx} className="flex flex-col items-center p-6">
-              <CardHeader>
-                <stat.icon className="h-8 w-8 text-purple-600" />
-              </CardHeader>
-              <CardContent className="text-center">
-                <CardTitle className="text-xl font-semibold">{stat.value}</CardTitle>
-                <P className="text-gray-600">{stat.label}</P>
-              </CardContent>
-            </Card>
+        <Div devId="stats-grid" className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 px-4">
+          {stats.map((item, idx) => (
+            <Div
+              key={idx}
+              className="flex flex-col items-center bg-white rounded-lg shadow p-6"
+            >
+              <Div className="mb-3">{item.icon}</Div>
+              <span className="text-xl font-semibold">{item.value}</span>
+              <span className="text-gray-600">{item.label}</span>
+            </Div>
           ))}
         </Div>
       </Div>
@@ -40,4 +49,4 @@ export const LandingStats: React.FC = () => {
   );
 };
 
-export default LandingStats;
+export default Stats;
