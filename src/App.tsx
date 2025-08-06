@@ -1,5 +1,3 @@
-// src/App.tsx
-
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import { Landing } from './pages/Landing';
 import { Login } from './pages/Login';
@@ -14,6 +12,8 @@ import { UsersPage } from './pages/UsersPage';
 import { UserDetailsPage } from './pages/UserDetailsPage';
 import { AdminAuditLogsPage } from './pages/AdminAuditLogsPage';
 import { SettingsPage } from './pages/SettingsPage';
+import { ClientsPage } from './pages/ClientsPage';
+import { AppointmentsPage } from './pages/AppointmentsPage';
 import { ProtectedRoute } from './components/auth/ProtectedRoute';
 import { AdminRoute } from './components/auth/AdminRoute';
 import { AuthProvider } from './components/auth/AuthProvider';
@@ -35,31 +35,47 @@ function App() {
                 <Route path="/register" element={<Register />} />
                 <Route path="/forgot-password" element={<ForgotPassword />} />
                 <Route path="/reset-password" element={<ResetPassword />} />
-                <Route 
-                  path="/dashboard" 
+                <Route
+                  path="/dashboard"
                   element={
                     <ProtectedRoute>
                       <Dashboard />
                     </ProtectedRoute>
-                  } 
+                  }
                 />
-                <Route 
-                  path="/sessions" 
+                <Route
+                  path="/sessions"
                   element={
                     <ProtectedRoute>
                       <SessionsPage />
                     </ProtectedRoute>
-                  } 
+                  }
                 />
-                <Route 
-                  path="/audit-logs" 
+                <Route
+                  path="/audit-logs"
                   element={
                     <ProtectedRoute>
                       <AuditLogsPage />
                     </ProtectedRoute>
-                  } 
+                  }
                 />
-                
+                <Route
+                  path="/clients"
+                  element={
+                    <ProtectedRoute>
+                      <ClientsPage />
+                    </ProtectedRoute>
+                  }
+                />
+                <Route
+                  path="/appointments"
+                  element={
+                    <ProtectedRoute>
+                      <AppointmentsPage />
+                    </ProtectedRoute>
+                  }
+                />
+
                 {/* Admin routes */}
                 <Route
                   path="/admin"
@@ -75,7 +91,7 @@ function App() {
                   <Route path="audit-logs" element={<AdminAuditLogsPage />} />
                   <Route path="settings" element={<SettingsPage />} />
                 </Route>
-                
+
                 <Route path="*" element={<Navigate to="/" replace />} />
               </Routes>
             </div>
