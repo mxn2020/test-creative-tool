@@ -1,7 +1,14 @@
 import React, { useState } from 'react';
-import { Container, Div, H2, Card, CardHeader, CardBody, CardTitle, CardDescription, Button } from '@/lib/dev-container';
+import {
+  Container,
+  Div,
+  H2,
+  Card,
+  CardHeader,
+  CardTitle,
+  CardDescription,
+} from '@/lib/dev-container';
 import { ChevronDown, ChevronUp } from 'lucide-react';
-
 const faqData = [
   {
     question: 'What is the pricing model?',
@@ -19,24 +26,24 @@ const faqData = [
       'Absolutely! Sign up to start a 14‑day free trial with full feature access.',
   },
 ];
-
 export const FAQ: React.FC = () => {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
-
   const toggle = (idx: number) => {
     setOpenIndex(openIndex === idx ? null : idx);
   };
-
   return (
     <Container componentId="landing-faq">
-      <Div devId="faq-section" className="py-16 bg-gray-50">
-        <H2 devId="faq-heading" className="text-3xl font-bold text-center mb-8">
+      <Div className="py-16 bg-gray-50">
+        <H2 className="text-3xl font-bold text-center mb-8">
           Frequently Asked Questions
         </H2>
-        <Div devId="faq-list" className="max-w-2xl mx-auto space-y-4">
+        <Div className="max-w-2xl mx-auto space-y-4">
           {faqData.map((item, idx) => (
             <Card key={idx} className="p-4">
-              <CardHeader className="flex justify-between items-center cursor-pointer" onClick={() => toggle(idx)}>
+              <CardHeader
+                className="flex justify-between items-center cursor-pointer"
+                onClick={() => toggle(idx)}
+              >
                 <CardTitle className="text-lg font-medium">{item.question}</CardTitle>
                 {openIndex === idx ? (
                   <ChevronUp className="h-5 w-5" />
@@ -45,9 +52,9 @@ export const FAQ: React.FC = () => {
                 )}
               </CardHeader>
               {openIndex === idx && (
-                <CardBody className="mt-2 text-gray-700">
+                <CardDescription className="mt-2 text-gray-700">
                   {item.answer}
-                </CardBody>
+                </CardDescription>
               )}
             </Card>
           ))}
@@ -56,5 +63,4 @@ export const FAQ: React.FC = () => {
     </Container>
   );
 };
-
 export default FAQ;
