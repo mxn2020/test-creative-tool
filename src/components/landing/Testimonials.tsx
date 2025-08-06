@@ -1,49 +1,56 @@
 import React from 'react';
-import { Container, Div, H3, P } from '@/lib/dev-container';
-import { Quote } from 'lucide-react';
+import { Container, Div, H2, P } from '@/lib/dev-container';
+import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/card';
+import { Avatar, AvatarImage, AvatarFallback } from '@/components/ui/avatar';
 
-type Testimonial = {
-  name: string;
-  role: string;
-  quote: string;
-};
-
-const testimonials: Testimonial[] = [
+const testimonials = [
   {
-    name: 'Jane Doe',
-    role: 'Product Manager',
-    quote: 'The platform transformed the way our team collaborates – everything is faster and more organized.',
+    name: 'Alexandra P.',
+    role: 'Founder, StartupX',
+    quote: 'The platform streamlined our client onboarding and cut scheduling time by 40%.',
+    avatar: '',
   },
   {
-    name: 'John Smith',
-    role: 'CTO',
-    quote: 'Automation saved us hours of manual work each week. The analytics are spot on.',
+    name: 'Michael B.',
+    role: 'Operations Manager, HealthCo',
+    quote: 'Team collaboration features made compliance tracking painless and transparent.',
+    avatar: '',
   },
   {
-    name: 'Emily Chen',
-    role: 'Designer',
-    quote: 'A beautiful, intuitive UI makes adoption painless for the whole company.',
+    name: 'Sofia L.',
+    role: 'Freelance Designer',
+    quote: 'I love the intuitive UI – I can manage my bookings on the go without hassle.',
+    avatar: '',
   },
 ];
 
-const Testimonials: React.FC = () => {
+export const LandingTestimonials: React.FC = () => {
   return (
-    <Container componentId="landing-testimonials" className="py-20 bg-white">
-      <Div className="max-w-4xl mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-8">
-        {testimonials.map((t) => (
-          <Div
-            key={t.name}
-            className="flex flex-col items-center text-center p-6 border rounded-md hover:shadow-md transition-shadow"
-          >
-            <Quote className="h-8 w-8 text-purple-600 mb-4" />
-            <P className="italic text-gray-800 mb-2">“{t.quote}”</P>
-            <H3 className="font-semibold">{t.name}</H3>
-            <P className="text-sm text-gray-500">{t.role}</P>
-          </Div>
-        ))}
+    <Container componentId="landing-testimonials">
+      <Div devId="testimonials-section" className="py-20 bg-white">
+        <H2 devId="testimonials-heading" className="text-3xl font-bold text-center mb-12">
+          What Our Users Say
+        </H2>
+        <Div devId="testimonials-grid" className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+          {testimonials.map((t, idx) => (
+            <Card key={idx} className="p-6 flex flex-col items-center text-center">
+              <CardHeader className="flex flex-col items-center">
+                <Avatar className="h-16 w-16">
+                  <AvatarImage src={t.avatar} />
+                  <AvatarFallback>{t.name[0]}</AvatarFallback>
+                </Avatar>
+                <CardTitle className="mt-4 text-lg font-medium">{t.name}</CardTitle>
+                <P className="text-sm text-gray-500">{t.role}</P>
+              </CardHeader>
+              <CardContent className="mt-4">
+                <P className="italic text-gray-700">&ldquo;{t.quote}&rdquo;</P>
+              </CardContent>
+            </Card>
+          ))}
+        </Div>
       </Div>
     </Container>
   );
 };
 
-export default Testimonials;
+export default LandingTestimonials;
