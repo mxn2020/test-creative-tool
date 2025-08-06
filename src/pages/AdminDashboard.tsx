@@ -7,16 +7,11 @@ import { AdminRecentActivity } from '@/components/admin/stats/AdminRecentActivit
 import { AdminSystemHealth } from '@/components/admin/stats/AdminSystemHealth';
 import { AdminLoadingState } from '@/components/admin/stats/AdminLoadingState';
 import { AdminErrorState } from '@/components/admin/stats/AdminErrorState';
-import { AdminClientStats } from '@/components/admin/stats/AdminClientStats';
-import { AdminAppointmentStats } from '@/components/admin/stats/AdminAppointmentStats';
-
 export const AdminDashboard: React.FC = () => {
   const { data: stats, isLoading, error } = useAdminDashboard();
-
   if (isLoading) {
     return <AdminLoadingState />;
   }
-
   if (error || !stats) {
     return (
       <AdminErrorState
@@ -24,7 +19,6 @@ export const AdminDashboard: React.FC = () => {
       />
     );
   }
-
   return (
     <Container componentId="admin-dashboard-page">
       <Div devId="admin-dashboard-wrapper" className="space-y-6">
@@ -32,11 +26,8 @@ export const AdminDashboard: React.FC = () => {
           <H1 className="text-2xl font-bold text-gray-900">Admin Dashboard</H1>
           <P className="text-gray-600">System activity, user statistics, and business insights.</P>
         </Div>
-
         <AdminStatsCards stats={stats} />
         <AdminQuickActions />
-        <AdminClientStats clientStats={stats.clientStats} />
-        <AdminAppointmentStats appointmentStats={stats.appointmentStats} />
         <AdminRecentActivity activities={stats.recentActivities} />
         <AdminSystemHealth systemHealth={stats.systemHealth} />
       </Div>
