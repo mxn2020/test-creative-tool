@@ -1,33 +1,31 @@
 import React from 'react';
-import { Button } from '@/components/ui/button';
-import { Container, Div, H1, P } from '@/lib/dev-container';
+import { Container, Div, H1, P, Button } from '@/lib/dev-container';
+import { cn } from '@/lib/utils';
+import { ArrowRight } from 'lucide-react';
 
-export const LandingHero: React.FC<{ mounted?: boolean }> = ({ mounted = false }) => {
+export const Hero: React.FC = () => {
   return (
     <Container componentId="landing-hero">
       <Div
-        devId="hero-content"
-        className="flex flex-col items-center justify-center py-20 px-4 text-center"
+        devId="hero-wrapper"
+        className="relative bg-gradient-to-br from-indigo-600 via-purple-600 to-indigo-500 text-white py-20 px-6 md:px-12 lg:px-24 flex flex-col items-center text-center"
       >
-        <H1 devId="hero-title" className="text-5xl font-extrabold md:text-6xl lg:text-7xl">
-          Empower Your Business with Our Platform
+        <H1 devId="hero-title" className="text-4xl font-extrabold sm:text-5xl md:text-6xl">
+          Empower Your Business with Seamless Solutions
         </H1>
-        <P devId="hero-subtitle" className="mt-4 text-lg md:text-xl lg:text-2xl max-w-3xl">
-          Seamlessly manage clients, appointments, and growth. All in one intuitive, secure solution.
+        <P devId="hero-subtitle" className="mt-4 text-lg md:text-xl max-w-2xl">
+          A fully integrated platform that connects your teams, data, and customers—all in one place.
         </P>
         <Button
           devId="hero-cta-button"
-          className="mt-8 px-8 py-4 text-base font-semibold"
-          onClick={() => {
-            const element = document.getElementById('landing-cta-section');
-            if (element) element.scrollIntoView({ behavior: 'smooth' });
-          }}
+          className={cn('mt-8 bg-white text-indigo-600 hover:bg-gray-100 font-medium flex items-center')}
+          onClick={() => window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' })}
         >
-          Get Started Free
+          Get Started <ArrowRight className="ml-2 h-4 w-4" />
         </Button>
       </Div>
     </Container>
   );
 };
 
-export default LandingHero;
+export default Hero;
