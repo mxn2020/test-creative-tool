@@ -1,5 +1,3 @@
-// src/pages/Dashboard.tsx
-
 import React from 'react';
 import { Container, Div } from '../lib/dev-container';
 import { useDashboard } from '@/hooks/useDashboard';
@@ -11,6 +9,8 @@ import { CurrentSessionCard } from '@/components/dashboard/CurrentSessionCard';
 import { RecentActivityCard } from '@/components/dashboard/RecentActivityCard';
 import { DashboardLoading } from '@/components/dashboard/DashboardLoading';
 import { DashboardUnauthorized } from '@/components/dashboard/DashboardUnauthorized';
+import { DashboardStats } from '@/components/dashboard/DashboardStats';
+import { DashboardWidget } from '@/components/dashboard/DashboardWidget';
 
 export const Dashboard: React.FC = () => {
   const {
@@ -32,36 +32,28 @@ export const Dashboard: React.FC = () => {
   }
 
   const user = session.user;
-  
+
   if (!user) {
-    return <DashboardUnauthorized isError errorMessage="Error: User data is missing from session" />;
+    return <DashboardUnauthorized isError errorMessage="Error: User data missing." />;
   }
 
   return (
     <Container componentId="dashboard-page">
       <Div devId="dashboard-page-wrapper" className="min-h-screen bg-gray-50">
         <DashboardHeader />
-
         <Container componentId="dashboard-content">
           <Div devId="dashboard-content-wrapper" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
             <Div devId="dashboard-grid" className="grid grid-cols-1 md:grid-cols-3 gap-6">
               <ProfileCard user={user} getUserInitials={getUserInitials} />
-
               <Container componentId="dashboard-stats">
                 <Div devId="dashboard-stats-wrapper" className="md:col-span-2 space-y-6">
-                  <WelcomeCard 
-                    userName={user.name} 
-                    daysSinceMember={getDaysSinceMember(user.createdAt)} 
-                  />
-                  
+                  <WelcomeCard userName={user.name} daysSinceMember={getDaysSinceMember(user.createdAt)} />
                   <SessionWarning multipleSessions={multipleSessions} />
-                  
-                  <CurrentSessionCard 
-                    currentSession={currentSession} 
-                    getTimeRemaining={getTimeRemaining} 
-                  />
-                  
+                  <CurrentSessionCard currentSession={currentSession} getTimeRemaining={getTimeRemaining} />
                   <RecentActivityCard />
+                  {/* New business widgets */}
+                  <DashboardStats />
+                  <DashboardWidget />
                 </Div>
               </Container>
             </Div>
