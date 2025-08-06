@@ -21,7 +21,6 @@ import { AdminLayout } from './components/admin/AdminLayout';
 import { DevModeApp, Container } from './lib/dev-container';
 import { componentRegistry } from './registry/componentRegistry';
 import { componentLibrary } from './registry/componentLibrary';
-
 function App() {
   return (
     <DevModeApp system={{ registry: componentRegistry, library: componentLibrary }}>
@@ -73,9 +72,8 @@ function App() {
                     <ProtectedRoute>
                       <AppointmentsPage />
                     </ProtectedRoute>
-                  }
+                    }
                 />
-
                 {/* Admin routes */}
                 <Route
                   path="/admin"
@@ -91,7 +89,6 @@ function App() {
                   <Route path="audit-logs" element={<AdminAuditLogsPage />} />
                   <Route path="settings" element={<SettingsPage />} />
                 </Route>
-
                 <Route path="*" element={<Navigate to="/" replace />} />
               </Routes>
             </div>
@@ -101,5 +98,36 @@ function App() {
     </DevModeApp>
   );
 }
-
 export default App;
+---END:src/App.tsx---
+---FILE:src/pages/ClientsPage.tsx---
+import React from 'react';
+import { Container, Div, H2 } from '@/lib/dev-container';
+export const ClientsPage: React.FC = () => (
+  <Container componentId="clients-page">
+    <Div devId="clients-section" className="p-8">
+      <H2 devId="clients-heading" className="text-2xl font-bold">
+        Clients
+      </H2>
+      <p className="mt-4">This is a placeholder Clients page.</p>
+    </Div>
+  </Container>
+);
+export default ClientsPage;
+---END:src/pages/ClientsPage.tsx---
+---FILE:src/pages/AppointmentsPage.tsx---
+import React from 'react';
+import { Container, Div, H2 } from '@/lib/dev-container';
+export const AppointmentsPage: React.FC = () => (
+  <Container componentId="appointments-page">
+    <Div devId="appointments-section" className="p-8">
+      <H2 devId="appointments-heading" className="text-2xl font-bold">
+        Appointments
+      </H2>
+      <p className="mt-4">This is a placeholder Appointments page.</p>
+    </Div>
+  </Container>
+);
+export default AppointmentsPage;
+---END:src/pages/AppointmentsPage.tsx---
+---END---
