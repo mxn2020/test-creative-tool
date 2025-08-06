@@ -1,33 +1,31 @@
 import React from 'react';
-import { Container, Div, H2, P } from '@/lib/dev-container';
-import { Button } from '@/components/ui/button';
+import { Container, Div, H2, P, Button } from '@/lib/dev-container';
+import { ArrowRight } from 'lucide-react';
+import { cn } from '@/lib/utils';
 
-export const LandingCTA: React.FC = () => {
+export const CTA: React.FC = () => {
   return (
-    <Container componentId="landing-cta-section">
+    <Container componentId="landing-cta">
       <Div
         devId="cta-section"
-        className="py-24 bg-purple-600 text-center text-white"
+        className="py-20 bg-indigo-600 text-white text-center"
       >
-        <H2 devId="cta-heading" className="text-4xl font-bold mb-4">
-          Ready to Transform Your Workflow?
+        <H2 devId="cta-heading" className="text-3xl font-bold">
+          Ready to Transform Your Business?
         </H2>
-        <P devId="cta-subtitle" className="text-lg mb-8 max-w-2xl mx-auto">
-          Join thousands of businesses who trust our platform to grow faster and work smarter.
+        <P devId="cta-subtitle" className="mt-4 text-lg">
+          Join thousands of satisfied customers and start your free trial today.
         </P>
         <Button
           devId="cta-button"
-          className="bg-white text-purple-600 hover:bg-gray-100 font-semibold"
-          onClick={() => {
-            const el = document.getElementById('landing-hero-section');
-            if (el) el.scrollIntoView({ behavior: 'smooth' });
-          }}
+          className={cn('mt-8 bg-white text-indigo-600 hover:bg-gray-100 font-medium flex items-center justify-center w-64 mx-auto')}
+          onClick={() => window.location.href = '/register'}
         >
-          Start Your Free Trial
+          Get Started <ArrowRight className="ml-2 h-4 w-4" />
         </Button>
       </Div>
     </Container>
   );
 };
 
-export default LandingCTA;
+export default CTA;
