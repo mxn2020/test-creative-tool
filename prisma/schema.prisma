@@ -1,11 +1,3 @@
-// prisma/schema.prisma
-
-// This is your Prisma schema file for MongoDB
-// learn more about it in the docs: https://pris.ly/d/prisma-schema
-// 
-// Note: Better Auth handles authentication-related models (users, sessions, etc.)
-// This schema is for your application's data models only
-
 generator client {
   provider = "prisma-client-js"
 }
@@ -50,15 +42,15 @@ model Category {
 
 // Example model for user preferences (linked to Better Auth users)
 model UserPreference {
-  id                String   @id @default(auto()) @map("_id") @db.ObjectId
-  userId            String   @unique // Better Auth user ID
-  role              String   @default("user") // "user" | "admin"
-  theme             String   @default("light") // "light" | "dark" | "system"
-  emailNotifications Boolean  @default(true)
-  language          String   @default("en")
-  timezone          String   @default("UTC")
-  createdAt         DateTime @default(now())
-  updatedAt         DateTime @updatedAt
+  id                  String   @id @default(auto()) @map("_id") @db.ObjectId
+  userId              String   @unique // Better Auth user ID
+  role                String   @default("user") // "user" | "admin"
+  theme               String   @default("light") // "light" | "dark" | "system"
+  emailNotifications  Boolean  @default(true)
+  language            String   @default("en")
+  timezone            String   @default("UTC")
+  createdAt           DateTime @default(now())
+  updatedAt           DateTime @updatedAt
 }
 
 // Example model for application settings
@@ -82,7 +74,30 @@ model AuditLog {
   success    Boolean  @default(true)
   error      String?  // Error message if action failed
   createdAt  DateTime @default(now())
-  
   @@index([userId, createdAt])
   @@index([action, createdAt])
+}
+
+// Business models
+model Client {
+  id          String   @id @default(auto()) @map("_id") @db.ObjectId
+  name        String
+  email       String   @unique
+  phone       String?
+  address     String?
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+  appointments Appointment[]
+}
+
+model Appointment {
+  id          String   @id @default(auto()) @map("_id") @db.ObjectId
+  clientId    String   @db.ObjectId
+  client      Client   @relation(fields: [clientId], references: [id], onDelete: Cascade)
+  userId      String   // References Better Auth user ID (e.g., staff)
+  scheduledAt DateTime
+  notes       String?
+  status      String   @default("scheduled") // "scheduled" | "completed" | "canceled"
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
 }
